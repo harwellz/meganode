@@ -12,9 +12,12 @@ import { Testimonials } from "@/components/sites/spartanai-framer-website-021e33
 import { VideoShowcase } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VideoShowcase";
 import { VisionTech } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VisionTech";
 import { Works } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/Works";
+import { defaultLocale, getHomeContent } from "@/content/home";
 
 // Clone of https://spartanai.framer.website/ (see docs/research/spartanai-framer-website-021e3300/root-8a5edab2/).
-export default function Home() {
+export default async function Home() {
+  const content = await getHomeContent(defaultLocale);
+
   return (
     <div className="sp-site relative w-full overflow-x-clip">
       <NavBar />
@@ -50,7 +53,7 @@ export default function Home() {
         {/* Light card holding FAQ + Insights; the last section has rounded bottom corners. */}
         <section className="relative z-[4] rounded-b-[20px] bg-white px-3 pb-3">
           <div className="flex flex-col items-center gap-[110px] overflow-clip rounded-[20px] bg-sp-mist px-5 py-3 tablet:px-10 desktop:gap-[180px]">
-            <Faq />
+            <Faq content={content.faq} />
             <Insights />
           </div>
         </section>
