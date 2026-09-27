@@ -27,6 +27,10 @@ Next: i18n, Decap CMS, source optimisation, and finishing clone QA leftovers.
   (`dynamicParams = false`) and emits canonical + hreflang (set `SITE_URL` in deploys).
   Enable a locale only once its content exists: add it to `locales`/`localeMeta`,
   add `content/{globals,pages}/<locale>/`, and its `sources` entry in `src/content/load.ts`.
+  Language switcher lives in the nav (desktop pill codes, phone-menu endonyms): plain
+  `<a lang hreflang>` links built server-side by `languageLinks(lang, path)`, current
+  locale as `<span aria-current>`; endonyms/codes in `localeMeta`, only `nav.languageLabel`
+  is content. Each page must pass its own `path`. Covered by `tests/visual/nav.spec.ts`.
 - **Content:** all copy moves out of components into git-tracked, typed content files
   per locale, read at build time by Server Components and passed to client
   components as props. Content is validated with a schema at build time.
