@@ -2,40 +2,14 @@
 
 import Image from "next/image";
 import { useState, type ReactNode } from "react";
+import type { ProcessContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { ExpandButton } from "@/components/sites/spartanai-framer-website-021e3300/shared/ExpandButton";
 import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/shared/FadeIn";
 import { SectionLabel } from "@/components/sites/spartanai-framer-website-021e3300/shared/SectionLabel";
 import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
 
-const STEPS = [
-  {
-    num: "// 01",
-    title: "Comprehensive Strategic Audit",
-    tag: "Audit",
-    body: "We perform a deep-layer analysis of your current technical stack and fragmented data silos to identify high-impact AI opportunities that align with your core business objectives and ROI targets.",
-  },
-  {
-    num: "// 02",
-    title: "Custom Architecture Design",
-    tag: "Design",
-    body: "Our engineers architect bespoke neural model topologies and advanced RAG pipelines, ensuring every piece of the infrastructure is tailored to your unique data security needs and operational logic.",
-  },
-  {
-    num: "// 03",
-    title: "Rapid Prototype Development",
-    tag: "Build",
-    body: "We transition from blueprints to functional MVPs within weeks, utilizing iterative sprints to validate model performance, optimize token latency, and refine the end-user interaction experience.",
-  },
-  {
-    num: "// 04",
-    title: "Enterprise Scale Deployment",
-    tag: "Scale",
-    body: "We harden the validated system for full-scale production, ensuring seamless integration across your enterprise with robust monitoring, dedicated compute clusters, and strict SOC2 compliance layers.",
-  },
-] as const;
-
-type Step = (typeof STEPS)[number];
+type Step = ProcessContent["steps"][number];
 
 const EASE = "duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]";
 const NUM = "shrink-0 whitespace-pre text-[14px] leading-[21px] font-light tracking-[0.28px] text-white/40";
@@ -122,13 +96,13 @@ function AccordionItem({ step, open, onSelect, id }: { step: Step; open: boolean
   );
 }
 
-export function Process() {
+export function Process({ content }: { content: ProcessContent }) {
   const [active, setActive] = useState(0);
 
   return (
     <div className="flex w-full flex-col items-start gap-[50px]">
       <FadeIn className="w-full">
-        <SectionLabel label="OUR PROCESS" order="label-first" color="#fff" lineColor="rgba(255,255,255,0.1)" />
+        <SectionLabel label={content.label} order="label-first" color="#fff" lineColor="rgba(255,255,255,0.1)" />
       </FadeIn>
 
       <FadeIn className="w-full max-w-[800px]" delay={0.05}>
@@ -139,7 +113,7 @@ export function Process() {
             "desktop:max-w-[580px] desktop:text-[54px] desktop:leading-[59.4px] desktop:tracking-[-2.16px]",
           )}
         >
-          From raw data to refined intelligence. Our iterative deployment cycle.
+          {content.heading}
         </h2>
       </FadeIn>
 
@@ -160,7 +134,7 @@ export function Process() {
 
         {/* Accordion (click-driven, single open) */}
         <FadeIn className="flex min-w-0 flex-1 flex-col gap-[10px]" delay={0.1}>
-          {STEPS.map((step, i) => (
+          {content.steps.map((step, i) => (
             <AccordionItem key={step.num} id={`sp-process-${i}`} step={step} open={active === i} onSelect={() => setActive(i)} />
           ))}
         </FadeIn>
@@ -169,9 +143,9 @@ export function Process() {
       {/* CTA row */}
       <FadeIn className="flex w-full flex-col items-start gap-10 desktop:h-[65px] desktop:flex-row desktop:items-center desktop:justify-between desktop:gap-[10px]">
         <p className="w-full max-w-[600px] font-sp-geist text-[12px] leading-[20.4px] font-extralight uppercase text-white">
-          WE DON&apos;T JUST SHIP CODE; WE SHIP COMPETITIVE ADVANTAGES. EVERY STEP IS DESIGNED TO ENSURE YOUR AI INFRASTRUCTURE IS FUTURE-PROOF AND SCALABLE.
+          {content.statement}
         </p>
-        <ExpandButton label="Build Now" size="md" tone="coal" className="w-[232px] justify-center" />
+        <ExpandButton label={content.cta.label} href={content.cta.href} size="md" tone="coal" className="w-[232px] justify-center" />
       </FadeIn>
     </div>
   );

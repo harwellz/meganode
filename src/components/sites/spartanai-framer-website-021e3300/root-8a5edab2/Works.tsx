@@ -1,56 +1,11 @@
 import Image from "next/image";
+import type { WorksContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { BigMarquee } from "@/components/sites/spartanai-framer-website-021e3300/shared/BigMarquee";
 import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/shared/FadeIn";
-import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
 
-type Work = {
-  tag: string;
-  logo: string;
-  image: string;
-  imageAlt: string;
-  stats: [string, string, string, string];
-};
-
-const STAT_LABELS = ["Funds raised", "Social growth", "ATH ROI", "Partnerships"] as const;
-
-const WORKS: Work[] = [
-  {
-    tag: "Healthcare AI",
-    logo: "yV2zGDqTwUzGafOnvA53MLQkM.png",
-    image: "sZxYLpvH56E3RznKPcnAPYlPvo.jpg",
-    imageAlt: "gray concrete illustration",
-    stats: ["$45M+", "700%", "41x", "84"],
-  },
-  {
-    tag: "Healthcare",
-    logo: "CLpXi6HupcG6YYxVylXG8rj7eo4.png",
-    image: "4GMiBYbu9SI4dXo9ENcqlNA.jpg",
-    imageAlt: "a black and white photo of a couch",
-    stats: ["$62M+", "450%", "32x", "91"],
-  },
-  {
-    tag: "Healthcare",
-    logo: "RlGLod5QkyznR4SBy9PQw3raa80.png",
-    image: "0g3E5eja3ueYAXkITtsy9quyYo.jpg",
-    imageAlt: "a black and white photo of wavy lines",
-    stats: ["$82M+", "340%", "19x", "56"],
-  },
-  {
-    tag: "Retail & Logistics",
-    logo: "3ICxPpL7nA6WiDyreZSZlU70E8.png",
-    image: "ZK0k9kMGgE21P7r3puSMYZ8548.jpg",
-    imageAlt: "grayscale photo of a flower",
-    stats: ["$59M+", "215%", "73x", "28"],
-  },
-  {
-    tag: "Cybersecurity",
-    logo: "qA80rXn5OyEhaPlYKJ8gIEE6Ds.png",
-    image: "LYQLqywSoqlHG7KLRJM70MIk.png",
-    imageAlt: "gray digital wallpaper",
-    stats: ["$94M+", "120%", "66x", "12"],
-  },
-];
+type Work = WorksContent["items"][number];
+type StatLabels = WorksContent["statLabels"];
 
 const HAIRLINE = "rgba(26,26,26,0.06)";
 const EASE = "duration-[400ms] ease-out";
@@ -59,10 +14,10 @@ const EASE = "duration-[400ms] ease-out";
  * Project card. Phone/tablet rest in the "active" (dark, image visible) look; desktop rests light
  * and switches to the dark look on hover.
  */
-function WorkCard({ work }: { work: Work }) {
+function WorkCard({ work, statLabels }: { work: Work; statLabels: StatLabels }) {
   return (
     <a
-      href="#"
+      href={work.href}
       className={cn(
         "group relative flex h-[482px] w-full cursor-pointer flex-col items-center justify-center overflow-clip p-4 no-underline",
         "shadow-[inset_1px_0_0_rgba(26,26,26,0.06),inset_-1px_0_0_rgba(26,26,26,0.06)]",
@@ -98,7 +53,7 @@ function WorkCard({ work }: { work: Work }) {
               EASE,
             )}
           >
-            <Image src={spImg(work.logo)} alt="" fill sizes="199px" className="object-cover" />
+            <Image src={work.logo} alt="" fill sizes="199px" className="object-cover" />
           </div>
 
           {/* Background image */}
@@ -111,7 +66,7 @@ function WorkCard({ work }: { work: Work }) {
             )}
           >
             <Image
-              src={spImg(work.image)}
+              src={work.image}
               alt={work.imageAlt}
               fill
               sizes="(min-width: 1200px) 480px, (min-width: 810px) 500px, 100vw"
@@ -124,12 +79,12 @@ function WorkCard({ work }: { work: Work }) {
         <div className="relative grid h-[145px] w-full shrink-0 grid-cols-2 gap-px overflow-clip rounded-[10px_10px_19px_19px]">
           {work.stats.map((value, i) => (
             <div
-              key={STAT_LABELS[i]}
+              key={statLabels[i]}
               className="relative flex flex-col items-start justify-center gap-1 overflow-clip rounded-[10px] bg-white pt-[14px] pr-[11px] pb-[15px] pl-[15px]"
             >
               <p className="font-sp-geist text-[16px] leading-[22.4px] font-medium text-[rgba(26,26,26,0.7)]">{value}</p>
               <p className="text-[12px] leading-[16.8px] font-light tracking-[0.12px] text-[rgba(26,26,26,0.7)]">
-                {STAT_LABELS[i]}
+                {statLabels[i]}
               </p>
             </div>
           ))}
@@ -139,7 +94,17 @@ function WorkCard({ work }: { work: Work }) {
   );
 }
 
-function WorkRow({ works, hairline, className }: { works: Work[]; hairline?: boolean; className?: string }) {
+function WorkRow({
+  works,
+  statLabels,
+  hairline,
+  className,
+}: {
+  works: Work[];
+  statLabels: StatLabels;
+  hairline?: boolean;
+  className?: string;
+}) {
   return (
     <FadeIn
       className={cn(
@@ -151,14 +116,16 @@ function WorkRow({ works, hairline, className }: { works: Work[]; hairline?: boo
     >
       {works.map((w) => (
         <div key={w.logo} className="relative w-full">
-          <WorkCard work={w} />
+          <WorkCard work={w} statLabels={statLabels} />
         </div>
       ))}
     </FadeIn>
   );
 }
 
-export function Works() {
+export function Works({ content }: { content: WorksContent }) {
+  const { items, statLabels } = content;
+
   return (
     <div
       className={cn(
@@ -168,7 +135,7 @@ export function Works() {
       style={{ boxShadow: `inset 0 -1px 0 ${HAIRLINE}` }}
     >
       <div className="relative flex w-full items-start pt-[120px] pb-[30px] desktop:pt-[180px]">
-        <BigMarquee title="Our Works" />
+        <BigMarquee title={content.title} />
       </div>
 
       <div
@@ -176,11 +143,11 @@ export function Works() {
         style={{ boxShadow: `inset 0 1px 0 ${HAIRLINE}, inset 0 -1px 0 ${HAIRLINE}` }}
       >
         {/* Phone + desktop: rows of 3 then 2 (phone stacks each row into a column). */}
-        <WorkRow works={WORKS.slice(0, 3)} hairline className="flex tablet:hidden desktop:grid" />
-        <WorkRow works={WORKS.slice(3, 5)} className="flex tablet:hidden desktop:grid" />
+        <WorkRow works={items.slice(0, 3)} statLabels={statLabels} hairline className="flex tablet:hidden desktop:grid" />
+        <WorkRow works={items.slice(3, 5)} statLabels={statLabels} className="flex tablet:hidden desktop:grid" />
         {/* Tablet: 2 × 2, fifth project not shown (as on the live site at 1000px). */}
-        <WorkRow works={WORKS.slice(0, 2)} hairline className="hidden tablet:grid desktop:hidden" />
-        <WorkRow works={WORKS.slice(2, 4)} className="hidden tablet:grid desktop:hidden" />
+        <WorkRow works={items.slice(0, 2)} statLabels={statLabels} hairline className="hidden tablet:grid desktop:hidden" />
+        <WorkRow works={items.slice(2, 4)} statLabels={statLabels} className="hidden tablet:grid desktop:hidden" />
       </div>
     </div>
   );

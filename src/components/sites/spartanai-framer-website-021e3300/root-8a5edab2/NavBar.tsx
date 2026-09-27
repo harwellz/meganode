@@ -1,17 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import type { NavContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { ExpandButton } from "@/components/sites/spartanai-framer-website-021e3300/shared/ExpandButton";
 import { LogoPill } from "@/components/sites/spartanai-framer-website-021e3300/shared/LogoPill";
-
-const LINKS = [
-  { label: "Works", href: "#" },
-  { label: "Services", href: "#capabilities" },
-  { label: "Insights", href: "#" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Company", href: "#" },
-] as const;
 
 /** Framer's 8-layer progressive blur (exact blur radii + mask bands from the live page). */
 const BLUR_LAYERS = [
@@ -52,7 +45,9 @@ function ProgressiveBlur() {
   );
 }
 
-function DesktopNav() {
+type NavProps = { content: NavContent; homeLabel: string };
+
+function DesktopNav({ content, homeLabel }: NavProps) {
   return (
     <>
       <div className="fixed top-[30px] left-[30px] z-10 hidden tablet:block">
@@ -62,11 +57,11 @@ function DesktopNav() {
             INNER_BORDER,
           )}
         >
-          <a href="#" aria-label="Spartan home" className="relative block cursor-pointer rounded-full">
+          <a href="#" aria-label={homeLabel} className="relative block cursor-pointer rounded-full">
             <LogoPill width={60} height={34} border={6} color="rgb(26, 26, 26)" />
           </a>
           <div className="flex items-center gap-0">
-            {LINKS.map((link) => (
+            {content.links.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
@@ -81,13 +76,13 @@ function DesktopNav() {
         </nav>
       </div>
       <div className="fixed top-[30px] right-[30px] z-10 hidden tablet:block">
-        <ExpandButton label="Hire Team" size="sm" tone="white" borderColor="rgba(26, 26, 26, 0.1)" />
+        <ExpandButton label={content.cta.label} href={content.cta.href} size="sm" tone="white" borderColor="rgba(26, 26, 26, 0.1)" />
       </div>
     </>
   );
 }
 
-function PhoneNav() {
+function PhoneNav({ content, homeLabel }: NavProps) {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
@@ -100,12 +95,12 @@ function PhoneNav() {
         )}
       >
         <div className="flex w-full items-center justify-between">
-          <a href="#" aria-label="Spartan home" className="relative block rounded-full" onClick={close}>
+          <a href="#" aria-label={homeLabel} className="relative block rounded-full" onClick={close}>
             <LogoPill width={60} height={34} border={6} color="rgb(26, 26, 26)" />
           </a>
           <button
             type="button"
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? content.closeMenuLabel : content.openMenuLabel}
             aria-expanded={open}
             aria-controls="sp-phone-menu"
             onClick={() => setOpen((v) => !v)}
@@ -139,7 +134,7 @@ function PhoneNav() {
           <div className="min-h-0 overflow-hidden">
             <div className="flex flex-col pt-5 pr-1 pb-[15px] pl-4">
               <ul className="flex flex-col gap-[19.25px]">
-                {LINKS.map((link) => (
+                {content.links.map((link) => (
                   <li key={link.label}>
                     <a
                       href={link.href}
@@ -152,7 +147,7 @@ function PhoneNav() {
                 ))}
               </ul>
               <div className="mt-5" onClick={close}>
-                <ExpandButton label="Hire Team" size="md" tone="coal" className="w-full justify-center" />
+                <ExpandButton label={content.cta.label} href={content.cta.href} size="md" tone="coal" className="w-full justify-center" />
               </div>
             </div>
           </div>
@@ -162,12 +157,12 @@ function PhoneNav() {
   );
 }
 
-export function NavBar() {
+export function NavBar({ content, homeLabel }: NavProps) {
   return (
     <>
       <ProgressiveBlur />
-      <DesktopNav />
-      <PhoneNav />
+      <DesktopNav content={content} homeLabel={homeLabel} />
+      <PhoneNav content={content} homeLabel={homeLabel} />
     </>
   );
 }

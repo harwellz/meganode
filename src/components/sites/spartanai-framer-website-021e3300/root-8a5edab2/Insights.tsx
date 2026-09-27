@@ -1,48 +1,11 @@
 import Image from "next/image";
+import type { InsightsContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { BigMarquee } from "@/components/sites/spartanai-framer-website-021e3300/shared/BigMarquee";
 import { ExpandButton } from "@/components/sites/spartanai-framer-website-021e3300/shared/ExpandButton";
 import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/shared/FadeIn";
-import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
 
-type Article = {
-  image: string;
-  alt: string;
-  category: string;
-  title: string;
-  excerpt: string;
-  author: string;
-  /** Text card above the image (tablet/desktop only; phone is always image-first). */
-  reversed?: boolean;
-};
-
-const ARTICLES: Article[] = [
-  {
-    image: "862JbA3xEJjbdSDVyKEwOZ0f2g.jpeg",
-    alt: "boy in front of computer monitor",
-    category: "Transformation",
-    title: "The Sovereign Cloud: Why On-Premise AI is the Future of Data Privacy",
-    excerpt: "Explore how federated learning and private hosting are allowing firms to innovate without risking security.",
-    author: "Frank Joel",
-  },
-  {
-    image: "YKAEpvQFebP2OETEJDVNip8UTg.jpeg",
-    alt: "people doing office works",
-    category: "Architecture",
-    title: "The Architecture of Autonomy: Scaling AI Within Legacy Frameworks",
-    excerpt: "A comprehensive guide on integrating custom machine learning models into complex enterprise environments.",
-    author: "Damilola Manuel",
-    reversed: true,
-  },
-  {
-    image: "egDVD5dc2AvUIZKG0seuGXtH0.jpeg",
-    alt: "sittin people beside table inside room",
-    category: "Privacy",
-    title: "Human-Centric Automation: Designing AI That Empowers Your Workforce",
-    excerpt: "Why the most successful AI implementations focus on augmenting human talent rather than simply replacing it.",
-    author: "Deborah Reachie",
-  },
-];
+type Article = InsightsContent["articles"][number];
 
 /** Phosphor "ArrowRight" (svg17). */
 function ArrowIcon() {
@@ -55,7 +18,7 @@ function ArrowIcon() {
 
 const EASE = "duration-[400ms] ease-[cubic-bezier(0.44,0,0.56,1)]";
 
-function ArticleCard({ article, delay }: { article: Article; delay: number }) {
+function ArticleCard({ article, writtenBy, delay }: { article: Article; writtenBy: string; delay: number }) {
   const { reversed } = article;
   return (
     <FadeIn
@@ -66,7 +29,7 @@ function ArticleCard({ article, delay }: { article: Article; delay: number }) {
         "after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-[rgba(26,26,26,0.06)]",
       )}
     >
-      <a href="#" className="group/card flex h-[650px] w-full cursor-pointer flex-col gap-5 overflow-hidden rounded-[20px]">
+      <a href={article.href} className="group/card flex h-[650px] w-full cursor-pointer flex-col gap-5 overflow-hidden rounded-[20px]">
         {/* Image */}
         <div
           className={cn(
@@ -75,7 +38,7 @@ function ArticleCard({ article, delay }: { article: Article; delay: number }) {
           )}
         >
           <Image
-            src={spImg(article.image)}
+            src={article.image}
             alt={article.alt}
             fill
             sizes="(min-width: 1200px) 432px, (min-width: 810px) 438px, 100vw"
@@ -111,7 +74,7 @@ function ArticleCard({ article, delay }: { article: Article; delay: number }) {
 
           <div className="flex w-full items-center justify-center gap-[10px]">
             <div className="flex min-w-0 flex-1 flex-col items-start justify-center gap-[6px]">
-              <p className="whitespace-pre text-[14px] leading-[19.6px] font-normal tracking-[0.28px]">Written by</p>
+              <p className="whitespace-pre text-[14px] leading-[19.6px] font-normal tracking-[0.28px]">{writtenBy}</p>
               <p className="whitespace-pre text-[12px] leading-[16.8px] font-light tracking-[0.12px]">{article.author}</p>
             </div>
             <div
@@ -137,29 +100,28 @@ function ArticleCard({ article, delay }: { article: Article; delay: number }) {
   );
 }
 
-export function Insights() {
+export function Insights({ content }: { content: InsightsContent }) {
   return (
     <div className="relative flex w-full flex-col items-center justify-center gap-[50px] pb-[150px] desktop:pb-[180px]">
       {/* Header */}
       <div className="flex w-full flex-col items-center justify-center gap-10">
-        <BigMarquee title="Insights" asteriskColor="#fff" className="rounded-[10px]" />
+        <BigMarquee title={content.title} asteriskColor="#fff" className="rounded-[10px]" />
 
         <div className="flex w-full flex-col items-start desktop:flex-row desktop:items-end">
           <div className="hidden desktop:block desktop:flex-1" />
           <FadeIn className="flex w-full flex-col items-start justify-start gap-[34px] desktop:flex-1">
             <p className="w-full text-[16px] leading-[24px] font-light tracking-[0.32px] text-sp-ink tablet:max-w-[500px] desktop:max-w-[450px]">
-              A curated repository of technical frameworks, model benchmarks, and strategic guides for leaders
-              navigating the integration of custom neural architectures.
+              {content.intro}
             </p>
-            <ExpandButton label="All articles" href="#" size="md" tone="ink" />
+            <ExpandButton label={content.cta.label} href={content.cta.href} size="md" tone="ink" />
           </FadeIn>
         </div>
       </div>
 
       {/* Blog grid */}
       <div className="grid w-full grid-cols-1 gap-5 tablet:grid-cols-2 desktop:grid-cols-3">
-        {ARTICLES.map((article, i) => (
-          <ArticleCard key={article.title} article={article} delay={i * 0.1} />
+        {content.articles.map((article, i) => (
+          <ArticleCard key={article.title} article={article} writtenBy={content.writtenBy} delay={i * 0.1} />
         ))}
       </div>
     </div>

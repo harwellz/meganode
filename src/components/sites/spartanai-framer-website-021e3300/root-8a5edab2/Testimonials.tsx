@@ -2,60 +2,12 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
+import type { AnnouncementContent, TestimonialsContent } from "@/content/schema";
 import { AnnouncementTicker } from "@/components/sites/spartanai-framer-website-021e3300/shared/AnnouncementTicker";
 import { BigMarquee } from "@/components/sites/spartanai-framer-website-021e3300/shared/BigMarquee";
 import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/shared/FadeIn";
-import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
 
-const CARD_HREF = "https://contra.com/sirdelani/work?r=sirdelani";
-
-type Testimonial = {
-  avatar: string;
-  avatarAlt: string;
-  logo: string;
-  quote: string;
-  name: string;
-  role: string;
-};
-
-const TESTIMONIALS: Testimonial[] = [
-  {
-    avatar: "w2hyXovpoCcfHZkjR4Hmr53RA5o.jpg",
-    avatarAlt: "A cartoon character with a weird haircut",
-    logo: "3EwtMm1CTn3V13Xu2ufZVUnW4.png",
-    quote:
-      "The custom agentic workflows they built reduced our manual data entry by 90%, saving us hundreds of hours weekly.",
-    name: "MARCUS CHENG",
-    role: "Head of AI, Aetna",
-  },
-  {
-    avatar: "rLkyXpp1TSaADDj0EYjy9c8uw.jpg",
-    avatarAlt: "A glass sculpture of a woman's head and shoulders",
-    logo: "yV2zGDqTwUzGafOnvA53MLQkM.png",
-    quote:
-      "Their team didn't just provide tools; they provided a roadmap for AI integration that actually makes sense for ROI.",
-    name: "DAVID ROSSI",
-    role: "Lead Dev, Cigna",
-  },
-  {
-    avatar: "IIK9uqdpvVqpPgAHuhf8s9r4Ee4.jpg",
-    avatarAlt: "man in white crew neck shirt wearing black sunglasses",
-    logo: "RlGLod5QkyznR4SBy9PQw3raa80.png",
-    quote:
-      "A game-changer for our R&D. The neural infrastructure is robust, secure, and perfectly tailored to our niche stack.",
-    name: "SARAH JENKINS",
-    role: "CTO, Anthem Group",
-  },
-  {
-    avatar: "QHChEEbpWFuUCrhS6zqN5BK4Rr0.jpg",
-    avatarAlt: "",
-    logo: "qA80rXn5OyEhaPlYKJ8gIEE6Ds.png",
-    quote:
-      "Incredible technical depth. They handled our complex RAG implementation with ease and delivered ahead of schedule.",
-    name: "ELENA VANCE",
-    role: "VP Eng, UnitedHealth",
-  },
-];
+type Testimonial = TestimonialsContent["items"][number];
 
 /** Card width 285 + gap 16. */
 const STEP = 301;
@@ -89,10 +41,10 @@ function Chevron({ dir }: { dir: "left" | "right" }) {
   );
 }
 
-function TestimonialCard({ t }: { t: Testimonial }) {
+function TestimonialCard({ t, href }: { t: Testimonial; href: string }) {
   return (
     <a
-      href={CARD_HREF}
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
       className="group relative flex h-[394px] w-[285px] shrink-0 cursor-default flex-col items-start justify-between overflow-clip rounded-[20px] bg-sp-mist p-[10px]"
@@ -103,10 +55,10 @@ function TestimonialCard({ t }: { t: Testimonial }) {
       {/* Header chip: avatar + company logo */}
       <div className="relative z-[2] flex h-11 items-center justify-center overflow-clip rounded-[100px] p-[6px] shadow-[inset_0_0_0_1px_rgba(26,26,26,0.1)] transition-shadow duration-300 group-hover:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)]">
         <div className="relative size-8 overflow-clip rounded-full">
-          <Image src={spImg(t.avatar)} alt={t.avatarAlt} fill sizes="32px" className="rounded-full object-cover" />
+          <Image src={t.avatar} alt={t.avatarAlt} fill sizes="32px" className="rounded-full object-cover" />
         </div>
         <div className="relative h-6 w-20 opacity-[0.67] invert transition-[filter] duration-300 group-hover:invert-0">
-          <Image src={spImg(t.logo)} alt="" fill sizes="80px" className="object-cover" />
+          <Image src={t.logo} alt="" fill sizes="80px" className="object-cover" />
         </div>
       </div>
 
@@ -134,7 +86,14 @@ function TestimonialCard({ t }: { t: Testimonial }) {
   );
 }
 
-export function Testimonials() {
+export function Testimonials({
+  content,
+  announcement,
+}: {
+  content: TestimonialsContent;
+  announcement: AnnouncementContent;
+}) {
+  const items = content.items;
   const [idx, setIdx] = useState(0);
   const [animate, setAnimate] = useState(false);
   const [perStep, setPerStep] = useState(3);
@@ -163,8 +122,8 @@ export function Testimonials() {
     fallback.current = null;
     busy.current = false;
     setAnimate(false);
-    setIdx((i) => ((i % TESTIMONIALS.length) + TESTIMONIALS.length) % TESTIMONIALS.length);
-  }, []);
+    setIdx((i) => ((i % items.length) + items.length) % items.length);
+  }, [items.length]);
 
   const go = (dir: 1 | -1) => {
     if (busy.current) return;
@@ -174,7 +133,7 @@ export function Testimonials() {
     fallback.current = setTimeout(settle, DURATION_MS + 100);
   };
 
-  const cards = Array.from({ length: COPIES }, (_, c) => TESTIMONIALS.map((t, i) => ({ t, key: `${c}-${i}` }))).flat();
+  const cards = Array.from({ length: COPIES }, (_, c) => items.map((t, i) => ({ t, key: `${c}-${i}` }))).flat();
 
   return (
     <section id="test-2" className="relative z-[4] flex w-full flex-col items-center justify-center overflow-clip bg-white">
@@ -184,20 +143,20 @@ export function Testimonials() {
       {/* Header */}
       <div className="relative z-[2] flex w-full flex-col items-start gap-5 pb-[120px] pt-[140px] desktop:pt-[170px]">
         <div className="flex w-full flex-col items-center gap-10">
-          <BigMarquee title="Experiences" />
+          <BigMarquee title={content.title} />
 
           <div className="relative flex w-full flex-col items-start justify-center px-5 tablet:px-10 desktop:flex-row desktop:items-center desktop:px-0">
             <div className="hidden h-px w-1/2 bg-[rgba(26,26,26,0.1)] desktop:block" />
             <div className="relative w-full tablet:w-[400px] desktop:w-1/2">
               <FadeIn>
                 <p className="w-full whitespace-pre-wrap text-[16px] font-light leading-[24px] tracking-[0.32px] text-sp-ink desktop:w-[440px]">
-                  Empowering global enterprises through bespoke neural architectures and autonomous agentic workflows.
+                  {content.intro}
                 </p>
               </FadeIn>
               <div className="absolute left-0 top-[calc(100%+35px)] flex gap-[10px]">
                 <button
                   type="button"
-                  aria-label="Previous"
+                  aria-label={content.previousLabel}
                   onClick={() => go(-1)}
                   className="flex size-10 cursor-pointer items-center justify-center rounded-full bg-sp-ink text-white"
                 >
@@ -205,7 +164,7 @@ export function Testimonials() {
                 </button>
                 <button
                   type="button"
-                  aria-label="Next"
+                  aria-label={content.nextLabel}
                   onClick={() => go(1)}
                   className="flex size-10 cursor-pointer items-center justify-center rounded-full bg-sp-ink text-white"
                 >
@@ -233,7 +192,7 @@ export function Testimonials() {
             >
               {cards.map(({ t, key }) => (
                 <li key={key} className="relative shrink-0">
-                  <TestimonialCard t={t} />
+                  <TestimonialCard t={t} href={content.cardHref} />
                 </li>
               ))}
             </ul>
@@ -241,7 +200,7 @@ export function Testimonials() {
         </div>
 
         <div className="relative h-0 w-full">
-          <AnnouncementTicker className="absolute inset-x-0 top-0" />
+          <AnnouncementTicker content={announcement} className="absolute inset-x-0 top-0" />
         </div>
       </div>
     </section>

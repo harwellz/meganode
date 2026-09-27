@@ -24,6 +24,10 @@ Next: i18n, Decap CMS, source optimisation, and finishing clone QA leftovers.
 - **Content:** all copy moves out of components into git-tracked, typed content files
   per locale, read at build time by Server Components and passed to client
   components as props. Content is validated with a schema at build time.
+  Layout: `content/globals/<locale>/site.json` (nav, footer, announcement) and
+  `content/pages/<locale>/home.json` (sections); zod schemas in `src/content/schema.ts`,
+  loader `src/content/load.ts`. Folder-per-locale = Decap folder collection with
+  i18n `multiple_folders` (Decap file collections only support `single_file`).
 - **CMS:** Decap CMS (git-based) at `/admin`. Editors are the owner, content staff,
   and AI agents. Humans use Decap; agents may edit the content files directly in git.
   Must be ready to grow a blog (per-locale Markdown posts) later.

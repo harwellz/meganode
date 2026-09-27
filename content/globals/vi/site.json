@@ -1,0 +1,61 @@
+{
+  "homeLabel": "Spartan home",
+  "announcement": {
+    "tag": "//SPARTAN",
+    "message": "We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America."
+  },
+  "nav": {
+    "links": [
+      { "label": "Works", "href": "#" },
+      { "label": "Services", "href": "#capabilities" },
+      { "label": "Insights", "href": "#" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Company", "href": "#" }
+    ],
+    "cta": { "label": "Hire Team" },
+    "openMenuLabel": "Open menu",
+    "closeMenuLabel": "Close menu"
+  },
+  "footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac ultrices massa. Vivamus faucibus egestas nulla",
+    "newsletter": {
+      "emailLabel": "Email",
+      "placeholder": "jane@framer.com",
+      "submit": "Subscribe"
+    },
+    "followLabel": "Follow Us:",
+    "socials": [
+      { "platform": "x", "label": "X", "href": "https://x.com/sirdelani" },
+      { "platform": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/in/delanipro/" },
+      { "platform": "youtube", "label": "YouTube", "href": "https://youtube.com" },
+      { "platform": "instagram", "label": "Instagram", "href": "https://instagram.com/sirdelani" }
+    ],
+    "columns": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "label": "Home", "href": "#" },
+          { "label": "Digital Brain", "href": "#" },
+          { "label": "Projects", "href": "#" },
+          { "label": "Articles", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "#" },
+          { "label": "Contact Us", "href": "#" },
+          { "label": "Book A Call", "href": "https://cal.com" },
+          { "label": "More Templates", "href": "https://delani.pro/templates" }
+        ]
+      },
+      {
+        "title": "Policies",
+        "links": [
+          { "label": "Terms & Conditions", "href": "#" },
+          { "label": "Privacy Policy", "href": "#" }
+        ]
+      }
+    ]
+  }
+}

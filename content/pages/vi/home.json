@@ -1,12 +1,319 @@
 {
+  "hero": {
+    "headingMuted": "Scale your ideas.",
+    "headingStrong": "Build with AI.",
+    "subheading": "Deploy custom neural agents, LLMs, and automation in one seamless flow.",
+    "cta": { "label": "Start Build", "href": "#" },
+    "card": {
+      "title": "Digital Brain",
+      "caption": "// Model v4.0.2",
+      "href": "#",
+      "imageAlt": "a blurry image of a green and yellow background"
+    },
+    "trustLine": "+2,400 active deployments and 8,200 brands trust our high-performance architecture."
+  },
+  "about": {
+    "headline": "Automate the manual, accelerate the future. Our custom AI solutions deliver measurable growth and operational excellence.",
+    "intro": "Empowering teams with intelligent tools that turn complex data into actionable business outcomes daily.",
+    "revenue": {
+      "value": 45,
+      "prefix": "$",
+      "suffix": "M",
+      "caption": "Revenue generated for our clients through AI-led optimizations."
+    },
+    "agents": {
+      "count": "15,400",
+      "label": "active agents",
+      "avatars": [
+        {
+          "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/D3gag0wTRQzvb6CCfJkTShmXTPI.jpg",
+          "alt": "A cartoon character wearing a blue shirt and a blue hat"
+        },
+        {
+          "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/9AvPLCB2PkQCEoFgNdwvDaIaGGI.jpg",
+          "alt": "A cartoon character with a weird haircut"
+        },
+        {
+          "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/pktP7O1JHzk75RWizEsb0jRSjk.jpg",
+          "alt": "A person wearing a green frog costume"
+        },
+        {
+          "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/2418vQBGZ7CPVHaaIlQ5wuUyr4.jpg",
+          "alt": "A cartoon character wearing a purple shirt and a red headband"
+        }
+      ]
+    },
+    "speed": {
+      "value": 5,
+      "suffix": "x",
+      "caption": "Faster speed to market."
+    },
+    "inference": {
+      "title": "Inference speed",
+      "caption": "Real-time processing for enterprise-grade deployments."
+    },
+    "quote": {
+      "text": "The custom LLM they built for us reduced our support tickets by 80% while increasing user satisfaction.",
+      "author": "CTO, Cigna"
+    }
+  },
+  "works": {
+    "title": "Our Works",
+    "statLabels": ["Funds raised", "Social growth", "ATH ROI", "Partnerships"],
+    "items": [
+      {
+        "tag": "Healthcare AI",
+        "href": "#",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/yV2zGDqTwUzGafOnvA53MLQkM.png",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/sZxYLpvH56E3RznKPcnAPYlPvo.jpg",
+        "imageAlt": "gray concrete illustration",
+        "stats": ["$45M+", "700%", "41x", "84"]
+      },
+      {
+        "tag": "Healthcare",
+        "href": "#",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/CLpXi6HupcG6YYxVylXG8rj7eo4.png",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/4GMiBYbu9SI4dXo9ENcqlNA.jpg",
+        "imageAlt": "a black and white photo of a couch",
+        "stats": ["$62M+", "450%", "32x", "91"]
+      },
+      {
+        "tag": "Healthcare",
+        "href": "#",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/RlGLod5QkyznR4SBy9PQw3raa80.png",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/0g3E5eja3ueYAXkITtsy9quyYo.jpg",
+        "imageAlt": "a black and white photo of wavy lines",
+        "stats": ["$82M+", "340%", "19x", "56"]
+      },
+      {
+        "tag": "Retail & Logistics",
+        "href": "#",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/3ICxPpL7nA6WiDyreZSZlU70E8.png",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/ZK0k9kMGgE21P7r3puSMYZ8548.jpg",
+        "imageAlt": "grayscale photo of a flower",
+        "stats": ["$59M+", "215%", "73x", "28"]
+      },
+      {
+        "tag": "Cybersecurity",
+        "href": "#",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/qA80rXn5OyEhaPlYKJ8gIEE6Ds.png",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/LYQLqywSoqlHG7KLRJM70MIk.png",
+        "imageAlt": "gray digital wallpaper",
+        "stats": ["$94M+", "120%", "66x", "12"]
+      }
+    ]
+  },
+  "capabilities": {
+    "label": "CAPABILITIES",
+    "intro": "We bridge the gap between abstract machine learning and practical business utility through bespoke engineering.",
+    "heading": "Tailored Intelligence for Modern Enterprises.",
+    "cta": { "label": "Start Build", "href": "#" },
+    "items": [
+      {
+        "num": "001",
+        "title": "Autonomous Agent Architecture Labs",
+        "description": "Architecting robust server environments and local LLM integrations to ensure data remains secure and local.",
+        "pattern": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/qWpzthqQ4FGQWP39IeKgah1OP8.png",
+        "illustration": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/WTuFQeqWgOcQVCks16yKxgDaefI.png"
+      },
+      {
+        "num": "002",
+        "title": "Autonomous Agentic Workflows",
+        "description": "Building self-optimizing task bots that handle complex multi-step workflows with zero human intervention.",
+        "pattern": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/pEct5trUmjDYAblzuKYq2MpHaA.png",
+        "illustration": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/In0V7veBPGhnSUzXqR7lATUDvE.png"
+      },
+      {
+        "num": "003",
+        "title": "Data Pipelines & RAG Systems",
+        "description": "Streamlining data ingestion and processing using advanced RAG systems for real-time business intelligence.",
+        "pattern": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/qWpzthqQ4FGQWP39IeKgah1OP8.png",
+        "illustration": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/T1zAekOylQHr0GPPBMBKhmpUeI.png"
+      }
+    ]
+  },
+  "visionTech": {
+    "founder": { "name": "ALEXANDER VACCA", "role": "Founder & Lead Engineer" },
+    "label": "OUR VISION",
+    "headline": "We believe that AI should not just automate tasks, but amplify the creative and strategic potential of every human.",
+    "body": "By merging technical rigor with intuitive design, we build systems that don't just solve problems—they create entirely new opportunities for growth.",
+    "statement": "ENGINEERING SYSTEMS THAT SCALE WITH YOUR AMBITION. WE LEVERAGE INDUSTRY-LEADING MODELS TO DEPLOY CUSTOM NEURAL SOLUTIONS TAILORED TO YOUR STACK.",
+    "cta": { "label": "Digital Brain v4.0.2", "href": "#" },
+    "features": [
+      "Semantic vector search for hyper-accurate retrieval",
+      "Unified data lakes for expansive model context.",
+      "Token-optimized flows for high speed processing",
+      "Global LLM deployment. Support for 95+ languages."
+    ]
+  },
+  "testimonials": {
+    "title": "Experiences",
+    "intro": "Empowering global enterprises through bespoke neural architectures and autonomous agentic workflows.",
+    "previousLabel": "Previous",
+    "nextLabel": "Next",
+    "cardHref": "https://contra.com/sirdelani/work?r=sirdelani",
+    "items": [
+      {
+        "avatar": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/w2hyXovpoCcfHZkjR4Hmr53RA5o.jpg",
+        "avatarAlt": "A cartoon character with a weird haircut",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/3EwtMm1CTn3V13Xu2ufZVUnW4.png",
+        "quote": "The custom agentic workflows they built reduced our manual data entry by 90%, saving us hundreds of hours weekly.",
+        "name": "MARCUS CHENG",
+        "role": "Head of AI, Aetna"
+      },
+      {
+        "avatar": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/rLkyXpp1TSaADDj0EYjy9c8uw.jpg",
+        "avatarAlt": "A glass sculpture of a woman's head and shoulders",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/yV2zGDqTwUzGafOnvA53MLQkM.png",
+        "quote": "Their team didn't just provide tools; they provided a roadmap for AI integration that actually makes sense for ROI.",
+        "name": "DAVID ROSSI",
+        "role": "Lead Dev, Cigna"
+      },
+      {
+        "avatar": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/IIK9uqdpvVqpPgAHuhf8s9r4Ee4.jpg",
+        "avatarAlt": "man in white crew neck shirt wearing black sunglasses",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/RlGLod5QkyznR4SBy9PQw3raa80.png",
+        "quote": "A game-changer for our R&D. The neural infrastructure is robust, secure, and perfectly tailored to our niche stack.",
+        "name": "SARAH JENKINS",
+        "role": "CTO, Anthem Group"
+      },
+      {
+        "avatar": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/QHChEEbpWFuUCrhS6zqN5BK4Rr0.jpg",
+        "avatarAlt": "",
+        "logo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/qA80rXn5OyEhaPlYKJ8gIEE6Ds.png",
+        "quote": "Incredible technical depth. They handled our complex RAG implementation with ease and delivered ahead of schedule.",
+        "name": "ELENA VANCE",
+        "role": "VP Eng, UnitedHealth"
+      }
+    ]
+  },
+  "video": {
+    "intro": "Exploring the intersection of human creativity and machine logic to redefine what's possible in the digital age.",
+    "duration": "2mins watch",
+    "heading": "Intelligence by Design.",
+    "imageAlt": "activity tracker reading 11 36 Mo 21",
+    "playLabel": "Play video",
+    "closeLabel": "Close video",
+    "videoTitle": "Spartan AI showreel",
+    "videoSrc": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=1"
+  },
+  "process": {
+    "label": "OUR PROCESS",
+    "heading": "From raw data to refined intelligence. Our iterative deployment cycle.",
+    "steps": [
+      {
+        "num": "// 01",
+        "title": "Comprehensive Strategic Audit",
+        "tag": "Audit",
+        "body": "We perform a deep-layer analysis of your current technical stack and fragmented data silos to identify high-impact AI opportunities that align with your core business objectives and ROI targets."
+      },
+      {
+        "num": "// 02",
+        "title": "Custom Architecture Design",
+        "tag": "Design",
+        "body": "Our engineers architect bespoke neural model topologies and advanced RAG pipelines, ensuring every piece of the infrastructure is tailored to your unique data security needs and operational logic."
+      },
+      {
+        "num": "// 03",
+        "title": "Rapid Prototype Development",
+        "tag": "Build",
+        "body": "We transition from blueprints to functional MVPs within weeks, utilizing iterative sprints to validate model performance, optimize token latency, and refine the end-user interaction experience."
+      },
+      {
+        "num": "// 04",
+        "title": "Enterprise Scale Deployment",
+        "tag": "Scale",
+        "body": "We harden the validated system for full-scale production, ensuring seamless integration across your enterprise with robust monitoring, dedicated compute clusters, and strict SOC2 compliance layers."
+      }
+    ],
+    "statement": "WE DON'T JUST SHIP CODE; WE SHIP COMPETITIVE ADVANTAGES. EVERY STEP IS DESIGNED TO ENSURE YOUR AI INFRASTRUCTURE IS FUTURE-PROOF AND SCALABLE.",
+    "cta": { "label": "Build Now" }
+  },
+  "team": {
+    "statement": "We are a collective of engineers, designers, and researchers dedicated to the frontier of AI.",
+    "intro": "Bridging the gap between academic research and commercial deployment with precision engineering.",
+    "cta": { "label": "Our Story", "href": "#" },
+    "socials": [
+      { "platform": "x", "label": "X", "href": "https://x.com/sirdelani" },
+      { "platform": "github", "label": "GitHub", "href": "https://github.com" }
+    ],
+    "members": [
+      {
+        "name": "SARAH JENKINS",
+        "role": "Head of Machine Learning",
+        "photo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/OrsgMbvM0AZiEvhgHFZUJM2g.png",
+        "quote": "Our focus remains on the ethical deployment of large-scale models. We don't just optimize for performance; we ensure every neural architecture we build is interpretable, secure, and ready for enterprise-grade scrutiny."
+      },
+      {
+        "name": "MARCUS CHENG",
+        "role": "Principal Design Director",
+        "photo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/BbqpJjnldDFDulJFBarqs7wJpFk.png",
+        "quote": "AI shouldn't feel like a black box. My goal is to design intuitive interfaces that make complex data actionable, ensuring that the human-machine collaboration is seamless, visually stunning, and highly efficient for users."
+      },
+      {
+        "name": "ELENA VANCE",
+        "role": "Lead Cognitive Scientist",
+        "photo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/8k7FcfFSjgocOslFu94p0ih1UY.png",
+        "quote": "We study the cognitive friction between AI output and human decision-making. By applying behavioral science to our agentic workflows, we create tools that naturally align with how your best employees actually think and work."
+      },
+      {
+        "name": "DAVID ROSSI",
+        "role": "Infrastructure Architect",
+        "photo": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/FnCj7jgTvcpKSt0CUVIqbyiS9o.png",
+        "quote": "Latency is the enemy of adoption. I architect the backbone of our solutions to ensure that even the most complex RAG systems deliver sub-second responses, maintaining 99.9% uptime across distributed global compute clusters."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "intro": "Flexible intelligence tiers designed to scale alongside your business. No hidden costs, just high-performance results.",
+    "billing": {
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "savings": "(Save 20%)",
+      "toggleLabel": "Bill annually",
+      "perMonth": "/mo",
+      "billedMonthly": "USD Billed Monthly",
+      "billedAnnually": "USD Billed Annually"
+    },
+    "cta": { "label": "Get started", "href": "https://contra.com/sirdelani/work?r=sirdelani" },
+    "plans": [
+      {
+        "name": "Core",
+        "monthly": "$618",
+        "annually": "$495",
+        "tagline": "Automate your repetitive tasks.",
+        "features": ["3 Automation Flows", "Standard RAG Support", "1 Admin Seat", "Discord Support"]
+      },
+      {
+        "name": "Growth",
+        "monthly": "$1,570",
+        "annually": "$1,250",
+        "tagline": "Advanced agentic workflows.",
+        "features": ["10 Automation Flows", "Vector DB Hosting", "5 Admin Seats", "Priority Email"]
+      },
+      {
+        "name": "Pro",
+        "monthly": "$3,650",
+        "annually": "$2,900",
+        "tagline": "Custom neural architecture.",
+        "features": ["Unlimited Flows", "Custom Fine-Tuning", "15 Admin Seats", "24/7 Slack Connect"],
+        "featured": true
+      },
+      {
+        "name": "Scale",
+        "monthly": "$9,380",
+        "annually": "$7,500",
+        "tagline": "Enterprise infrastructure.",
+        "features": ["Full Neural Stack", "On-Premise LLMs", "Unlimited Seats", "Dedicated Engineer"]
+      }
+    ]
+  },
   "faq": {
     "label": "COMMON QUERIES",
     "intro": "Find answers to technical specifications, deployment timelines, and our data security protocols.",
     "heading": "Everything you need to know about our AI.",
-    "cta": {
-      "label": "Contact Support",
-      "href": "#"
-    },
+    "cta": { "label": "Contact Support", "href": "#" },
     "items": [
       {
         "q": "How do you ensure our data remains secure?",
@@ -35,6 +342,42 @@
       {
         "q": "What models do you specialize in?",
         "a": "We are model-agnostic, specializing in OpenAI, Anthropic, and Mistral, as well as local deployments of high-performance open-source LLMs."
+      }
+    ]
+  },
+  "insights": {
+    "title": "Insights",
+    "intro": "A curated repository of technical frameworks, model benchmarks, and strategic guides for leaders navigating the integration of custom neural architectures.",
+    "cta": { "label": "All articles", "href": "#" },
+    "writtenBy": "Written by",
+    "articles": [
+      {
+        "href": "#",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/862JbA3xEJjbdSDVyKEwOZ0f2g.jpeg",
+        "alt": "boy in front of computer monitor",
+        "category": "Transformation",
+        "title": "The Sovereign Cloud: Why On-Premise AI is the Future of Data Privacy",
+        "excerpt": "Explore how federated learning and private hosting are allowing firms to innovate without risking security.",
+        "author": "Frank Joel"
+      },
+      {
+        "href": "#",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/YKAEpvQFebP2OETEJDVNip8UTg.jpeg",
+        "alt": "people doing office works",
+        "category": "Architecture",
+        "title": "The Architecture of Autonomy: Scaling AI Within Legacy Frameworks",
+        "excerpt": "A comprehensive guide on integrating custom machine learning models into complex enterprise environments.",
+        "author": "Damilola Manuel",
+        "reversed": true
+      },
+      {
+        "href": "#",
+        "image": "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/egDVD5dc2AvUIZKG0seuGXtH0.jpeg",
+        "alt": "sittin people beside table inside room",
+        "category": "Privacy",
+        "title": "Human-Centric Automation: Designing AI That Empowers Your Workforce",
+        "excerpt": "Why the most successful AI implementations focus on augmenting human talent rather than simply replacing it.",
+        "author": "Deborah Reachie"
       }
     ]
   }
