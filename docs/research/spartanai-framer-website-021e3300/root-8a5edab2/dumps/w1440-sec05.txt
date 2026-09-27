@@ -1,0 +1,258 @@
+<section> [0,0 1440x2695] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; fontFamily:sans-serif; fontSize:12px; fontWeight:400; lineHeight:normal; letterSpacing:normal; textAlign:start; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(26, 26, 26); overflow:clip; zIndex:4; whiteSpace:normal; cursor:auto
+  <div> [0,0 1440x2695] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:160px; padding:250px 40px 200px; backgroundColor:rgb(26, 26, 26); borderRadius:0px 0px 20px 20px; overflow:clip; zIndex:3
+    <div> [40,250 1360x2245] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:250px; overflow:clip; zIndex:2
+      <div> [40,250 1360x858] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:50px; overflow:clip
+        <div> [40,250 1360x20] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:20px; overflow:clip
+          <div> [40,251 79x19] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <p> [40,251 79x19] fontFamily:"Geist Mono"; fontWeight:300; lineHeight:19.2px; textAlign:left; textTransform:uppercase; color:rgb(255, 255, 255) TEXT="OUR PROCESS"
+          <div> [139,260 1205x1] position:relative; backgroundColor:rgba(255, 255, 255, 0.1); overflow:clip
+          <div> [1364,250 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(255, 255, 255) radius 100px
+        <div> [40,320 1360x178] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:40px; overflow:clip
+          <div> [40,320 800x178] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <h2> [40,320 800x178] fontFamily:"Inter Display"; fontSize:54px; fontWeight:500; lineHeight:59.4px; letterSpacing:-2.16px; textAlign:left; color:rgb(255, 255, 255) TEXT="From raw data to refined intelligence. Our iterative deployment cycle."
+        <div> [40,549 1360x445] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+          <div> [40,549 400x445] display:flex; position:relative; justifyContent:center; alignItems:center; gap:30px; padding:30px; backgroundColor:rgba(255, 255, 255, 0); borderRadius:20px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.1) radius 20px
+            <div> [90,621 300x300] position:relative; overflow:clip; zIndex:2
+              <div> [90,621 300x300] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [90,621 300x300] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/liXydHdt7Kdt6VKUzzjSZwFJ4FA.png?scale-down-to=512&width=1886&height=1886 alt=""
+            <div> [40,549 400x445] position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.17; overflow:clip; zIndex:0
+              <div> [40,549 400x445] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [40,549 400x445] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/QRyW2z7jtn8Iu8Ohz7dYmwxFJo.png?scale-down-to=512&width=3246&height=2332 alt=""
+          <div> [450,549 950x445] position:relative
+            <div name="Desktop 1"> [450,549 950x445] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+              <div> [450,549 950x172] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+                <div> [450,549 950x172] position:relative
+                  <div name="Desktop 1"> [450,549 950x172] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:30px; padding:30px; backgroundColor:rgba(255, 255, 255, 0.04); borderRadius:20px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.03) radius 20px
+                    <div> [480,579 26x21] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                      <div> [480,579 26x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                        <p> [480,579 26x21] fontFamily:"Inter Display"; fontSize:14px; fontWeight:300; lineHeight:21px; letterSpacing:0.28px; textAlign:left; color:rgba(255, 255, 255, 0.4) TEXT="// 01"
+                    <div> [536,579 834x112] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; overflow:clip
+                      <div> [536,579 834x24] display:flex; position:relative; justifyContent:center; alignItems:flex-start; gap:10px
+                        <div> [536,579 770x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                          <p> [536,579 770x20] fontFamily:"Inter Display"; fontSize:18px; fontWeight:500; lineHeight:19.8px; letterSpacing:-0.72px; textAlign:left; color:rgb(255, 255, 255) TEXT="Comprehensive Strategic Audit"
+                        <div> [1316,579 54x24] display:flex; position:relative; justifyContent:center; alignItems:center; gap:6px; padding:4px 12px; backgroundColor:rgb(255, 255, 255); borderRadius:100px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.2) radius 100px
+                          <div> [1328,583 30x16] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                            <p> [1328,583 30x16] fontFamily:"Geist Mono"; fontSize:10px; lineHeight:16px; textAlign:left; textTransform:uppercase; color:rgb(26, 26, 26) TEXT="Audit"
+                      <div> [536,623 600x68] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                        <p> [536,623 600x68] fontFamily:"Inter Display"; fontSize:15px; fontWeight:300; lineHeight:22.5px; letterSpacing:0.3px; textAlign:left; color:rgb(255, 255, 255) TEXT="We perform a deep-layer analysis of your current technical stack and fragmented data silos to identify high-impact AI opportunities that align with your core business objectives and ROI targets."
+              <div> [450,730 950x81] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                <div> [450,730 950x81] position:relative
+                  <div name="Desktop 2"> [450,730 950x81] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:30px; padding:30px; backgroundColor:rgba(255, 255, 255, 0); borderRadius:20px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.1) radius 20px
+                    <div> [480,760 29x21] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                      <div> [480,760 29x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                        <p> [480,760 29x21] fontFamily:"Inter Display"; fontSize:14px; fontWeight:300; lineHeight:21px; letterSpacing:0.28px; textAlign:left; color:rgba(255, 255, 255, 0.4) TEXT="// 02"
+                    <div> [539,760 831x20] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; overflow:clip
+                      <div> [539,760 831x20] display:flex; position:relative; justifyContent:center; alignItems:flex-start; gap:10px
+                        <div> [539,760 831x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                          <p> [539,760 831x20] fontFamily:"Inter Display"; fontSize:18px; fontWeight:500; lineHeight:19.8px; letterSpacing:-0.72px; textAlign:left; color:rgb(255, 255, 255) TEXT="Custom Architecture Design"
+              <div> [450,821 950x81] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                <div> [450,821 950x81] position:relative
+                  <div name="Desktop 2"> [450,821 950x81] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:30px; padding:30px; backgroundColor:rgba(255, 255, 255, 0); borderRadius:20px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.1) radius 20px
+                    <div> [480,851 30x21] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                      <div> [480,851 30x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                        <p> [480,851 30x21] fontFamily:"Inter Display"; fontSize:14px; fontWeight:300; lineHeight:21px; letterSpacing:0.28px; textAlign:left; color:rgba(255, 255, 255, 0.4) TEXT="// 03"
+                    <div> [540,851 830x20] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; overflow:clip
+                      <div> [540,851 830x20] display:flex; position:relative; justifyContent:center; alignItems:flex-start; gap:10px
+                        <div> [540,851 830x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                          <p> [540,851 830x20] fontFamily:"Inter Display"; fontSize:18px; fontWeight:500; lineHeight:19.8px; letterSpacing:-0.72px; textAlign:left; color:rgb(255, 255, 255) TEXT="Rapid Prototype Development"
+              <div> [450,912 950x81] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                <div> [450,912 950x81] position:relative
+                  <div name="Desktop 2"> [450,912 950x81] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:30px; padding:30px; backgroundColor:rgba(255, 255, 255, 0); borderRadius:20px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.1) radius 20px
+                    <div> [480,942 30x21] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px
+                      <div> [480,942 30x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                        <p> [480,942 30x21] fontFamily:"Inter Display"; fontSize:14px; fontWeight:300; lineHeight:21px; letterSpacing:0.28px; textAlign:left; color:rgba(255, 255, 255, 0.4) TEXT="// 04"
+                    <div> [540,942 830x20] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; overflow:clip
+                      <div> [540,942 830x20] display:flex; position:relative; justifyContent:center; alignItems:flex-start; gap:10px
+                        <div> [540,942 830x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                          <p> [540,942 830x20] fontFamily:"Inter Display"; fontSize:18px; fontWeight:500; lineHeight:19.8px; letterSpacing:-0.72px; textAlign:left; color:rgb(255, 255, 255) TEXT="Enterprise Scale Deployment"
+        <div> [40,1043 1360x65] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+          <div> [40,1055 1118x41] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; overflow:clip
+            <div> [40,1055 600x41] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+              <p> [40,1055 600x41] fontFamily:"Geist Mono"; fontWeight:200; lineHeight:20.4px; textAlign:left; textTransform:uppercase; color:rgb(255, 255, 255) TEXT="WE DON'T JUST SHIP CODE; WE SHIP COMPETITIVE ADVANTAGES. EVERY STEP IS DESIGNED TO ENSURE YOUR AI INFRASTRUCTURE IS FUTURE-PROOF AND SCALABLE."
+          <div> [1168,1043 232x65] position:relative; zIndex:4
+            <a name="Secondary"> [1168,1043 232x65] display:flex; position:relative; justifyContent:center; alignItems:center; gap:16px; padding:3px 24px 3px 3px; color:rgb(0, 0, 238); backgroundColor:rgb(36, 36, 36); borderRadius:16px; overflow:clip; cursor:pointer href=./contact
+              <div> [1171,1046 65x59] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; backgroundColor:rgb(26, 26, 26); borderRadius:14px; overflow:clip
+                <div> [1189,1068 30x15] position:relative; zIndex:1; filter:contrast(2) invert(0.95)
+                  <div name="Animation 14"> [1189,1068 30x15] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+                    <div> [1189,1068 30x15] position:relative
+                      <div> [1189,1068 30x15] 
+                        <svg> [1189,1068 30x15] 
+                          SVG viewBox=null html=<svg style="width:100%;height:100%;overflow: visible;" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg108872879_9575"></use></svg>
+              <div> [1252,1046 124x59] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; borderRadius:14px; overflow:clip
+                <div> [1279,1064 70x24] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                  <p> [1279,1064 70x24] fontFamily:"Inter Display"; fontSize:16px; lineHeight:24px; color:rgb(255, 255, 255) TEXT="Build Now"
+      <div> [40,1358 1360x1137] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:50px; overflow:clip
+        <div> [40,1358 1360x603] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:50px; overflow:clip
+          <div> [40,1358 1200x400] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <h6> [40,1358 1200x400] fontFamily:"Inter Display"; fontSize:100px; fontWeight:500; lineHeight:100px; letterSpacing:-4px; textAlign:left; color:rgb(255, 255, 255) TEXT="We are a collective of engineers, designers, and researchers dedicated to the frontier of AI."
+          <div> [40,1808 1360x153] display:flex; position:relative; justifyContent:center; alignItems:center; gap:0px; overflow:clip
+            <div> [40,1884 680x1] position:relative; overflow:clip
+            <div> [720,1808 680x153] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:40px; overflow:clip
+              <div> [720,1808 380x48] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [720,1808 380x48] fontFamily:"Inter Display"; fontSize:16px; fontWeight:300; lineHeight:24px; letterSpacing:0.32px; textAlign:left; color:rgb(255, 255, 255) TEXT="Bridging the gap between academic research and commercial deployment with precision engineering."
+              <div> [720,1896 202x65] position:relative; zIndex:4
+                <a name="Secondary"> [720,1896 202x65] display:flex; position:relative; justifyContent:center; alignItems:center; gap:16px; padding:3px 24px 3px 3px; color:rgb(0, 0, 238); backgroundColor:rgb(36, 36, 36); borderRadius:16px; overflow:clip; cursor:pointer href=./about
+                  <div> [723,1899 65x59] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; backgroundColor:rgb(26, 26, 26); borderRadius:14px; overflow:clip
+                    <div> [741,1921 30x15] position:relative; zIndex:1; filter:contrast(2) invert(0.95)
+                      <div name="Animation 14"> [741,1921 30x15] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+                        <div> [741,1921 30x15] position:relative
+                          <div> [741,1921 30x15] 
+                            <svg> [741,1921 30x15] 
+                              SVG viewBox=null html=<svg style="width:100%;height:100%;overflow: visible;" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg108872879_9575"></use></svg>
+                  <div> [804,1899 94x59] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; borderRadius:14px; overflow:clip
+                    <div> [818,1917 67x24] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                      <p> [818,1917 67x24] fontFamily:"Inter Display"; fontSize:16px; lineHeight:24px; color:rgb(255, 255, 255) TEXT="Our Story"
+        <div> [40,2011 1360x484] display:flex; position:relative; justifyContent:center; alignItems:flex-start; gap:14px
+          <div> [40,2011 330x484] position:relative
+            <div name="Desktop"> [40,2011 330x484] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; borderRadius:0px 20px 20px; overflow:clip; cursor:default
+              <div> [40,2011 330x402] position:relative; borderRadius:0px 20px 20px; overflow:clip
+                <div> [40,2011 330x402] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:0px 20px 20px
+                  <img> [40,2011 330x402] borderRadius:0px 20px 20px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/OrsgMbvM0AZiEvhgHFZUJM2g.png?scale-down-to=1024&width=2084&height=2554 alt=""
+                <div> [314,2031 36x20] position:absolute; top:20px; left:273.5px; right:20px; bottom:361.672px; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgba(255, 255, 255, 0.2) radius 100px
+              <div> [40,2423 330x72] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; padding:10px 10px 20px; overflow:clip; zIndex:1
+                <div> [50,2433 3x42] position:relative; backgroundColor:rgba(255, 255, 255, 0.1); borderRadius:10px; overflow:clip
+                <div> [63,2433 297x42] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                  <div> [63,2433 297x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <h5> [63,2433 297x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgb(255, 255, 255) TEXT="SARAH JENKINS"
+                  <div> [63,2458 297x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <p> [63,2458 297x17] fontFamily:"Inter Display"; fontWeight:300; lineHeight:16.8px; letterSpacing:0.12px; textAlign:left; color:rgba(255, 255, 255, 0.5) TEXT="Head of Machine Learning"
+              <div> [-380,2011 300x484] display:flex; position:absolute; top:0px; left:-420px; right:449.5px; bottom:0px; flexDirection:column; justifyContent:space-between; alignItems:flex-start; padding:24px 24px 20px 40px; backgroundColor:rgb(255, 255, 255); borderRadius:0px 20px 20px; overflow:clip; zIndex:1
+                <div> [-340,2035 236x287] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:32px; zIndex:2
+                  <div> [-340,2035 236x28] display:flex; position:relative; justifyContent:space-between; alignItems:flex-start
+                    <div> [-340,2035 60x28] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:4px
+                      <a name="X"> [-340,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://x.com/sirdelani
+                        <div> [-333,2042 15x15] position:relative
+                          <svg> [-333,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"></path></g></svg>
+                      <a name="Git"> [-308,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://github.com
+                        <div> [-301,2042 15x15] position:relative
+                          <svg> [-301,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M216,104v8a56.06,56.06,0,0,1-48.44,55.47A39.8,39.8,0,0,1,176,192v40a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V216H72a40,40,0,0,1-40-40A24,24,0,0,0,8,152a8,8,0,0,1,0-16,40,40,0,0,1,40,40,24,24,0,0,0,24,24H96v-8a39.8,39.8,0,0,1,8.44-24.53A56.06,56.06,0,0,1,56,112v-8a58.14,58.14,0,0,1,7.69-28.32A59.78,59.78,0,0,1,69.07,28,8,8,0,0,1,76,24a59.75,59.75,0,0,1,48,24h24a59.75,59.75,0,0,1,48-24,8,8,0,0,1,6.93,4,59.74,59.74,0,0,1,5.37,47.68A58,58,0,0,1,216,104Z"></path></g></svg>
+                    <div> [-140,2035 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(0, 0, 0) radius 100px
+                  <div> [-340,2095 236x227] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; zIndex:2; whiteSpace:pre-wrap
+                    <p> [-340,2095 236x227] fontFamily:"Inter Display"; fontSize:18px; lineHeight:25.2px; textAlign:left; color:rgb(26, 26, 26) TEXT="Our focus remains on the ethical deployment of large-scale models. We don't just optimize for performance; we ensure every neural architecture we build is interpretable, secure, and ready for enterprise-grade scrutiny."
+                <div> [-340,2433 236x41] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; overflow:clip; zIndex:2
+                  <div> [-340,2433 3x41] position:relative; backgroundColor:rgba(0, 0, 0, 0.1); borderRadius:10px; overflow:clip
+                  <div> [-327,2433 223x41] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                    <div> [-327,2433 223x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [-327,2433 223x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgba(0, 0, 0, 0.81) TEXT="SARAH JENKINS"
+                    <div> [-327,2458 223x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [-327,2458 223x17] fontFamily:"IBM Plex Mono"; fontSize:11px; lineHeight:16.5px; letterSpacing:-0.33px; textAlign:left; color:rgba(0, 0, 0, 0.7) TEXT="Head of Machine Learning"
+                <div> [-380,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.3; overflow:clip; zIndex:1; filter:grayscale(1); maskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%)
+                  <div> [-380,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                    <img> [-380,2011 300x484] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/ssKw1Uch7OIVz4Suw9U15iwfys.jpg?width=4000&height=3000 alt="purple and green light gradient"
+          <div> [384,2011 330x484] position:relative
+            <div name="Desktop"> [384,2011 330x484] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; borderRadius:0px 20px 20px; overflow:clip; cursor:default
+              <div> [384,2011 330x402] position:relative; borderRadius:0px 20px 20px; overflow:clip
+                <div> [384,2011 330x402] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:0px 20px 20px
+                  <img> [384,2011 330x402] borderRadius:0px 20px 20px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/BbqpJjnldDFDulJFBarqs7wJpFk.png?scale-down-to=1024&width=2084&height=2554 alt=""
+                <div> [657,2031 36x20] position:absolute; top:20px; left:273.5px; right:20px; bottom:361.672px; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgba(255, 255, 255, 0.2) radius 100px
+              <div> [384,2423 330x72] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; padding:10px 10px 20px; overflow:clip; zIndex:1
+                <div> [394,2433 3x42] position:relative; backgroundColor:rgba(255, 255, 255, 0.1); borderRadius:10px; overflow:clip
+                <div> [407,2433 297x42] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                  <div> [407,2433 297x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <h5> [407,2433 297x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgb(255, 255, 255) TEXT="MARCUS CHENG"
+                  <div> [407,2458 297x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <p> [407,2458 297x17] fontFamily:"Inter Display"; fontWeight:300; lineHeight:16.8px; letterSpacing:0.12px; textAlign:left; color:rgba(255, 255, 255, 0.5) TEXT="Principal Design Director"
+              <div> [-36,2011 300x484] display:flex; position:absolute; top:0px; left:-420px; right:449.5px; bottom:0px; flexDirection:column; justifyContent:space-between; alignItems:flex-start; padding:24px 24px 20px 40px; backgroundColor:rgb(255, 255, 255); borderRadius:0px 20px 20px; overflow:clip; zIndex:1
+                <div> [4,2035 236x262] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:32px; zIndex:2
+                  <div> [4,2035 236x28] display:flex; position:relative; justifyContent:space-between; alignItems:flex-start
+                    <div> [4,2035 60x28] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:4px
+                      <a name="X"> [4,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://x.com/sirdelani
+                        <div> [10,2042 15x15] position:relative
+                          <svg> [10,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"></path></g></svg>
+                      <a name="Git"> [36,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://github.com
+                        <div> [42,2042 15x15] position:relative
+                          <svg> [42,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M216,104v8a56.06,56.06,0,0,1-48.44,55.47A39.8,39.8,0,0,1,176,192v40a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V216H72a40,40,0,0,1-40-40A24,24,0,0,0,8,152a8,8,0,0,1,0-16,40,40,0,0,1,40,40,24,24,0,0,0,24,24H96v-8a39.8,39.8,0,0,1,8.44-24.53A56.06,56.06,0,0,1,56,112v-8a58.14,58.14,0,0,1,7.69-28.32A59.78,59.78,0,0,1,69.07,28,8,8,0,0,1,76,24a59.75,59.75,0,0,1,48,24h24a59.75,59.75,0,0,1,48-24,8,8,0,0,1,6.93,4,59.74,59.74,0,0,1,5.37,47.68A58,58,0,0,1,216,104Z"></path></g></svg>
+                    <div> [204,2035 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(0, 0, 0) radius 100px
+                  <div> [4,2095 236x202] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; zIndex:2; whiteSpace:pre-wrap
+                    <p> [4,2095 236x202] fontFamily:"Inter Display"; fontSize:18px; lineHeight:25.2px; textAlign:left; color:rgb(26, 26, 26) TEXT="AI shouldn't feel like a black box. My goal is to design intuitive interfaces that make complex data actionable, ensuring that the human-machine collaboration is seamless, visually stunning, and highly efficient for users."
+                <div> [4,2433 236x41] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; overflow:clip; zIndex:2
+                  <div> [4,2433 3x41] position:relative; backgroundColor:rgba(0, 0, 0, 0.1); borderRadius:10px; overflow:clip
+                  <div> [17,2433 223x41] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                    <div> [17,2433 223x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [17,2433 223x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgba(0, 0, 0, 0.81) TEXT="MARCUS CHENG"
+                    <div> [17,2458 223x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [17,2458 223x17] fontFamily:"IBM Plex Mono"; fontSize:11px; lineHeight:16.5px; letterSpacing:-0.33px; textAlign:left; color:rgba(0, 0, 0, 0.7) TEXT="Principal Design Director"
+                <div> [-36,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.3; overflow:clip; zIndex:1; filter:grayscale(1); maskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%)
+                  <div> [-36,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                    <img> [-36,2011 300x484] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/ssKw1Uch7OIVz4Suw9U15iwfys.jpg?width=4000&height=3000 alt="purple and green light gradient"
+          <div> [727,2011 330x484] position:relative
+            <div name="Desktop"> [727,2011 330x484] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; borderRadius:0px 20px 20px; overflow:clip; cursor:default
+              <div> [727,2011 330x402] position:relative; borderRadius:0px 20px 20px; overflow:clip
+                <div> [727,2011 330x402] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:0px 20px 20px
+                  <img> [727,2011 330x402] borderRadius:0px 20px 20px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/8k7FcfFSjgocOslFu94p0ih1UY.png?scale-down-to=1024&width=2084&height=2554 alt=""
+                <div> [1001,2031 36x20] position:absolute; top:20px; left:273.5px; right:20px; bottom:361.672px; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgba(255, 255, 255, 0.2) radius 100px
+              <div> [727,2423 330x72] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; padding:10px 10px 20px; overflow:clip; zIndex:1
+                <div> [737,2433 3x42] position:relative; backgroundColor:rgba(255, 255, 255, 0.1); borderRadius:10px; overflow:clip
+                <div> [750,2433 297x42] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                  <div> [750,2433 297x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <h5> [750,2433 297x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgb(255, 255, 255) TEXT="ELENA VANCE"
+                  <div> [750,2458 297x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <p> [750,2458 297x17] fontFamily:"Inter Display"; fontWeight:300; lineHeight:16.8px; letterSpacing:0.12px; textAlign:left; color:rgba(255, 255, 255, 0.5) TEXT="Lead Cognitive Scientist"
+              <div> [307,2011 300x484] display:flex; position:absolute; top:0px; left:-420px; right:449.5px; bottom:0px; flexDirection:column; justifyContent:space-between; alignItems:flex-start; padding:24px 24px 20px 40px; backgroundColor:rgb(255, 255, 255); borderRadius:0px 20px 20px; overflow:clip; zIndex:1
+                <div> [347,2035 236x287] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:32px; zIndex:2
+                  <div> [347,2035 236x28] display:flex; position:relative; justifyContent:space-between; alignItems:flex-start
+                    <div> [347,2035 60x28] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:4px
+                      <a name="X"> [347,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://x.com/sirdelani
+                        <div> [354,2042 15x15] position:relative
+                          <svg> [354,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"></path></g></svg>
+                      <a name="Git"> [379,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://github.com
+                        <div> [386,2042 15x15] position:relative
+                          <svg> [386,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M216,104v8a56.06,56.06,0,0,1-48.44,55.47A39.8,39.8,0,0,1,176,192v40a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V216H72a40,40,0,0,1-40-40A24,24,0,0,0,8,152a8,8,0,0,1,0-16,40,40,0,0,1,40,40,24,24,0,0,0,24,24H96v-8a39.8,39.8,0,0,1,8.44-24.53A56.06,56.06,0,0,1,56,112v-8a58.14,58.14,0,0,1,7.69-28.32A59.78,59.78,0,0,1,69.07,28,8,8,0,0,1,76,24a59.75,59.75,0,0,1,48,24h24a59.75,59.75,0,0,1,48-24,8,8,0,0,1,6.93,4,59.74,59.74,0,0,1,5.37,47.68A58,58,0,0,1,216,104Z"></path></g></svg>
+                    <div> [547,2035 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(0, 0, 0) radius 100px
+                  <div> [347,2095 236x227] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; zIndex:2; whiteSpace:pre-wrap
+                    <p> [347,2095 236x227] fontFamily:"Inter Display"; fontSize:18px; lineHeight:25.2px; textAlign:left; color:rgb(26, 26, 26) TEXT="We study the cognitive friction between AI output and human decision-making. By applying behavioral science to our agentic workflows, we create tools that naturally align with how your best employees actually think and work."
+                <div> [347,2433 236x41] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; overflow:clip; zIndex:2
+                  <div> [347,2433 3x41] position:relative; backgroundColor:rgba(0, 0, 0, 0.1); borderRadius:10px; overflow:clip
+                  <div> [360,2433 223x41] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                    <div> [360,2433 223x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [360,2433 223x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgba(0, 0, 0, 0.81) TEXT="ELENA VANCE"
+                    <div> [360,2458 223x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [360,2458 223x17] fontFamily:"IBM Plex Mono"; fontSize:11px; lineHeight:16.5px; letterSpacing:-0.33px; textAlign:left; color:rgba(0, 0, 0, 0.7) TEXT="Lead Cognitive Scientist"
+                <div> [307,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.3; overflow:clip; zIndex:1; filter:grayscale(1); maskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%)
+                  <div> [307,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                    <img> [307,2011 300x484] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/ssKw1Uch7OIVz4Suw9U15iwfys.jpg?width=4000&height=3000 alt="purple and green light gradient"
+          <div> [1071,2011 330x484] position:relative
+            <div name="Desktop"> [1071,2011 330x484] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; borderRadius:0px 20px 20px; overflow:clip; cursor:default
+              <div> [1071,2011 330x402] position:relative; borderRadius:0px 20px 20px; overflow:clip
+                <div> [1071,2011 330x402] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:0px 20px 20px
+                  <img> [1071,2011 330x402] borderRadius:0px 20px 20px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/FnCj7jgTvcpKSt0CUVIqbyiS9o.png?scale-down-to=1024&width=2084&height=2554 alt=""
+                <div> [1344,2031 36x20] position:absolute; top:20px; left:273.5px; right:20px; bottom:361.672px; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgba(255, 255, 255, 0.2) radius 100px
+              <div> [1071,2423 330x72] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; padding:10px 10px 20px; overflow:clip; zIndex:1
+                <div> [1081,2433 3x42] position:relative; backgroundColor:rgba(255, 255, 255, 0.1); borderRadius:10px; overflow:clip
+                <div> [1094,2433 297x42] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                  <div> [1094,2433 297x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <h5> [1094,2433 297x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgb(255, 255, 255) TEXT="DAVID ROSSI"
+                  <div> [1094,2458 297x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                    <p> [1094,2458 297x17] fontFamily:"Inter Display"; fontWeight:300; lineHeight:16.8px; letterSpacing:0.12px; textAlign:left; color:rgba(255, 255, 255, 0.5) TEXT="Infrastructure Architect"
+              <div> [651,2011 300x484] display:flex; position:absolute; top:0px; left:-420px; right:449.5px; bottom:0px; flexDirection:column; justifyContent:space-between; alignItems:flex-start; padding:24px 24px 20px 40px; backgroundColor:rgb(255, 255, 255); borderRadius:0px 20px 20px; overflow:clip; zIndex:1
+                <div> [691,2035 236x287] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:32px; zIndex:2
+                  <div> [691,2035 236x28] display:flex; position:relative; justifyContent:space-between; alignItems:flex-start
+                    <div> [691,2035 60x28] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:4px
+                      <a name="X"> [691,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://x.com/sirdelani
+                        <div> [697,2042 15x15] position:relative
+                          <svg> [697,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"></path></g></svg>
+                      <a name="Git"> [723,2035 28x28] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; cursor:pointer href=https://github.com
+                        <div> [729,2042 15x15] position:relative
+                          <svg> [729,2042 15x15] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                            SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="rgb(255, 255, 255)" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); color: rgb(255, 255, 255); flex-shrink: 0;"><g color="rgb(255, 255, 255)" weight="fill"><path d="M216,104v8a56.06,56.06,0,0,1-48.44,55.47A39.8,39.8,0,0,1,176,192v40a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V216H72a40,40,0,0,1-40-40A24,24,0,0,0,8,152a8,8,0,0,1,0-16,40,40,0,0,1,40,40,24,24,0,0,0,24,24H96v-8a39.8,39.8,0,0,1,8.44-24.53A56.06,56.06,0,0,1,56,112v-8a58.14,58.14,0,0,1,7.69-28.32A59.78,59.78,0,0,1,69.07,28,8,8,0,0,1,76,24a59.75,59.75,0,0,1,48,24h24a59.75,59.75,0,0,1,48-24,8,8,0,0,1,6.93,4,59.74,59.74,0,0,1,5.37,47.68A58,58,0,0,1,216,104Z"></path></g></svg>
+                    <div> [891,2035 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(0, 0, 0) radius 100px
+                  <div> [691,2095 236x227] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; zIndex:2; whiteSpace:pre-wrap
+                    <p> [691,2095 236x227] fontFamily:"Inter Display"; fontSize:18px; lineHeight:25.2px; textAlign:left; color:rgb(26, 26, 26) TEXT="Latency is the enemy of adoption. I architect the backbone of our solutions to ensure that even the most complex RAG systems deliver sub-second responses, maintaining 99.9% uptime across distributed global compute clusters."
+                <div> [691,2433 236x41] display:flex; position:relative; justifyContent:flex-start; alignItems:flex-start; gap:10px; overflow:clip; zIndex:2
+                  <div> [691,2433 3x41] position:relative; backgroundColor:rgba(0, 0, 0, 0.1); borderRadius:10px; overflow:clip
+                  <div> [704,2433 223x41] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:4px
+                    <div> [704,2433 223x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [704,2433 223x21] fontFamily:"IBM Plex Mono"; fontSize:13px; fontWeight:500; lineHeight:20.8px; textAlign:left; textTransform:uppercase; color:rgba(0, 0, 0, 0.81) TEXT="DAVID ROSSI"
+                    <div> [704,2458 223x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                      <p> [704,2458 223x17] fontFamily:"IBM Plex Mono"; fontSize:11px; lineHeight:16.5px; letterSpacing:-0.33px; textAlign:left; color:rgba(0, 0, 0, 0.7) TEXT="Infrastructure Architect"
+                <div> [651,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.3; overflow:clip; zIndex:1; filter:grayscale(1); maskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(0deg, rgb(0, 0, 0) 45.7225%, rgba(0, 0, 0, 0) 100%)
+                  <div> [651,2011 300x484] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                    <img> [651,2011 300x484] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/ssKw1Uch7OIVz4Suw9U15iwfys.jpg?width=4000&height=3000 alt="purple and green light gradient"
+  <div> [0,2665 1440x30] position:absolute; top:2664.77px; left:0px; right:0px; bottom:0px; backgroundColor:rgb(255, 255, 255); overflow:clip; zIndex:0

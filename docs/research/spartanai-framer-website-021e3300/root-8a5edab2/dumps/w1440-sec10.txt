@@ -1,0 +1,21 @@
+FIXED ELEMENT; parent chain: DIV.ssr-variant hidden-z9ppoh pos=static z=auto < DIV.framer-Z8hVM framer-u3qn7x pos=relative z=auto
+<div> [30,0 523x44] position:fixed; top:30px; left:30px; right:886.781px; bottom:826px; fontFamily:sans-serif; fontSize:12px; fontWeight:400; lineHeight:normal; letterSpacing:normal; textAlign:start; textTransform:none; color:rgb(0, 0, 0); zIndex:10; whiteSpace:normal; cursor:auto
+  <div name="Desktop"> [30,0 523x44] display:flex; position:relative; justifyContent:center; alignItems:center; gap:24px; padding:5px 26px 5px 5px; backgroundColor:rgb(255, 255, 255); borderRadius:100px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(26, 26, 26, 0.1) radius 100px
+    <div> [35,5 60x34] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+      <a> [35,5 60x34] position:relative; color:rgb(0, 0, 238); borderRadius:100px; overflow:clip; cursor:pointer; BORDER(::after):6px 6px 6px 6px solid rgb(26, 26, 26) radius 100px href=./
+    <div> [119,5 408x34] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:0px; overflow:clip
+      <a> [119,5 72x34] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:7px 16px; color:rgb(0, 0, 238); opacity:0.65; cursor:pointer href=./project
+        <div> [135,12 40x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+          <p> [135,12 40x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="Works"
+      <a> [191,5 87x34] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:7px 16px; color:rgb(0, 0, 238); opacity:0.65; cursor:pointer href=./#capabilities
+        <div> [207,12 55x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+          <p> [207,12 55x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="Services"
+      <a> [277,5 81x34] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:7px 16px; color:rgb(0, 0, 238); opacity:0.65; cursor:pointer href=./articles
+        <div> [293,12 49x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+          <p> [293,12 49x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="Insights"
+      <a> [358,5 76x34] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:7px 16px; color:rgb(0, 0, 238); opacity:0.65; cursor:pointer href=./#pricing
+        <div> [374,12 44x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+          <p> [374,12 44x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="Pricing"
+      <a> [434,5 93x34] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:7px 16px; color:rgb(0, 0, 238); opacity:0.65; cursor:pointer href=./about
+        <div> [450,12 61x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+          <p> [450,12 61x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="Company"

@@ -1,0 +1,166 @@
+A name=Primary href=./contact y=444 x=52 200x65 "Start Build"
+    A "Start Build Start Bu": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "Start Build": width: 65px -> 194px
+    DIV "Start Build": width: 92px -> 0px
+A name=Product href=./digital-brain y=204 x=1068 320x303 "Digital Brain // Model v4.0.2"
+    P "Digital Brain": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "// Model v4.0.2": color: rgba(26, 26, 26, 0.7) -> rgba(255, 255, 255, 0.5)
+    DIV "": left: 258px -> 268px
+    svg "": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    g "": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    path "": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": opacity: 1 -> 0
+A name=Desktop href=./project/cigna-smart-health-systems y=2397 x=40 440x482 "HEALTHCARE AI $45M+ Funds raised 700% So"
+    DIV "HEALTHCARE AI $45M+ ": bg: rgba(26, 26, 26, 0.03) -> rgba(26, 26, 26, 0.8)
+    DIV "HEALTHCARE AI": bg: rgb(255, 255, 255) -> rgba(255, 255, 255, 0)
+    DIV[Frame 2121451347] "": transform: matrix(1, 0, 0, 1, -94.5, -28.5156) -> matrix(1, 0, 0, 1, -99.5, -30.0234); width: 189px -> 199px; height: 57.0312px -> 60.0469px; filter: invert(0.73) -> invert(0)
+    DIV "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    IMG "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    DIV "": opacity: 0 -> 0.54; width: 440px -> 480px; height: 330px -> 363px; left: -17px -> -37px
+    DIV "": width: 440px -> 480px; height: 330px -> 363px
+    IMG "": width: 440px -> 480px; height: 330px -> 363px
+A name=Desktop href=./project/aetna-health-data-ecosystem y=2397 x=500 440x482 "HEALTHCARE $62M+ Funds raised 450% Socia"
+    DIV "HEALTHCARE $62M+ Fun": bg: rgba(26, 26, 26, 0.03) -> rgba(26, 26, 26, 0.8)
+    DIV "HEALTHCARE": bg: rgb(255, 255, 255) -> rgba(255, 255, 255, 0)
+    DIV[Frame 2121451347] "": transform: matrix(1, 0, 0, 1, -94.5, -28.5156) -> matrix(1, 0, 0, 1, -99.5, -30.0234); width: 189px -> 199px; height: 57.0312px -> 60.0469px; filter: invert(0.73) -> invert(0)
+    DIV "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    IMG "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    DIV "": opacity: 0 -> 0.54; width: 440px -> 480px; height: 330px -> 363px; left: -17px -> -37px
+    DIV "": width: 440px -> 480px; height: 330px -> 363px
+    IMG "": width: 440px -> 480px; height: 330px -> 363px
+A name=Desktop href=./project/anthem-neural-care-network y=2397 x=960 440x482 "HEALTHCARE $82M+ Funds raised 340% Socia"
+    DIV "HEALTHCARE $82M+ Fun": bg: rgba(26, 26, 26, 0.03) -> rgba(26, 26, 26, 0.8)
+    DIV "HEALTHCARE": bg: rgb(255, 255, 255) -> rgba(255, 255, 255, 0)
+    DIV[Frame 2121451347] "": transform: matrix(1, 0, 0, 1, -94.5, -28.5156) -> matrix(1, 0, 0, 1, -99.5, -30.0234); width: 189px -> 199px; height: 57.0312px -> 60.0469px; filter: invert(0.73) -> invert(0)
+    DIV "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    IMG "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    DIV "": opacity: 0 -> 0.54; width: 440px -> 480px; height: 330px -> 363px; left: -17px -> -37px
+    DIV "": width: 440px -> 480px; height: 330px -> 363px
+    IMG "": width: 440px -> 480px; height: 330px -> 363px
+A name=Desktop href=./project/cvs-smart-supply-chain-hub y=2879 x=40 440x482 "RETAIL & LOGISTICS $59M+ Funds raised 21"
+    DIV "RETAIL & LOGISTICS $": bg: rgba(26, 26, 26, 0.03) -> rgba(26, 26, 26, 0.8)
+    DIV "RETAIL & LOGISTICS": bg: rgb(255, 255, 255) -> rgba(255, 255, 255, 0)
+    DIV[Frame 2121451347] "": transform: matrix(1, 0, 0, 1, -94.5, -28.5156) -> matrix(1, 0, 0, 1, -99.5, -30.0234); width: 189px -> 199px; height: 57.0312px -> 60.0469px; filter: invert(0.73) -> invert(0)
+    DIV "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    IMG "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    DIV "": opacity: 0 -> 0.54; width: 440px -> 480px; height: 330px -> 363px; left: -17px -> -37px
+    DIV "": width: 440px -> 480px; height: 330px -> 363px
+    IMG "": width: 440px -> 480px; height: 330px -> 363px
+A name=Desktop href=./project/united-ai-security-protocol y=2879 x=500 440x482 "CYBERSECURITY $94M+ Funds raised 120% So"
+    DIV "CYBERSECURITY $94M+ ": bg: rgba(26, 26, 26, 0.03) -> rgba(26, 26, 26, 0.8)
+    DIV "CYBERSECURITY": bg: rgb(255, 255, 255) -> rgba(255, 255, 255, 0)
+    DIV[Frame 2121451347] "": transform: matrix(1, 0, 0, 1, -94.5, -28.5156) -> matrix(1, 0, 0, 1, -99.5, -30.0234); width: 189px -> 199px; height: 57.0312px -> 60.0469px; filter: invert(0.73) -> invert(0)
+    DIV "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    IMG "": width: 189px -> 199px; height: 57.0312px -> 60.0469px
+    DIV "": opacity: 0 -> 0.54; width: 440px -> 480px; height: 330px -> 363px; left: -17px -> -37px
+    DIV "": width: 440px -> 480px; height: 330px -> 363px
+    IMG "": width: 440px -> 480px; height: 330px -> 363px
+A name=Secondary href=./contact y=4356 x=40 212x65 "Start Build"
+    A "Start Build Start Bu": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "Start Build": width: 65px -> 206px
+    DIV "Start Build": width: 104px -> 0px
+A name=Secondary href=./digital-brain y=5553 x=1122 258x65 "Digital Brain v4.0.2"
+    A "Digital Brain v4.0.2": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "Digital Brain v4.0.2": width: 65px -> 252px
+    DIV "Digital Brain v4.0.2": width: 150px -> 0px
+DIV name= href= y=7611 x=662 116x116 ""
+    DIV "": transform: none -> matrix(1.04896, 0, 0, 1.04896, 0, 0); opacity: 1 -> 0; width: 115px -> 1px; height: 115px -> 1px; left: 0px -> 57px; top: 0px -> 57px
+    DIV "": transform: matrix(1, 0, 0, 1, -19, -16) -> matrix(0.999732, 0, 0, 0.999732, -50.5, -42.5); width: 38px -> 101px; height: 32px -> 85px
+    DIV "": width: 38px -> 101px; height: 32px -> 85px
+    DIV "": width: 38px -> 101px; height: 32px -> 85px
+A name=Secondary href=./contact y=9140 x=1168 232x65 "Build Now"
+    A "Build Now Build Now": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "Build Now": width: 65px -> 226px
+    DIV "Build Now": width: 124px -> 0px
+A name=Secondary href=./about y=9993 x=720 202x65 "Our Story"
+    A "Our Story Our Story": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "Our Story": width: 65px -> 196px
+    DIV "Our Story": width: 94px -> 0px
+A name=Secondary small href=https://contra.com/sirdelani/work?r=sirdelani y=11644 x=65 137x42 "Get started"
+    A "Get started Get star": gap: 6px -> 0px; padding: 3px 10px 3px 3px -> 3px
+    DIV "Get started": width: 40px -> 131px
+    DIV "Get started": width: 78px -> 0px
+A name=Secondary small href=https://contra.com/sirdelani/work?r=sirdelani y=11644 x=405 137x42 "Get started"
+    A "Get started Get star": gap: 6px -> 0px; padding: 3px 10px 3px 3px -> 3px
+    DIV "Get started": width: 40px -> 131px
+    DIV "Get started": width: 78px -> 0px
+A name=Primary small href=https://contra.com/sirdelani/work?r=sirdelani y=11644 x=745 137x42 "Get started"
+    A "Get started Get star": gap: 6px -> 0px; padding: 3px 10px 3px 3px -> 3px
+    DIV "Get started": width: 40px -> 131px; gap: 10px -> 13px
+    DIV "Get started": width: 78px -> 0px
+A name=Secondary small href=https://contra.com/sirdelani/work?r=sirdelani y=11644 x=1084 137x42 "Get started"
+    A "Get started Get star": gap: 6px -> 0px; padding: 3px 10px 3px 3px -> 3px
+    DIV "Get started": width: 40px -> 131px
+    DIV "Get started": width: 78px -> 0px
+A name=Primary href=./contact y=12810 x=52 252x65 "Contact Support"
+    A "Contact Support Cont": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "Contact Support": transform: matrix(0.999601, 0, 0, 1, -0.0129646, 0) -> none; width: 65px -> 246px; radius: 21.5471% / 23.7288% -> 14px
+    DIV "": transform: matrix(1.0004, 0, 0, 1, 0, 0) -> none
+    DIV "Contact Support": transform: matrix(1.00639, 0, 0, 1, -0.594488, 0) -> none; width: 144px -> 0px; radius: 9.66047% / 23.7288% -> 14px
+    DIV "Contact Support": transform: matrix(0.993648, 0, 0, 1, 0, 0) -> none
+DIV name=Close href= y=12437 x=720 668x68 "What is the typical deployment timeline?"
+    DIV "What is the typical ": transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0); shadow: rgba(0, 0, 0, 0) 0px 8px 13px 3px -> rgba(0, 0, 0, 0.25) 0px 16px 13px -5px
+DIV name=Close href= y=12511 x=720 668x68 "Can we integrate with our existing CRM?"
+    DIV "Can we integrate wit": transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0); shadow: rgba(0, 0, 0, 0) 0px 8px 13px 3px -> rgba(0, 0, 0, 0.25) 0px 16px 13px -5px
+DIV name=Close href= y=12585 x=720 668x68 "Do you provide model fine-tuning?"
+    DIV "Do you provide model": transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0); shadow: rgba(0, 0, 0, 0) 0px 8px 13px 3px -> rgba(0, 0, 0, 0.25) 0px 16px 13px -5px
+DIV name=Close href= y=12659 x=720 668x68 "How do you calculate ROI for automation?"
+    DIV "How do you calculate": transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0); shadow: rgba(0, 0, 0, 0) 0px 8px 13px 3px -> rgba(0, 0, 0, 0.25) 0px 16px 13px -5px
+DIV name=Close href= y=12733 x=720 668x68 "Do we own the custom code you build?"
+    DIV "Do we own the custom": transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0); shadow: rgba(0, 0, 0, 0) 0px 8px 13px 3px -> rgba(0, 0, 0, 0.25) 0px 16px 13px -5px
+DIV name=Close href= y=12807 x=720 668x68 "What models do you specialize in?"
+    DIV "What models do you s": transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0); shadow: rgba(0, 0, 0, 0) 0px 8px 13px 3px -> rgba(0, 0, 0, 0.25) 0px 16px 13px -5px
+A name=Primary href=./articles y=13451 x=720 202x65 "All articles"
+    A "All articles All art": gap: 16px -> 0px; padding: 3px 24px 3px 3px -> 3px
+    DIV "All articles": width: 65px -> 196px
+    DIV "All articles": width: 94px -> 0px
+A name=Desktop 1 href=./articles/the-sovereign-cloud-why-on-premise-ai-is-the-future-of-data-privacy y=13566 x=52 432x650 "TRANSFORMATION The Sovereign Cloud: Why "
+    DIV "TRANSFORMATION The S": bg: rgb(214, 214, 214) -> rgb(26, 26, 26)
+    P "TRANSFORMATION": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    H4 "The Sovereign Cloud:": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Explore how federate": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Written by": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Frank Joel": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": bg: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": transform: matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0) -> none
+    svg "": color: rgb(255, 255, 255) -> rgb(26, 26, 26)
+    g "": color: rgb(255, 255, 255) -> rgb(26, 26, 26)
+    ...(11 changed)
+A name=Desktop 2 href=./articles/the-architecture-of-autonomy-scaling-ai-within-legacy-frameworks y=13566 x=504 432x650 "ARCHITECTURE The Architecture of Autonom"
+    DIV "ARCHITECTURE The Arc": bg: rgb(214, 214, 214) -> rgb(26, 26, 26)
+    P "ARCHITECTURE": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    H4 "The Architecture of ": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "A comprehensive guid": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Written by": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Damilola Manuel": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": bg: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": transform: matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0) -> none
+    svg "": color: rgb(255, 255, 255) -> rgb(26, 26, 26)
+    g "": color: rgb(255, 255, 255) -> rgb(26, 26, 26)
+    ...(11 changed)
+A name=Desktop 1 href=./articles/human-centric-automation-designing-ai-that-empowers-your-workforce y=13566 x=956 432x650 "PRIVACY Human-Centric Automation: Design"
+    DIV "PRIVACY Human-Centri": bg: rgb(214, 214, 214) -> rgb(26, 26, 26)
+    P "PRIVACY": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    H4 "Human-Centric Automa": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Why the most success": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Written by": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    P "Deborah Reachie": color: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": bg: rgb(26, 26, 26) -> rgb(255, 255, 255)
+    DIV "": transform: matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0) -> none
+    svg "": color: rgb(255, 255, 255) -> rgb(26, 26, 26)
+    g "": color: rgb(255, 255, 255) -> rgb(26, 26, 26)
+    ...(11 changed)
+A name= href=./project y=13476 x=119 72x34 "Works"
+    A "Works": transform: none -> matrix(1.1, 0, 0, 1.1, 0, 0); opacity: 0.65 -> 1
+A name= href=./#capabilities y=13476 x=191 87x34 "Services"
+    A "Services": transform: none -> matrix(1.1, 0, 0, 1.1, 0, 0); opacity: 0.65 -> 1
+A name= href=./articles y=13476 x=277 81x34 "Insights"
+    A "Insights": transform: none -> matrix(1.1, 0, 0, 1.1, 0, 0); opacity: 0.65 -> 1
+A name= href=./#pricing y=13476 x=358 76x34 "Pricing"
+    A "Pricing": transform: none -> matrix(1.1, 0, 0, 1.1, 0, 0); opacity: 0.65 -> 1
+A name= href=./about y=13476 x=434 93x34 "Company"
+    A "Company": transform: none -> matrix(1.1, 0, 0, 1.1, 0, 0); opacity: 0.65 -> 1
+A name=Primary small href=./contact y=13471 x=1270 140x42 "Hire Team"
+    A "Hire Team Hire Team": gap: 6px -> 0px; padding: 3px 10px 3px 3px -> 3px
+    DIV "Hire Team": width: 40px -> 134px; gap: 10px -> 13px
+    DIV "Hire Team": width: 81px -> 0px

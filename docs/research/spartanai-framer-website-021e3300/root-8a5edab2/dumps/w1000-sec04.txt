@@ -1,0 +1,32 @@
+<section> [0,0 1000x855] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; fontFamily:sans-serif; fontSize:12px; fontWeight:400; lineHeight:normal; letterSpacing:normal; textAlign:start; textTransform:none; color:rgb(0, 0, 0); whiteSpace:normal; cursor:auto
+  <div> [0,0 1000x855] position:relative; zIndex:4
+    <div name="Desktop default"> [0,0 1000x855] display:flex; position:relative; justifyContent:center; alignItems:center; gap:0px; backgroundColor:rgb(26, 26, 26); overflow:clip
+      <div> [0,0 1000x855] display:flex; position:absolute; top:0px; left:0px; right:0px; bottom:0px; flexDirection:column; justifyContent:space-between; alignItems:center; padding:100px 40px; overflow:clip; zIndex:8
+        <div> [40,100 920x72] display:flex; position:relative; justifyContent:space-between; alignItems:flex-start; overflow:clip
+          <div> [40,100 380x72] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <p> [40,100 380x72] fontFamily:"Inter Display"; fontSize:16px; fontWeight:300; lineHeight:24px; letterSpacing:0.32px; textAlign:left; color:rgb(255, 255, 255) TEXT="Exploring the intersection of human creativity and machine logic to redefine what's possible in the digital age."
+          <div> [830,100 130x36] display:flex; position:relative; justifyContent:center; alignItems:center; gap:6px; padding:6px 14px 6px 6px; backgroundColor:rgba(255, 255, 255, 0.06); borderRadius:100px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(255, 255, 255, 0.2) radius 100px
+            <div> [836,106 24x24] position:relative
+              <svg> [836,106 24x24] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); color: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); flex-shrink: 0;"><g color="var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255))" weight="regular"><path d="M128,40a96,96,0,1,0,96,96A96.11,96.11,0,0,0,128,40Zm0,176a80,80,0,1,1,80-80A80.09,80.09,0,0,1,128,216ZM173.66,90.34a8,8,0,0,1,0,11.32l-40,40a8,8,0,0,1-11.32-11.32l40-40A8,8,0,0,1,173.66,90.34ZM96,16a8,8,0,0,1,8-8h48a8,8,0,0,1,0,16H104A8,8,0,0,1,96,16Z"></path></g></svg>
+            <div> [866,108 80x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+              <p> [866,108 80x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(255, 255, 255) TEXT="2mins watch"
+        <div> [40,678 920x77] display:flex; position:relative; justifyContent:space-between; alignItems:flex-end; overflow:clip
+          <div> [40,708 400x47] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <h2> [40,708 400x47] fontFamily:"Inter Display"; fontSize:43px; fontWeight:500; lineHeight:47.3px; letterSpacing:-1.72px; textAlign:left; color:rgb(255, 255, 255) TEXT="Intelligence by Design."
+          <div> [824,678 136x77] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):16px 16px 16px 16px solid rgb(255, 255, 255) radius 100px
+      <div> [0,0 1000x20] position:absolute; top:0px; left:0px; right:0px; bottom:835px; backgroundColor:rgb(255, 255, 255); borderRadius:0px 0px 20px 20px; overflow:clip; zIndex:9
+      <div> [0,825 1000x30] position:absolute; top:825px; left:0px; right:0px; bottom:0px; backgroundColor:rgb(26, 26, 26); overflow:clip; zIndex:5
+      <div> [442,370 116x116] position:absolute; top:369.5px; left:442px; right:442px; bottom:369.5px; zIndex:10; cursor:pointer
+        <div> [443,370 115x115] position:absolute; top:58px; left:58px; right:-57px; bottom:-57px; zIndex:10; transform:matrix(1, 0, 0, 1, -57.5, -57.5)
+          <div name="Play"> [443,370 115x115] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+            <div> [443,370 115x115] display:flex; position:absolute; top:0px; left:0px; right:0px; bottom:0px; justifyContent:center; alignItems:center; gap:10px; borderRadius:100%; overflow:clip; zIndex:1; BORDER(::after):1px 1px 1px 1px solid rgb(255, 255, 255) radius 100%
+            <div> [482,412 38x32] display:flex; position:absolute; top:57.5px; left:58.6406px; right:18.3594px; bottom:25.5px; justifyContent:center; alignItems:center; gap:10px; transform:matrix(1, 0, 0, 1, -19, -16)
+              <div> [485,409 32x38] position:relative; transform:matrix(0, 1, -1, 0, 0, 0)
+                <div> [485,409 32x38] 
+                  <svg> [485,409 32x38] overflow:hidden
+                    SVG viewBox=null html=<svg style="width:100%;height:100%;" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg706228426_254"></use></svg>
+      <div> [0,0 1000x855] position:absolute; top:0px; left:0px; right:0px; bottom:0px; gap:200px; borderRadius:0px 0px 20px 20px; zIndex:6
+        <div> [0,0 1000x855] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:0px 0px 20px 20px
+          <img> [0,0 1000x855] borderRadius:0px 0px 20px 20px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/Y43VBCJU98vH9ESfLTOmhYvVKjY.jpg?scale-down-to=2048&width=4000&height=6000 alt="activity tracker reading 11 36 Mo 21"
+      <div> [0,0 1000x855] position:absolute; top:0px; left:0px; right:0px; bottom:0px; backgroundColor:rgb(26, 26, 26); borderRadius:0px 0px 20px 20px; opacity:0; overflow:clip; zIndex:7

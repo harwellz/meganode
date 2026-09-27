@@ -1,0 +1,98 @@
+<section> [0,0 1440x900] display:flex; position:relative; justifyContent:center; alignItems:center; gap:12px; padding:12px; fontFamily:sans-serif; fontSize:12px; fontWeight:400; lineHeight:normal; letterSpacing:normal; textAlign:start; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(255, 255, 255); overflow:clip; zIndex:4; whiteSpace:normal; cursor:auto
+  <div> [12,12 1416x876] display:flex; position:relative; justifyContent:center; alignItems:flex-start; gap:26px; padding:190px 0px 160px; backgroundColor:rgb(240, 240, 240); borderRadius:20px; overflow:clip
+    <div> [12,202 1416x307] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:0px 40px; overflow:clip
+      <div> [52,202 1006x307] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:26px; overflow:clip
+        <div> [52,202 1006x216] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:14px; overflow:clip; zIndex:4
+          <div> [52,202 500x154] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <h1> [52,202 500x154] fontFamily:"Inter Display"; fontSize:70px; fontWeight:500; lineHeight:77px; letterSpacing:-2.8px; textAlign:left; color:rgba(26, 26, 26, 0.4) TEXT="Scale your ideas."
+              <span> [52,198 490x162] display:inline; color:rgb(26, 26, 26) TEXT="Build with AI."
+          <div> [52,370 390x48] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <p> [52,370 390x48] fontFamily:"Inter Display"; fontSize:16px; fontWeight:300; lineHeight:24px; letterSpacing:0.32px; textAlign:left; color:rgb(26, 26, 26) TEXT="Deploy custom neural agents, LLMs, and automation in one seamless flow."
+        <div> [52,444 200x65] position:relative; zIndex:4
+          <a name="Primary"> [52,444 200x65] display:flex; position:relative; justifyContent:center; alignItems:center; gap:16px; padding:3px 24px 3px 3px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:16px; overflow:clip; cursor:pointer href=./contact
+            <div> [55,447 65x59] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; backgroundColor:rgb(255, 255, 255); borderRadius:14px; overflow:clip
+              <div> [73,469 30x15] position:relative; zIndex:1
+                <div name="Animation 14"> [73,469 30x15] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+                  <div> [73,469 30x15] position:relative
+                    <div> [73,469 30x15] 
+                      <svg> [73,469 30x15] 
+                        SVG viewBox=null html=<svg style="width:100%;height:100%;overflow: visible;" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg108872879_9575"></use></svg>
+            <div> [136,447 92x59] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; borderRadius:14px; overflow:clip
+              <div> [146,465 72x24] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                <p> [146,465 72x24] fontFamily:"Inter Display"; fontSize:16px; lineHeight:24px; color:rgb(255, 255, 255) TEXT="Start Build"
+      <div> [1068,204 320x303] position:relative; zIndex:5
+        <a name="Product"> [1068,204 320x303] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; padding:6px; color:rgb(0, 0, 238); backgroundColor:rgb(26, 26, 26); borderRadius:24px; overflow:clip; cursor:pointer; BORDER(::after):1px 1px 1px 1px solid rgba(26, 26, 26, 0.1) radius 24px href=./digital-brain
+          <div> [1074,210 308x220] position:relative; backgroundColor:rgb(255, 255, 255); borderRadius:20px; overflow:clip; zIndex:3
+            <div> [1074,210 308x220] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+              <video> [1074,210 308x220] overflow:clip; objectFit:cover; cursor:auto video=https://framerusercontent.com/assets/2WO0ZC7yTbYNkxdTbPKkcOs30s.mp4
+          <div> [1074,430 308x71] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; padding:14px; overflow:clip; zIndex:3
+            <div> [1088,444 280x43] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; overflow:clip
+              <div> [1088,444 280x21] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [1088,444 280x21] fontFamily:"Inter Display"; fontSize:15px; lineHeight:21px; textAlign:left; color:rgb(26, 26, 26) TEXT="Digital Brain"
+              <div> [1088,470 280x17] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [1088,470 280x17] fontFamily:"Inter Display"; fontWeight:300; lineHeight:16.8px; letterSpacing:0.12px; textAlign:left; color:rgba(26, 26, 26, 0.7) TEXT="// Model v4.0.2"
+            <div> [1332,452 26x26] position:absolute; top:21.8906px; left:258px; right:24px; bottom:22.9062px; zIndex:1
+              <svg> [1332,452 26x26] display:inline-block; color:rgb(26, 26, 26); overflow:hidden
+                SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); flex-shrink: 0;"><g color="var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31))" weight="light"><path d="M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z"></path></g></svg>
+          <div> [1068,204 320x303] position:absolute; top:0px; left:0px; right:0px; bottom:0px; overflow:clip; zIndex:2
+            <div> [1068,204 320x303] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+              <img> [1068,204 320x303] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/i8M81i0PeB8FDxgPt1GPDik2kA.jpg?scale-down-to=512&width=3419&height=2279 alt="a blurry image of a green and yellow background"
+    <div> [12,742 1416x156] display:flex; position:absolute; top:729.781px; left:0px; right:0px; bottom:-10px; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; padding:0px 40px 50px; overflow:clip; zIndex:3
+      <div> [52,742 300x39] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+        <p> [52,742 300x39] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(255, 255, 255) TEXT="+2,400 active deployments and 8,200 brands trust our high-performance architecture."
+      <div> [52,791 1336x57] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:10px; borderRadius:10px; overflow:clip; filter:invert(0); maskImage:linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 8.03421%, rgb(0, 0, 0) 92.0098%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 8.03421%, rgb(0, 0, 0) 92.0098%, rgba(0, 0, 0, 0) 100%)
+        <ul> [9,791 1336x57] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:10px; transform:matrix(1, 0, 0, 1, -43.2717, 0)
+          <li> [9,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451347"> [9,791 189x57] position:relative
+              <div> [9,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [9,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/FIkeNB0CMpKHgxqL0a3aPHKlAyQ.png?width=338&height=102 alt=""
+          <li> [208,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451348"> [208,791 189x57] position:relative
+              <div> [208,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [208,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/nJbNnh8E8FlHfzjwzNY6HTfjGnE.png?width=338&height=102 alt=""
+          <li> [407,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451350"> [407,791 189x57] position:relative
+              <div> [407,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [407,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/3EwtMm1CTn3V13Xu2ufZVUnW4.png?width=338&height=102 alt=""
+          <li> [606,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451351"> [606,791 189x57] position:relative
+              <div> [606,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [606,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/C7otSLQhZagCjkAC4M6MX1Ns.png?width=338&height=102 alt=""
+          <li> [805,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451352"> [805,791 189x57] position:relative
+              <div> [805,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [805,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/PNxA5d1umCQiNSezotkgCnArwqU.png?width=338&height=102 alt=""
+          <li> [1004,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451347"> [1004,791 189x57] position:relative
+              <div> [1004,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [1004,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/FIkeNB0CMpKHgxqL0a3aPHKlAyQ.png?width=338&height=102 alt=""
+          <li> [1203,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451348"> [1203,791 189x57] position:relative
+              <div> [1203,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [1203,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/nJbNnh8E8FlHfzjwzNY6HTfjGnE.png?width=338&height=102 alt=""
+          <li> [1402,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451350"> [1402,791 189x57] position:relative
+              <div> [1402,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [1402,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/3EwtMm1CTn3V13Xu2ufZVUnW4.png?width=338&height=102 alt=""
+          <li> [1601,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451351"> [1601,791 189x57] position:relative
+              <div> [1601,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [1601,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/C7otSLQhZagCjkAC4M6MX1Ns.png?width=338&height=102 alt=""
+          <li> [1800,791 189x57] display:list-item; position:relative
+            <div name="Frame 2121451352"> [1800,791 189x57] position:relative
+              <div> [1800,791 189x57] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                <img> [1800,791 189x57] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/PNxA5d1umCQiNSezotkgCnArwqU.png?width=338&height=102 alt=""
+    <div> [12,12 1416x886] position:absolute; top:0px; left:0px; right:0px; bottom:-10px; overflow:clip; zIndex:1
+      <div> [12,12 1416x886] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+        <img> [12,12 1416x886] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/PXNhr4LbXoJRWLAHfzNTYjvdR5Y.png?scale-down-to=2048&width=3232&height=1504 alt=""
+      <div> [12,493 1416x405] position:absolute; top:481px; left:0px; right:0px; bottom:0px; backgroundImage:linear-gradient(rgba(31, 31, 31, 0) 0%, rgba(26, 26, 26, 0.6) 100%); overflow:clip
+        <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+          <div> [12,493 1416x405] position:relative; overflow:hidden
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:1; backdropFilter:blur(0.0390625px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 37.5%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:2; backdropFilter:blur(0.078125px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgba(0, 0, 0, 0) 50%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 12.5%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgba(0, 0, 0, 0) 50%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:3; backdropFilter:blur(0.15625px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 62.5%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 62.5%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:4; backdropFilter:blur(0.3125px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgba(0, 0, 0, 0) 75%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 37.5%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgba(0, 0, 0, 0) 75%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:5; backdropFilter:blur(0.625px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 87.5%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 87.5%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:6; backdropFilter:blur(1.25px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 62.5%, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:7; backdropFilter:blur(2.5px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0) 112.5%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 87.5%, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0) 112.5%)
+            <div> [12,493 1416x405] position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:8; backdropFilter:blur(5px); maskImage:linear-gradient(rgba(0, 0, 0, 0) 87.5%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 112.5%, rgba(0, 0, 0, 0) 125%); WebkitMaskImage:linear-gradient(rgba(0, 0, 0, 0) 87.5%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 112.5%, rgba(0, 0, 0, 0) 125%)
