@@ -13,7 +13,7 @@ import { VideoShowcase } from "@/components/sites/spartanai-framer-website-021e3
 import { VisionTech } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VisionTech";
 import { Works } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/Works";
 import { getHomeContent, getSiteContent } from "@/content/load";
-import { hasLocale } from "@/i18n/locales";
+import { hasLocale, languageLinks } from "@/i18n/locales";
 import { notFound } from "next/navigation";
 
 // Clone of https://spartanai.framer.website/ (see docs/research/spartanai-framer-website-021e3300/root-8a5edab2/).
@@ -24,7 +24,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
   return (
     <div className="sp-site relative w-full overflow-x-clip">
-      <NavBar content={site.nav} homeLabel={site.homeLabel} />
+      <NavBar content={site.nav} homeLabel={site.homeLabel} languages={languageLinks(lang, "/")} />
 
       {/* Page content sits above the fixed footer (z-1); the trailing spacer reveals it. */}
       <main className="pointer-events-none relative z-[2] [&>*]:pointer-events-auto">

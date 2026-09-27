@@ -14,7 +14,8 @@
     ],
     "cta": { "label": "Hire Team" },
     "openMenuLabel": "Open menu",
-    "closeMenuLabel": "Close menu"
+    "closeMenuLabel": "Close menu",
+    "languageLabel": "Language"
   },
   "footer": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac ultrices massa. Vivamus faucibus egestas nulla",

@@ -27,6 +27,8 @@ export const SiteContentSchema = z.object({
     cta: ButtonSchema,
     openMenuLabel: text,
     closeMenuLabel: text,
+    /** Accessible name of the language switcher list. */
+    languageLabel: text,
   }),
   footer: z.object({
     description: text,
