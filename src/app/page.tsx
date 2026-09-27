@@ -27,7 +27,7 @@ export default function Home() {
         {/* Dark section: white Works block with rounded bottom, then Capabilities + Vision/Tech on ink. */}
         <section className="relative z-[4] flex flex-col items-center overflow-clip bg-sp-ink">
           <Works />
-          <div className="relative z-[1] flex w-full flex-col items-center">
+          <div className="relative z-[1] flex w-full flex-col items-center gap-[30px] desktop:gap-0">
             <Capabilities />
             <VisionTech />
           </div>
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </section>
 
-        <div aria-hidden="true" className="pointer-events-none! h-[791px] tablet:h-[774px]" />
+        <div aria-hidden="true" className="pointer-events-none! h-screen tablet:h-[86vh]" />
       </main>
 
       <Footer />

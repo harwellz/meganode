@@ -95,7 +95,7 @@ function DigitalBrainCard() {
 export function Hero() {
   return (
     <section className="relative z-[4] flex flex-col items-center justify-center overflow-clip bg-white p-3 tablet:flex-row">
-      <div className="relative flex w-full flex-col items-start justify-center gap-[76px] overflow-clip rounded-[20px] bg-sp-mist pt-[130px] pb-10 tablet:pt-[150px] desktop:h-[876px] desktop:flex-row desktop:gap-[26px] desktop:pt-[190px] desktop:pb-[160px]">
+      <div className="relative flex w-full flex-col items-start justify-center gap-[76px] overflow-clip rounded-[20px] bg-sp-mist pt-[130px] pb-10 tablet:pt-[150px] desktop:h-[calc(100vh-24px)] desktop:flex-row desktop:gap-[26px] desktop:pt-[190px] desktop:pb-[160px]">
         {/* Background */}
         <div className="absolute top-[-158px] right-0 bottom-[-10px] left-0 z-[1] overflow-clip tablet:top-0">
           <Image

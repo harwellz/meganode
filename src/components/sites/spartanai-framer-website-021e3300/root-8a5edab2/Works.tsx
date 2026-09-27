@@ -178,10 +178,9 @@ export function Works() {
         {/* Phone + desktop: rows of 3 then 2 (phone stacks each row into a column). */}
         <WorkRow works={WORKS.slice(0, 3)} hairline className="flex tablet:hidden desktop:grid" />
         <WorkRow works={WORKS.slice(3, 5)} className="flex tablet:hidden desktop:grid" />
-        {/* Tablet: rows of 2, 2, 1. */}
+        {/* Tablet: 2 × 2, fifth project not shown (as on the live site at 1000px). */}
         <WorkRow works={WORKS.slice(0, 2)} hairline className="hidden tablet:grid desktop:hidden" />
-        <WorkRow works={WORKS.slice(2, 4)} hairline className="hidden tablet:grid desktop:hidden" />
-        <WorkRow works={WORKS.slice(4, 5)} className="hidden tablet:grid desktop:hidden" />
+        <WorkRow works={WORKS.slice(2, 4)} className="hidden tablet:grid desktop:hidden" />
       </div>
     </div>
   );

@@ -120,7 +120,7 @@ function DesktopCard({ item, active, onActivate }: { item: Capability; active: b
       onClick={active ? undefined : onActivate}
       onKeyDown={active ? undefined : (e) => activateOnKey(e, onActivate)}
       className={cn(
-        "relative h-[630px] min-w-0 overflow-hidden rounded-[20px] transition-[flex-grow,flex-basis,background-color] duration-500",
+        "relative h-full min-w-0 overflow-hidden rounded-[20px] transition-[flex-grow,flex-basis,background-color] duration-500",
         EASE,
         active ? "grow basis-0 cursor-default" : "shrink-0 grow-0 basis-[90px] cursor-pointer",
       )}
@@ -237,7 +237,7 @@ export function Capabilities() {
       className="relative z-[3] flex w-full flex-col items-start gap-[54px] overflow-clip px-5 pt-[150px] tablet:gap-[60px] tablet:px-10 desktop:flex-row desktop:gap-0 desktop:pt-[250px]"
     >
       {/* Left column */}
-      <div className="flex w-full flex-col items-start gap-[30px] tablet:gap-[50px] desktop:h-[630px] desktop:min-w-0 desktop:flex-1 desktop:justify-between desktop:gap-0 desktop:pr-[70px]">
+      <div className="flex w-full flex-col items-start gap-[30px] tablet:gap-[50px] desktop:h-[70vh] desktop:min-w-0 desktop:flex-1 desktop:justify-between desktop:gap-0 desktop:pr-[70px]">
         <div className="flex w-full flex-col items-start justify-center gap-[50px] desktop:w-[500px] desktop:max-w-full">
           <FadeIn className="w-full">
             <SectionLabel
@@ -269,7 +269,7 @@ export function Capabilities() {
 
       {/* Right column: cards */}
       <FadeIn className="relative w-full desktop:min-w-0 desktop:flex-1" delay={0.15}>
-        <div className="hidden h-[630px] w-full gap-[10px] overflow-clip desktop:flex">
+        <div className="hidden h-[70vh] w-full gap-[10px] overflow-clip desktop:flex">
           {CAPABILITIES.map((item, i) => (
             <DesktopCard key={item.num} item={item} active={i === activeIndex} onActivate={() => setActiveIndex(i)} />
           ))}

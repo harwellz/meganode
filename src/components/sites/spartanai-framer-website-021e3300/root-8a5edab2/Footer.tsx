@@ -177,8 +177,8 @@ export function Footer() {
     <footer className="fixed inset-0 z-[1]">
       <div className="relative flex size-full flex-col items-start justify-end overflow-hidden bg-sp-ink px-5 pt-[130px] pb-10 tablet:bg-white tablet:px-10 tablet:pt-[160px] desktop:pt-[170px]">
         {/* Background forest photo */}
-        <div className="absolute inset-y-0 left-0 right-[-1785px] z-[1] overflow-clip tablet:right-0 tablet:bottom-[-240px] tablet:[mask-image:linear-gradient(0deg,rgba(0,0,0,0)_8.63246%,rgb(0,0,0)_29.4341%)]">
-          <Image src={FOREST} alt="" fill sizes="(max-width: 809px) 2175px, 100vw" className="object-cover" />
+        <div className="absolute inset-y-0 left-0 right-[-1785px] z-[1] overflow-clip [mask-image:linear-gradient(0deg,rgba(0,0,0,0)_0%,rgba(0,0,0,0.3)_57.8143%,rgb(0,0,0)_100%)] tablet:right-0 tablet:bottom-[-240px] tablet:[mask-image:linear-gradient(0deg,rgba(0,0,0,0)_8.63246%,rgb(0,0,0)_29.4341%)]">
+          <Image src={FOREST} alt="" fill sizes="(max-width: 809px) 2175px, 100vw" className="object-cover object-top" />
         </div>
 
         {/* Main content */}
