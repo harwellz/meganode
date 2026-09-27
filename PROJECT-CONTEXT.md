@@ -21,6 +21,12 @@ Next: i18n, Decap CMS, source optimisation, and finishing clone QA leftovers.
 - **i18n routing:** default locale `vi` served at `/` with **no prefix**. Other locales
   are prefixed: `/en`, `/ja`, `/zh-cn`, `/ar`, more to come. `/vi/*` should
   redirect to the unprefixed path. `ar` is RTL — layouts must support `dir="rtl"`.
+  Implemented without an i18n library (Next docs pattern): `src/i18n/locales.ts` lists
+  routed locales + `lang`/`dir`; `src/proxy.ts` rewrites unprefixed paths to `/vi/*`
+  and 301s `/vi/*`; `app/[lang]/layout.tsx` prerenders each locale
+  (`dynamicParams = false`) and emits canonical + hreflang (set `SITE_URL` in deploys).
+  Enable a locale only once its content exists: add it to `locales`/`localeMeta`,
+  add `content/{globals,pages}/<locale>/`, and its `sources` entry in `src/content/load.ts`.
 - **Content:** all copy moves out of components into git-tracked, typed content files
   per locale, read at build time by Server Components and passed to client
   components as props. Content is validated with a schema at build time.

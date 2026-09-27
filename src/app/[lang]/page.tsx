@@ -12,11 +12,15 @@ import { Testimonials } from "@/components/sites/spartanai-framer-website-021e33
 import { VideoShowcase } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VideoShowcase";
 import { VisionTech } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VisionTech";
 import { Works } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/Works";
-import { defaultLocale, getHomeContent, getSiteContent } from "@/content/load";
+import { getHomeContent, getSiteContent } from "@/content/load";
+import { hasLocale } from "@/i18n/locales";
+import { notFound } from "next/navigation";
 
 // Clone of https://spartanai.framer.website/ (see docs/research/spartanai-framer-website-021e3300/root-8a5edab2/).
-export default async function Home() {
-  const [site, content] = await Promise.all([getSiteContent(defaultLocale), getHomeContent(defaultLocale)]);
+export default async function Home({ params }: PageProps<"/[lang]">) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+  const [site, content] = await Promise.all([getSiteContent(lang), getHomeContent(lang)]);
 
   return (
     <div className="sp-site relative w-full overflow-x-clip">

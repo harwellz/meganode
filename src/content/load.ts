@@ -3,21 +3,20 @@ import "server-only";
 import { z } from "zod";
 
 import { HomeContentSchema, SiteContentSchema, type HomeContent, type SiteContent } from "@/content/schema";
+import type { Locale } from "@/i18n/locales";
 
-// Locale → lazy JSON imports, the pattern from Next's i18n guide. Add a locale here
-// once its files exist under `content/globals/<locale>/` and `content/pages/<locale>/`.
-const sources = {
+// Locale → lazy JSON imports, the pattern from Next's i18n guide. Keyed by the routing
+// locales in `src/i18n/locales.ts`, so a routed locale without content fails typecheck.
+const sources: Record<Locale, { site: () => Promise<unknown>; home: () => Promise<unknown> }> = {
   vi: {
     site: () => import("../../content/globals/vi/site.json").then((m) => m.default),
     home: () => import("../../content/pages/vi/home.json").then((m) => m.default),
   },
+  en: {
+    site: () => import("../../content/globals/en/site.json").then((m) => m.default),
+    home: () => import("../../content/pages/en/home.json").then((m) => m.default),
+  },
 };
-
-export type Locale = keyof typeof sources;
-
-export const defaultLocale: Locale = "vi";
-
-export const hasLocale = (locale: string): locale is Locale => Object.hasOwn(sources, locale);
 
 function validate<T extends z.ZodType>(schema: T, raw: unknown, file: string): z.output<T> {
   const result = schema.safeParse(raw);

@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist_Mono, IBM_Plex_Mono, Inter, Jaini } from "next/font/google";
-import "./globals.css";
+import { notFound } from "next/navigation";
+
+import { defaultLocale, hasLocale, localeMeta, locales, localizedPath } from "@/i18n/locales";
+
+import "../globals.css";
 
 // Variable Inter with the optical-size axis: opsz 32 is the Display cut and
 // opsz 14 the text cut (selected per utility in globals.css).
@@ -28,7 +32,9 @@ const jaini = Jaini({
   weight: ["400"],
 });
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
+  // Absolute base for canonical/hreflang URLs; set SITE_URL in the deployment environment.
+  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
   title: "Spartan-AI",
   description:
     "Build a world-class digital presence with the Spartan AI template—a premium Framer ecosystem designed specifically for AI research labs, neural engineering firms, and high-end tech agencies.",
@@ -38,14 +44,37 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+// Only the listed locales exist; any other first segment 404s.
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
+
+export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+  return {
+    ...baseMetadata,
+    alternates: {
+      canonical: localizedPath(lang),
+      languages: {
+        ...Object.fromEntries(locales.map((l) => [localeMeta[l].htmlLang, localizedPath(l)])),
+        "x-default": localizedPath(defaultLocale),
+      },
+    },
+  };
+}
+
+export default async function RootLayout({ children, params }: LayoutProps<"/[lang]">) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+  const { htmlLang, dir } = localeMeta[lang];
+
   return (
     <html
-      lang="en"
+      lang={htmlLang}
+      dir={dir}
       className={`${inter.variable} ${geistMono.variable} ${ibmPlexMono.variable} ${jaini.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
