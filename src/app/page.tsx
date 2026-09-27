@@ -38,7 +38,7 @@ export default function Home() {
 
         {/* Dark Process + Team block with rounded bottom over a white strip. */}
         <section className="relative z-[4] overflow-clip bg-sp-ink">
-          <div className="relative z-[3] flex flex-col gap-[160px] rounded-b-[20px] bg-sp-ink px-5 pt-[150px] pb-[150px] tablet:px-10 desktop:gap-[250px] desktop:pt-[250px] desktop:pb-[200px]">
+          <div className="relative z-[3] flex flex-col gap-[120px] rounded-b-[20px] bg-sp-ink px-5 pt-[150px] pb-[130px] tablet:px-10 desktop:gap-[250px] desktop:pt-[250px] desktop:pb-[200px]">
             <Process />
             <Team />
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
 
         {/* Light card holding FAQ + Insights; the last section has rounded bottom corners. */}
         <section className="relative z-[4] rounded-b-[20px] bg-white px-3 pb-3">
-          <div className="flex flex-col items-center overflow-clip rounded-[20px] bg-sp-mist px-5 py-3 tablet:px-10">
+          <div className="flex flex-col items-center gap-[110px] overflow-clip rounded-[20px] bg-sp-mist px-5 py-3 tablet:px-10 desktop:gap-[180px]">
             <Faq />
             <Insights />
           </div>

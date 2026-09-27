@@ -47,7 +47,7 @@ export function VideoShowcase() {
   return (
     <section className="relative flex flex-col items-start justify-center gap-5">
       <div className="relative z-[4] w-full">
-        <div className="relative flex h-[855px] w-full items-center justify-center overflow-clip bg-sp-ink">
+        <div className="relative flex h-[95vh] w-full items-center justify-center overflow-clip bg-sp-ink">
           {/* Background photo */}
           <div className="absolute inset-0 z-[6] overflow-clip rounded-b-[20px]">
             <Image
@@ -103,7 +103,7 @@ export function VideoShowcase() {
             type="button"
             aria-label="Play video"
             onClick={() => setOpen(true)}
-            className="group absolute left-1/2 top-[348px] z-10 size-[116px] -translate-x-1/2 cursor-pointer tablet:top-[369.5px]"
+            className="group absolute left-1/2 top-[calc(50%-79.5px)] z-10 size-[116px] -translate-x-1/2 cursor-pointer tablet:top-[calc(50%-58px)]"
           >
             <span className="absolute left-px top-0 flex size-[115px] items-center justify-center">
               {/* Ring */}
