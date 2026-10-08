@@ -1,0 +1,179 @@
+<div Phone> [0,16625 390x2117] bg=rgba(0, 0, 0, 0) radius=0px pad=0px 20px gap=0px dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+  <div > [20,16625 350x2117] bg=rgba(26, 26, 26, 0.1) radius=21px pad=1px gap=1px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+    <div > [21,16626 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0 tf=none  
+      <div Light> [21,16626 348x528] bg=rgb(255, 255, 255) radius=20px 20px 0px 0px pad=0px gap=0px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,16626 348x193] bg=rgba(0, 0, 0, 0) radius=0px pad=30px 0px 30px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,16656 62x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <h6 > [45,16656 62x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=28px/33.6px 600 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Core
+          <div > [45,16719 324x70] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,16719 75x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <div > [45,16719 75x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+                <h2 > [45,16719 75x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=35px/38.5px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=$495
+              <div > [127,16732 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=matrix(1, 0, 0, 1, 0, -10.5)  
+                <p > [127,16732 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgba(26, 26, 26, 0.6) op=1 tf=none  TEXT=/mo
+            <div > [45,16768 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,16768 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=USD Billed Annually
+        <div > [21,16819 348x135] bg=rgba(0, 0, 0, 0) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,16839 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <p > [45,16839 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=16px/24px 400 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Automate your repetitive tasks.
+          <div > [45,16912 137x42] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <a Secondary small> [45,16912 137x42] bg=rgb(36, 36, 36) radius=12px pad=3px 10px 3px 3px gap=6px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none href=https://contra.com/sirdelani/work?r=sirdelani 
+              <div > [48,16915 40x36] bg=rgb(26, 26, 26) radius=10px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [60,16925 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <div Animation 9> [60,16925 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                    <div > [53,16925 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                      <div > [53,16925 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                        <svg > [53,16925 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+              <div > [94,16918 78x29] bg=rgba(0, 0, 0, 0) radius=14px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [97,16923 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <p > [97,16923 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/19.6px 400 color=rgb(255, 255, 255) op=1 tf=none  TEXT=Get started
+          <div > [21,16819 348x115] bg=rgb(240, 240, 240) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,16954 348x200] bg=rgba(0, 0, 0, 0) radius=0px pad=46px 30px 40px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,17000 294x114] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,17000 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17000 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=3 Automation Flows
+            <div > [45,17031 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17031 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Standard RAG Support
+            <div > [45,17062 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17062 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=1 Admin Seat
+            <div > [45,17093 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17093 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Discord Support
+        <div > [21,16626 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0.29 tf=none  
+          <div > [21,16626 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <img > [21,16626 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+    <div > [21,17155 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0 tf=none  
+      <div Light> [21,17155 348x528] bg=rgb(255, 255, 255) radius=0px pad=0px gap=0px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,17155 348x193] bg=rgba(0, 0, 0, 0) radius=0px pad=30px 0px 30px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,17185 94x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <h6 > [45,17185 94x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=28px/33.6px 600 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Growth
+          <div > [45,17248 324x70] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,17248 91x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <div > [45,17248 91x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+                <h2 > [45,17248 91x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=35px/38.5px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=$1,250
+              <div > [143,17261 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=matrix(1, 0, 0, 1, 0, -10.5)  
+                <p > [143,17261 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgba(26, 26, 26, 0.6) op=1 tf=none  TEXT=/mo
+            <div > [45,17297 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17297 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=USD Billed Annually
+        <div > [21,17348 348x135] bg=rgba(0, 0, 0, 0) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,17368 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <p > [45,17368 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=16px/24px 400 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Advanced agentic workflows.
+          <div > [45,17441 137x42] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <a Secondary small> [45,17441 137x42] bg=rgb(36, 36, 36) radius=12px pad=3px 10px 3px 3px gap=6px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none href=https://contra.com/sirdelani/work?r=sirdelani 
+              <div > [48,17444 40x36] bg=rgb(26, 26, 26) radius=10px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [60,17454 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <div Animation 9> [60,17454 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                    <div > [53,17454 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                      <div > [53,17454 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                        <svg > [53,17454 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+              <div > [94,17447 78x29] bg=rgba(0, 0, 0, 0) radius=14px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [97,17452 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <p > [97,17452 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/19.6px 400 color=rgb(255, 255, 255) op=1 tf=none  TEXT=Get started
+          <div > [21,17348 348x115] bg=rgb(240, 240, 240) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,17483 348x200] bg=rgba(0, 0, 0, 0) radius=0px pad=46px 30px 40px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,17529 294x114] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,17529 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17529 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=10 Automation Flows
+            <div > [45,17560 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17560 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Vector DB Hosting
+            <div > [45,17591 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17591 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=5 Admin Seats
+            <div > [45,17622 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17622 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Priority Email
+        <div > [21,17155 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0.29 tf=none  
+          <div > [21,17155 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <img > [21,17155 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+    <div > [21,17684 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0 tf=none  
+      <div Dark> [21,17684 348x528] bg=rgb(255, 255, 255) radius=0px pad=0px gap=0px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,17684 348x193] bg=rgba(0, 0, 0, 0) radius=0px pad=30px 0px 30px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,17714 43x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <h6 > [45,17714 43x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=28px/33.6px 600 color=rgb(255, 255, 255) op=1 tf=none  TEXT=Pro
+          <div > [45,17777 324x70] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,17777 100x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <div > [45,17777 100x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+                <h2 > [45,17777 100x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=35px/38.5px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=$2,900
+              <div > [152,17790 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=matrix(1, 0, 0, 1, 0, -10.5)  
+                <p > [152,17790 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=/mo
+            <div > [45,17826 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,17826 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=USD Billed Annually
+        <div > [21,17877 348x135] bg=rgba(0, 0, 0, 0) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,17897 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <p > [45,17897 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=16px/24px 400 color=rgba(255, 255, 255, 0.8) op=1 tf=none  TEXT=Custom neural architecture.
+          <div > [45,17970 137x42] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <a Primary small> [45,17970 137x42] bg=rgb(255, 255, 255) radius=12px pad=3px 10px 3px 3px gap=6px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none href=https://contra.com/sirdelani/work?r=sirdelani 
+              <div > [48,17973 40x36] bg=rgb(26, 26, 26) radius=10px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [60,17983 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <div Animation 9> [60,17983 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                    <div > [53,17983 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                      <div > [53,17983 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                        <svg > [53,17983 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+              <div > [94,17976 78x29] bg=rgba(0, 0, 0, 0) radius=14px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [97,17981 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <p > [97,17981 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/19.6px 400 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Get started
+          <div > [21,17877 348x115] bg=rgb(41, 40, 40) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,18012 348x200] bg=rgba(0, 0, 0, 0) radius=0px pad=46px 30px 40px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,18058 294x114] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,18058 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18058 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=Unlimited Flows
+            <div > [45,18089 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18089 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=Custom Fine-Tuning
+            <div > [45,18120 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18120 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=15 Admin Seats
+            <div > [45,18151 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18151 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(255, 255, 255) op=1 tf=none  TEXT=24/7 Slack Connect
+        <div > [21,17684 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [21,17684 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <img > [21,17684 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+    <div > [21,18213 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0 tf=none  
+      <div Light> [21,18213 348x528] bg=rgb(255, 255, 255) radius=0px 0px 20px 20px pad=0px gap=0px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,18213 348x193] bg=rgba(0, 0, 0, 0) radius=0px pad=30px 0px 30px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,18243 71x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <h6 > [45,18243 71x34] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=28px/33.6px 600 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Scale
+          <div > [45,18307 324x70] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,18307 94x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <div > [45,18307 94x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+                <h2 > [45,18307 94x39] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=35px/38.5px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=$7,500
+              <div > [146,18320 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=matrix(1, 0, 0, 1, 0, -10.5)  
+                <p > [146,18320 24x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgba(26, 26, 26, 0.6) op=1 tf=none  TEXT=/mo
+            <div > [45,18355 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18355 122x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=USD Billed Annually
+        <div > [21,18406 348x135] bg=rgba(0, 0, 0, 0) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,18426 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <p > [45,18426 170x48] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=16px/24px 400 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Enterprise infrastructure.
+          <div > [45,18499 137x42] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <a Secondary small> [45,18499 137x42] bg=rgb(36, 36, 36) radius=12px pad=3px 10px 3px 3px gap=6px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none href=https://contra.com/sirdelani/work?r=sirdelani 
+              <div > [48,18502 40x36] bg=rgb(26, 26, 26) radius=10px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [60,18513 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <div Animation 9> [60,18513 16x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                    <div > [53,18513 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                      <div > [53,18513 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                        <svg > [53,18513 30x15] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+              <div > [94,18506 78x29] bg=rgba(0, 0, 0, 0) radius=14px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                <div > [97,18510 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 238) op=1 tf=none  
+                  <p > [97,18510 72x20] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/19.6px 400 color=rgb(255, 255, 255) op=1 tf=none  TEXT=Get started
+          <div > [21,18406 348x115] bg=rgb(240, 240, 240) radius=0px pad=20px 20px 0px 24px gap=25px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [21,18541 348x200] bg=rgba(0, 0, 0, 0) radius=0px pad=46px 30px 40px 24px gap=30px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [45,18587 294x114] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [45,18587 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18587 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Full Neural Stack
+            <div > [45,18618 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18618 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=On-Premise LLMs
+            <div > [45,18649 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18649 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Unlimited Seats
+            <div > [45,18680 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <p > [45,18680 294x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Dedicated Engineer
+        <div > [21,18213 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=0.29 tf=none  
+          <div > [21,18213 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <img > [21,18213 348x528] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+    <div > [20,16551 255x22] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=16px dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+      <div > [20,16551 50x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <p > [20,16551 50x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Monthly
+      <div > [86,16551 50x22] bg=rgba(0, 0, 0, 0) radius=100px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [107,16548 29x28] bg=rgb(26, 26, 26) radius=100% pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <div > [114,16554 16x16] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+            <div > [0,0 0x0] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+              <svg > [114,16554 16x16] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/normal 400 color=rgb(255, 255, 255) op=1 tf=none  
+      <div > [152,16551 123x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=10px dir=row font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+        <div > [152,16551 53x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <p > [152,16551 53x21] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=14px/21px 300 color=rgb(26, 26, 26) op=1 tf=none  TEXT=Annually
+        <div > [215,16553 60x17] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=column font=12px/normal 400 color=rgb(0, 0, 0) op=1 tf=none  
+          <p > [215,16553 60x17] bg=rgba(0, 0, 0, 0) radius=0px pad=0px gap=normal dir=row font=12px/16.8px 300 color=rgba(26, 26, 26, 0.6) op=1 tf=none  TEXT=(Save 20%)

@@ -1,0 +1,8 @@
+FIXED ELEMENT; parent chain: DIV.ssr-variant hidden-u3qn7x hidden-17qhrii pos=static z=auto < DIV.framer-Z8hVM framer-u3qn7x pos=relative z=auto
+<div> [20,0 350x44] position:fixed; top:20px; left:20px; right:20px; bottom:836px; fontFamily:sans-serif; fontSize:12px; fontWeight:400; lineHeight:normal; letterSpacing:normal; textAlign:start; textTransform:none; color:rgb(0, 0, 0); zIndex:10; whiteSpace:normal; cursor:auto
+  <div name="Phone"> [20,0 350x44] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; padding:5px 16px 5px 5px; backgroundColor:rgb(255, 255, 255); borderRadius:20px; overflow:clip; BORDER(::after):1px 1px 1px 1px solid rgba(26, 26, 26, 0.1) radius 20px
+    <div> [25,5 329x34] display:flex; position:relative; justifyContent:space-between; alignItems:center
+      <a> [25,5 60x34] position:relative; color:rgb(0, 0, 238); borderRadius:100px; overflow:clip; cursor:pointer; BORDER(::after):6px 6px 6px 6px solid rgb(26, 26, 26) radius 100px href=./
+      <div> [314,6 40x33] position:relative; overflow:clip; cursor:pointer
+        <div> [314,14 40x6] position:absolute; top:8px; left:0px; right:0px; bottom:19px; backgroundColor:rgb(26, 26, 26); borderRadius:100px; overflow:clip
+        <div> [314,25 40x6] position:absolute; top:19px; left:0px; right:0px; bottom:8px; backgroundColor:rgb(26, 26, 26); borderRadius:100px; overflow:clip

@@ -1,0 +1,71 @@
+PRICING (default): Pricing | Pricing | Pricing | Flexible intelligence tiers designed to scale alongside your business. No hidden costs, just high-performance results. | Core | $495 | /mo | USD Billed Annually | Automate your repetitive tasks. | Get started | 3 Automation Flows | Standard RAG Support | 1 Admin Seat | Discord Support | Growth | $1,250 | /mo | USD Billed Annually | Advanced agentic workflows. | Get started | 10 Automation Flows | Vector DB Hosting | 5 Admin Seats | Priority Email | Pro | $2,900 | /mo | USD Billed Annually | Custom neural architecture. | Get started | Unlimited Flows | Custom Fine-Tuning | 15 Admin Seats | 24/7 Slack Connect | Scale | $7,500 | /mo | USD Billed Annually | Enterprise infrastructure. | Get started | Full Neural Stack | On-Premise LLMs | Unlimited Seats | Dedicated Engineer | Monthly | Annually | (Save 20%) | //SPARTAN | We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America. | //SPARTAN | We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America.
+toggle candidates: ["<div class=\"framer-1emdssz\" style=\"background-color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); border-radius: 10px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-x5l8-containe","<div data-framer-component-type=\"SVG\" parentsize=\"0\" _constraints=\"[object Object]\" rotation=\"0\" shadows=\"\" class=\"framer-10351p9\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0;","<div class=\"svgContainer\" style=\"width:100%;height:100%;aspect-ratio:inherit\" data-tog=\"1\"><svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\">","<svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" data-tog=\"1\"><use href=\"#svg108872879_9575\"></use></svg>","<use href=\"#svg108872879_9575\" data-tog=\"1\"></use>","<div class=\"framer-yk1t5j\" style=\"border-radius: 14px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-7bbf4","<div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); --framer-link-text-color: r","<p class=\"framer-text framer-styles-preset-g3iomj\" data-styles-preset=\"rpFaT2gyu\" dir=\"auto\" style=\"--framer-text-color:var(--extracted-r6o4lv, var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(25","<div class=\"framer-1emdssz\" style=\"background-color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); border-radius: 10px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-x5l8-containe","<div data-framer-component-type=\"SVG\" parentsize=\"0\" _constraints=\"[object Object]\" rotation=\"0\" shadows=\"\" class=\"framer-10351p9\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0;","<div class=\"svgContainer\" style=\"width:100%;height:100%;aspect-ratio:inherit\" data-tog=\"1\"><svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\">","<svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" data-tog=\"1\"><use href=\"#svg108872879_9575\"></use></svg>","<use href=\"#svg108872879_9575\" data-tog=\"1\"></use>","<div class=\"framer-yk1t5j\" style=\"border-radius: 14px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-7bbf4","<div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); --framer-link-text-color: r","<p class=\"framer-text framer-styles-preset-g3iomj\" data-styles-preset=\"rpFaT2gyu\" dir=\"auto\" style=\"--framer-text-color:var(--extracted-r6o4lv, var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(25","<div class=\"framer-1emdssz\" style=\"background-color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); border-radius: 10px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-x5l8-containe","<div data-framer-component-type=\"SVG\" parentsize=\"0\" _constraints=\"[object Object]\" rotation=\"0\" shadows=\"\" class=\"framer-10351p9\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0;","<div class=\"svgContainer\" style=\"width:100%;height:100%;aspect-ratio:inherit\" data-tog=\"1\"><svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\">","<svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" data-tog=\"1\"><use href=\"#svg109593571_9475\"></use></svg>","<use href=\"#svg109593571_9475\" data-tog=\"1\"></use>","<div class=\"framer-yk1t5j\" style=\"border-radius: 14px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-2ddce","<div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); --framer-link-text-color: rgb(","<p class=\"framer-text framer-styles-preset-g3iomj\" data-styles-preset=\"rpFaT2gyu\" dir=\"auto\" style=\"--framer-text-color:var(--extracted-r6o4lv, var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31","<div class=\"framer-1emdssz\" style=\"background-color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); border-radius: 10px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-x5l8-containe","<div data-framer-component-type=\"SVG\" parentsize=\"0\" _constraints=\"[object Object]\" rotation=\"0\" shadows=\"\" class=\"framer-10351p9\" aria-hidden=\"true\" style=\"image-rendering: pixelated; flex-shrink: 0;","<div class=\"svgContainer\" style=\"width:100%;height:100%;aspect-ratio:inherit\" data-tog=\"1\"><svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\">","<svg style=\"width:100%;height:100%;overflow: visible;\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\" data-tog=\"1\"><use href=\"#svg109593571_9475\"></use></svg>","<use href=\"#svg109593571_9475\" data-tog=\"1\"></use>","<div class=\"framer-yk1t5j\" style=\"border-radius: 14px; opacity: 1;\" data-tog=\"1\"><div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-7bbf4","<div class=\"framer-1xuhufw\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); --framer-link-text-color: r","<p class=\"framer-text framer-styles-preset-g3iomj\" data-styles-preset=\"rpFaT2gyu\" dir=\"auto\" style=\"--framer-text-color:var(--extracted-r6o4lv, var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(25","<div class=\"framer-1sxmmr7\" data-border=\"true\" data-highlight=\"true\" tabindex=\"0\" style=\"--border-bottom-width: 1px; --border-color: var(--token-9087304d-dc78-44e9-8bf8-71fff2eb7ef1, rgba(31, 31, 31, ","<div class=\"framer-jg6i2l\" style=\"background-color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); border-radius: 100%; opacity: 1;\" data-tog=\"1\"><div class=\"framer-7wkctt-contain"]
+PRICING (after toggle click): Pricing | Pricing | Pricing | Flexible intelligence tiers designed to scale alongside your business. No hidden costs, just high-performance results. | Core | $495 | /mo | USD Billed Annually | Automate your repetitive tasks. | Get started | Get started | 3 Automation Flows | Standard RAG Support | 1 Admin Seat | Discord Support | Growth | $1,250 | /mo | USD Billed Annually | Advanced agentic workflows. | Get started | 10 Automation Flows | Vector DB Hosting | 5 Admin Seats | Priority Email | Pro | $2,900 | /mo | USD Billed Annually | Custom neural architecture. | Get started | Unlimited Flows | Custom Fine-Tuning | 15 Admin Seats | 24/7 Slack Connect | Scale | $7,500 | /mo | USD Billed Annually | Enterprise infrastructure. | Get started | Full Neural Stack | On-Premise LLMs | Unlimited Seats | Dedicated Engineer | Monthly | Annually | (Save 20%) | //SPARTAN | We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America. | //SPARTAN | We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America.
+FAQ initial: [
+ "Open: How do you ensure our data remains secure? | We utilize SOC2-compliant local vector databases and on-premise LLM hosting to ensure your proprietary data never leaves your infrastructure.",
+ "Close: What is the typical deployment timeline?",
+ "Close: Can we integrate with our existing CRM?",
+ "Close: Do you provide model fine-tuning?",
+ "Close: How do you calculate ROI for automation?",
+ "Close: Do we own the custom code you build?",
+ "Close: What models do you specialize in?"
+]
+FAQ after click 0: [
+ "Close: What is the typical deployment timeline?",
+ "Close: Can we integrate with our existing CRM?",
+ "Close: Do you provide model fine-tuning?",
+ "Close: How do you calculate ROI for automation?",
+ "Close: Do we own the custom code you build?",
+ "Close: What models do you specialize in?"
+]
+FAQ after click 1: [
+ "Close: How do you ensure our data remains secure?",
+ "Close: What is the typical deployment timeline?",
+ "Open: Can we integrate with our existing CRM? | Yes, our cognitive pipelines are built with native API connectors for Salesforce, HubSpot, and custom enterprise ERP systems.",
+ "Close: Do you provide model fine-tuning?",
+ "Close: How do you calculate ROI for automation?",
+ "Close: Do we own the custom code you build?",
+ "Close: What models do you specialize in?"
+]
+FAQ after click 2: [
+ "Close: How do you ensure our data remains secure?",
+ "Close: What is the typical deployment timeline?",
+ "Close: Do you provide model fine-tuning?",
+ "Close: How do you calculate ROI for automation?",
+ "Close: Do we own the custom code you build?",
+ "Close: What models do you specialize in?"
+]
+FAQ after click 3: [
+ "Close: How do you ensure our data remains secure?",
+ "Close: What is the typical deployment timeline?",
+ "Close: Can we integrate with our existing CRM?",
+ "Close: Do you provide model fine-tuning?",
+ "Open: How do you calculate ROI for automation? | We track \"Inference-to-Impact\" metrics, measuring hours saved and accuracy gains against your previous baseline manual workflows.",
+ "Close: Do we own the custom code you build?",
+ "Close: What models do you specialize in?"
+]
+FAQ after click 4: [
+ "Close: How do you ensure our data remains secure?",
+ "Close: What is the typical deployment timeline?",
+ "Close: Can we integrate with our existing CRM?",
+ "Close: Do you provide model fine-tuning?",
+ "Close: Do we own the custom code you build?",
+ "Close: What models do you specialize in?"
+]
+FAQ after click 5: [
+ "Close: How do you ensure our data remains secure?",
+ "Close: What is the typical deployment timeline?",
+ "Close: Can we integrate with our existing CRM?",
+ "Close: Do you provide model fine-tuning?",
+ "Close: How do you calculate ROI for automation?",
+ "Close: Do we own the custom code you build?",
+ "Open: What models do you specialize in? | We are model-agnostic, specializing in OpenAI, Anthropic, and Mistral, as well as local deployments of high-performance open-source LLMs."
+]
+FAQ after click 6: [
+ "Close: How do you ensure our data remains secure?",
+ "Close: What is the typical deployment timeline?",
+ "Close: Can we integrate with our existing CRM?",
+ "Close: Do you provide model fine-tuning?",
+ "Close: How do you calculate ROI for automation?",
+ "Close: Do we own the custom code you build?"
+]

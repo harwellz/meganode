@@ -1,0 +1,6 @@
+FAQ What is the typical deployment timeline? => What is the typical deployment timeline? | Initial neural audits take 1 week, followed by a 4-week rapid prototyping phase before full-scale production deployment.
+FAQ Do you provide model fine-tuning? => Do you provide model fine-tuning? | Absolutely. We offer bespoke fine-tuning services to align open-source models (like Llama 3) with your specific industry terminology and logic.
+FAQ Do we own the custom code you build? => Do we own the custom code you build? | Yes. All custom neural architectures and integration code developed for your firm are 100% owned by you upon project completion.
+toggle container {"html":2944,"box":[40,11249.15625,255.09375,22],"ptr":[["DIV",106,11249,50,22],["DIV",127,11246,29,28],["DIV",134,11252,16,16],["DIV",0,12021,0,0],["svg",134,11252,16,16],["g",136,11256,13,9],["path",136,11256,13,9]]}
+prices before: $495 , USD Billed Annually , $1,250 , USD Billed Annually , $2,900 , USD Billed Annually , $7,500 , USD Billed Annually
+prices after toggle: $618 , USD Billed Monthly , $1,570 , USD Billed Monthly , $3,650 , USD Billed Monthly , $9,380 , USD Billed Monthly

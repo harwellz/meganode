@@ -1,0 +1,156 @@
+<section> [0,0 1000x1227] display:flex; position:relative; justifyContent:center; alignItems:center; gap:0px; padding:0px 12px; fontFamily:sans-serif; fontSize:12px; fontWeight:400; lineHeight:normal; letterSpacing:normal; textAlign:start; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(255, 255, 255); overflow:clip; zIndex:4; whiteSpace:normal; cursor:auto
+  <div> [12,0 976x1227] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:20px; padding:12px 40px; backgroundColor:rgb(240, 240, 240); borderRadius:20px; overflow:clip
+    <div> [52,12 896x1203] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:140px; padding:140px 0px 30px
+      <div> [52,152 896x893] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:40px; overflow:clip
+        <div> [52,152 896x213] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px
+          <div> [52,152 896x135] position:relative; zIndex:1
+            <p> [52,152 896x135] display:flex; flexWrap:wrap; justifyContent:flex-start; fontFamily:"Inter Display"; fontSize:43px; fontWeight:500; lineHeight:45px; letterSpacing:-2px; color:rgb(26, 26, 26)
+              <span> [52,152 180x45] 
+                (8 per-char spans) TEXT="Automate " firstSpan: display:inline | lastSpan: display:inline
+              <span> [232,152 64x45] 
+                <span> [232,148 12x52] display:inline TEXT="t"
+                <span> [244,148 22x52] display:inline TEXT="h"
+                <span> [266,148 21x52] display:inline TEXT="e"
+              <span> [296,152 144x45] 
+                (7 per-char spans) TEXT="manual, " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [440,152 187x45] 
+                (10 per-char spans) TEXT="accelerate " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [627,152 64x45] 
+                <span> [627,148 12x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="t"
+                <span> [639,148 22x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="h"
+                <span> [661,148 21x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="e"
+              <span> [691,152 118x45] 
+                (7 per-char spans) TEXT="future. " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [809,152 73x45] 
+                <span> [809,148 30x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="O"
+                <span> [839,148 22x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="u"
+                <span> [861,148 13x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="r"
+              <span> [52,197 139x45] 
+                <span> [52,193 21x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="c"
+                <span> [73,193 22x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="u"
+                <span> [95,193 19x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="s"
+                <span> [115,193 12x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="t"
+                <span> [126,193 22x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="o"
+                <span> [148,193 35x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="m"
+              <span> [191,197 44x45] 
+                <span> [191,193 27x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="A"
+                <span> [218,193 8x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="I"
+              <span> [235,197 162x45] 
+                (9 per-char spans) TEXT="solutions " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [397,197 121x45] 
+                (7 per-char spans) TEXT="deliver " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [518,197 211x45] 
+                (10 per-char spans) TEXT="measurable " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [729,197 130x45] 
+                <span> [729,193 23x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="g"
+                <span> [752,193 12x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="r"
+                <span> [764,193 21x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="o"
+                <span> [785,193 31x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="w"
+                <span> [817,193 12x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="t"
+                <span> [829,193 22x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="h"
+              <span> [859,197 74x45] 
+                <span> [859,193 21x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="a"
+                <span> [880,193 22x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="n"
+                <span> [902,193 23x52] display:inline; color:rgba(26, 26, 26, 0.1) TEXT="d"
+              <span> [52,242 199x45] 
+                (11 per-char spans) TEXT="operational " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+              <span> [251,242 199x45] 
+                (11 per-char spans) TEXT="excellence. " firstSpan: display:inline; color:rgba(26, 26, 26, 0.1) | lastSpan: display:inline; color:rgba(26, 26, 26, 0.1)
+          <div> [52,317 600x48] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+            <p> [52,317 600x48] fontFamily:"Inter Display"; fontSize:16px; fontWeight:300; lineHeight:24px; letterSpacing:0.32px; textAlign:left; color:rgb(26, 26, 26) TEXT="Empowering teams with intelligent tools that turn complex data into actionable business outcomes daily."
+        <div> [52,405 896x640] display:grid; position:relative; justifyContent:center; gap:10px; gridTemplateColumns:443px 443px; overflow:clip
+          <div> [52,405 443x315] display:flex; position:relative; flexDirection:column; justifyContent:space-between; alignItems:flex-start; padding:24px; backgroundColor:rgb(26, 26, 26); borderRadius:30px; overflow:clip
+            <div> [76,429 395x117] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:14px; overflow:clip
+              <div> [76,429 60x60] position:relative; backgroundColor:rgb(255, 255, 255); borderRadius:16px; overflow:clip
+                <div> [91,444 30x30] position:absolute; top:15px; left:15px; right:15px; bottom:15px
+                  <svg> [91,444 30x30] display:inline-block; color:rgb(26, 26, 26); overflow:hidden
+                    SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); flex-shrink: 0;"><g color="var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31))" weight="light"><path d="M238,56v64a6,6,0,0,1-12,0V70.48l-85.76,85.76a6,6,0,0,1-8.48,0L96,120.49,28.24,188.24a6,6,0,0,1-8.48-8.48l72-72a6,6,0,0,1,8.48,0L136,143.51,217.52,62H168a6,6,0,0,1,0-12h64A6,6,0,0,1,238,56Z"></path></g></svg>
+              <div> [76,503 114x43] position:relative
+                <p> [76,503 114x43] fontFamily:Inter; fontSize:43px; lineHeight:43px; letterSpacing:-2px; textAlign:center; opacity:0 TEXT="$ 45 M"
+                <p> [76,503 114x43] position:absolute; top:0px; left:0px; right:0px; bottom:0px; fontFamily:Inter; fontSize:43px; lineHeight:43px; letterSpacing:-2px; textAlign:center; color:rgb(255, 255, 255) TEXT="$ 45 M"
+            <div> [76,657 395x39] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+              <div> [76,657 395x39] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [76,657 395x39] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(255, 255, 255) TEXT="Revenue generated for our clients through AI-led optimizations."
+          <div> [505,405 443x315] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+            <div> [505,405 443x210] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:22px; padding:24px; borderRadius:30px; overflow:clip; BORDER(::after):1px 1px 1px 1px dashed rgba(26, 26, 26, 0.6) radius 30px
+              <div name="Stacked Avatars"> [639,459 176x60] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:38px; padding:0px 29px
+                <div> [668,459 1x60] position:relative
+                  <div name="Avatar"> [668,459 1x60] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+                    <div name="Image"> [642,463 52x52] position:relative; borderRadius:1000px; boxShadow:rgb(255, 255, 255) 0px 0px 0px 5px; overflow:hidden; zIndex:1
+                      <div> [642,463 52x52] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:1000px
+                        <img> [642,463 52x52] borderRadius:1000px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/D3gag0wTRQzvb6CCfJkTShmXTPI.jpg?scale-down-to=512&width=2500&height=2500 alt="A cartoon character wearing a blue shirt and a blue hat"
+                <div> [707,459 1x60] position:relative
+                  <div name="Avatar"> [707,459 1x60] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+                    <div name="Image"> [681,463 52x52] position:relative; borderRadius:1000px; boxShadow:rgb(255, 255, 255) 0px 0px 0px 5px; overflow:hidden; zIndex:1
+                      <div> [681,463 52x52] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:1000px
+                        <img> [681,463 52x52] borderRadius:1000px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/9AvPLCB2PkQCEoFgNdwvDaIaGGI.jpg?scale-down-to=512&width=4167&height=4167 alt="A cartoon character with a weird haircut"
+                <div> [746,459 1x60] position:relative
+                  <div name="Avatar"> [746,459 1x60] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+                    <div name="Image"> [720,463 52x52] position:relative; borderRadius:1000px; boxShadow:rgb(255, 255, 255) 0px 0px 0px 5px; overflow:hidden; zIndex:1
+                      <div> [720,463 52x52] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:1000px
+                        <img> [720,463 52x52] borderRadius:1000px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/pktP7O1JHzk75RWizEsb0jRSjk.jpg?scale-down-to=512&width=4000&height=4000 alt="A person wearing a green frog costume"
+                <div> [785,459 1x60] position:relative
+                  <div name="Avatar"> [785,459 1x60] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px
+                    <div name="Image"> [759,463 52x52] position:relative; borderRadius:1000px; boxShadow:rgb(255, 255, 255) 0px 0px 0px 5px; overflow:hidden; zIndex:1
+                      <div> [759,463 52x52] position:absolute; top:0px; left:0px; right:0px; bottom:0px; borderRadius:1000px
+                        <img> [759,463 52x52] borderRadius:1000px; overflow:clip; objectFit:cover src=https://framerusercontent.com/images/2418vQBGZ7CPVHaaIlQ5wuUyr4.jpg?scale-down-to=512&width=2500&height=2500 alt="A cartoon character wearing a purple shirt and a red headband"
+              <div> [659,541 134x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [659,541 134x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgba(26, 26, 26, 0.8) TEXT="active agents"
+                  <strong> [659,542 46x17] display:inline; fontWeight:700 TEXT="15,400"
+            <div> [505,625 443x95] display:flex; position:relative; justifyContent:center; alignItems:center; gap:26px; padding:20px 27px; backgroundColor:rgba(26, 26, 26, 0.06); borderRadius:30px; overflow:clip
+              <div> [590,651 47x43] position:relative
+                <p> [590,651 47x43] fontFamily:Inter; fontSize:43px; lineHeight:43px; letterSpacing:-2px; textAlign:center; opacity:0 TEXT="5 x"
+                <p> [590,651 47x43] position:absolute; top:0px; left:0px; right:0px; bottom:0px; fontFamily:Inter; fontSize:43px; lineHeight:43px; letterSpacing:-2px; textAlign:center; color:rgb(41, 40, 40) TEXT="5 x"
+              <div> [663,663 200x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [663,663 200x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgba(26, 26, 26, 0.6) TEXT="Faster speed to market."
+          <div> [52,730 443x315] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; padding:24px; backgroundColor:rgba(26, 26, 26, 0.06); borderRadius:30px; overflow:clip
+            <div> [76,754 395x214] position:relative; overflow:clip
+              <div> [199,771 149x153] position:absolute; top:16.7656px; left:123.438px; right:122.562px; bottom:44.4375px
+                <div> [199,771 149x153] display:flex; position:relative; justifyContent:center; alignItems:center
+                  <svg> [199,771 149x153] overflow:hidden
+                    SVG viewBox=0 0 200 200 html=(len 10768)
+                  <div> [247,828 54x39] position:absolute; top:57px; left:47.2656px; right:47.2656px; bottom:57px; fontFamily:"Inter Display"; fontSize:33px; lineHeight:33px; letterSpacing:-0.33px; color:rgba(18, 18, 18, 0) TEXT="90"
+                    <span> [288,840 14x20] display:inline; margin:0px 0px 0px 2px; fontSize:16.5px; opacity:0.7 TEXT="%"
+              <div> [244,817 60x60] position:absolute; top:63.2656px; left:167.938px; right:167.062px; bottom:90.9375px; backgroundColor:rgb(26, 26, 26); borderRadius:100%; overflow:clip; zIndex:1
+                <div> [262,835 24x24] position:absolute; top:18px; left:18px; right:18px; bottom:18px
+                  <svg> [262,835 24x24] display:inline-block; color:rgb(255, 255, 255); overflow:hidden
+                    SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); color: var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255)); flex-shrink: 0;"><g color="var(--token-7bbf4f4d-a8fb-4fe0-a164-a8cf2fd0048a, rgb(255, 255, 255))" weight="light"><path d="M150,224a6,6,0,0,1-6,6H112a6,6,0,0,1,0-12h32A6,6,0,0,1,150,224ZM128,110a10,10,0,1,0-10-10A10,10,0,0,0,128,110Zm93.67,45.4L209.31,211A14,14,0,0,1,187,219l-27.79-21H96.82L69,219a14,14,0,0,1-22.34-8L34.33,155.4a14.06,14.06,0,0,1,2.91-12l29-34.76a121.28,121.28,0,0,1,8.48-36.71c12.72-31.88,35.52-51.88,44.73-59a14,14,0,0,1,17.16,0c9.21,7.12,32,27.12,44.73,59a121.28,121.28,0,0,1,8.48,36.71l29,34.76A14.06,14.06,0,0,1,221.67,155.4ZM98.26,186h59.48c21.93-38.46,26.12-75.33,12.43-109.62-11.95-30-34.35-48.87-40.93-54a2,2,0,0,0-2.48,0c-6.58,5.09-29,24-40.93,54C72.14,110.67,76.33,147.54,98.26,186ZM87,190.4c-12-21.49-18.9-42.6-20.62-63.19L46.46,151.08a2,2,0,0,0-.42,1.71l12.37,55.64a2,2,0,0,0,3.2,1.13l.13-.11Zm122.57-39.32-19.89-23.87c-1.72,20.59-8.6,41.7-20.62,63.19l25.23,19,.13.11a2,2,0,0,0,3.2-1.13L210,152.79A2,2,0,0,0,209.54,151.08Z"></path></g></svg>
+            <div> [76,968 395x53] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:8px; overflow:clip
+              <div> [76,968 121x25] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <h4> [76,968 121x25] fontFamily:"Inter Display"; fontSize:18px; lineHeight:25.2px; letterSpacing:-0.36px; textAlign:left; color:rgba(26, 26, 26, 0.8) TEXT="Inference speed"
+              <div> [76,1001 395x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [76,1001 395x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgba(26, 26, 26, 0.6) TEXT="Real-time processing for enterprise-grade deployments."
+          <div> [505,730 443x315] display:flex; position:relative; flexDirection:column; justifyContent:space-between; alignItems:flex-start; padding:24px; backgroundColor:rgb(255, 255, 255); borderRadius:30px; overflow:clip
+            <div> [529,754 395x40] display:flex; position:relative; justifyContent:space-between; alignItems:center; overflow:clip
+              <div> [529,754 40x40] position:relative; zIndex:1
+                <svg> [529,754 40x40] display:inline-block; color:rgb(26, 26, 26); overflow:hidden
+                  SVG viewBox=0 0 256 256 html=<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31))" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); color: var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31)); flex-shrink: 0;"><g color="var(--token-2ddcea38-bb42-4986-8e36-4a45eb0c9596, rgb(31, 31, 31))" weight="fill"><path d="M116,72v88a48.05,48.05,0,0,1-48,48,8,8,0,0,1,0-16,32,32,0,0,0,32-32v-8H40a16,16,0,0,1-16-16V72A16,16,0,0,1,40,56h60A16,16,0,0,1,116,72ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Z"></path></g></svg>
+              <div name="Frame 2121451351"> [861,755 63x38] position:relative; filter:invert(1)
+                <div> [861,755 63x38] position:absolute; top:0px; left:0px; right:0px; bottom:0px
+                  <img> [861,755 63x38] overflow:clip; objectFit:cover src=https://framerusercontent.com/images/C7otSLQhZagCjkAC4M6MX1Ns.png?width=338&height=102 alt=""
+            <div> [529,906 395x115] display:flex; position:relative; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; overflow:clip
+              <div> [529,906 395x76] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <p> [529,906 395x76] fontFamily:"Inter Display"; fontSize:18px; lineHeight:25.2px; textAlign:left; color:rgba(26, 26, 26, 0.8) TEXT="The custom LLM they built for us reduced our support tickets by 80% while increasing user satisfaction."
+              <div> [529,1001 395x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre-wrap
+                <ul> [529,1001 395x20] position:relative; fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgba(26, 26, 26, 0.6)
+                  <li> [529,1001 395x20] display:list-item; padding:0px 0px 0px 17.1719px
+                    <p> [546,1001 378x20]  TEXT="CTO, Cigna"
+      <div> [52,1185 896x0] position:relative
+        <div name="Variant 1"> [52,1185 896x20] display:flex; position:absolute; top:0px; left:0px; right:0px; bottom:-20.3906px; justifyContent:flex-start; alignItems:center; gap:100px; borderRadius:10px; maskImage:linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 4%, rgb(0, 0, 0) 96%, rgba(0, 0, 0, 0) 100%); WebkitMaskImage:linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 4%, rgb(0, 0, 0) 96%, rgba(0, 0, 0, 0) 100%)
+          <ul> [-1492,1185 896x20] display:flex; position:relative; justifyContent:flex-start; alignItems:center; gap:100px; transform:matrix(1, 0, 0, 1, -1544.16, 0)
+            <li> [1552,1185 118x20] display:list-item; position:relative; transform:matrix(1, 0, 0, 1, 3044, 0)
+              <div> [1552,1185 118x20] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+                <div> [1552,1185 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(26, 26, 26) radius 100px
+                <div> [1598,1185 72x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                  <p> [1598,1185 72x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="//SPARTAN"
+            <li> [1770,1185 1204x20] display:list-item; position:relative; transform:matrix(1, 0, 0, 1, 3044, 0)
+              <div> [1770,1185 1204x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                <p> [1770,1185 1204x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America."
+            <li> [30,1185 118x20] display:list-item; position:relative
+              <div> [30,1185 118x20] display:flex; position:relative; justifyContent:center; alignItems:center; gap:10px; overflow:clip
+                <div> [30,1185 36x20] position:relative; borderRadius:100px; overflow:clip; BORDER(::after):4px 4px 4px 4px solid rgb(26, 26, 26) radius 100px
+                <div> [76,1185 72x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                  <p> [76,1185 72x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="//SPARTAN"
+            <li> [248,1185 1204x20] display:list-item; position:relative
+              <div> [248,1185 1204x20] display:flex; position:relative; flexDirection:column; justifyContent:flex-start; whiteSpace:pre
+                <p> [248,1185 1204x20] fontFamily:"Inter Display"; fontSize:14px; lineHeight:19.6px; letterSpacing:0.28px; textAlign:left; color:rgb(26, 26, 26) TEXT="We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America."
