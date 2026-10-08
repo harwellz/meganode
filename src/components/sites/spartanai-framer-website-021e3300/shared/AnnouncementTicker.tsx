@@ -10,7 +10,7 @@ type AnnouncementTickerProps = {
 };
 
 /**
- * "//SPARTAN" ticker: [pill 36×20 ring 4px + "//SPARTAN"] then the announcement sentence,
+ * "//MEGANODE" ticker: [pill 36×20 ring 4px + "//MEGANODE"] then the announcement sentence,
  * gap 100px, ~70px/s leftwards, 20px tall, edges masked 0→4% / 96→100%.
  * Text: Inter Display 400 14px/19.6px +0.28px.
  */

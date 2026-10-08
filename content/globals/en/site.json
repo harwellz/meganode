@@ -1,7 +1,7 @@
 {
-  "homeLabel": "Spartan home",
+  "homeLabel": "Meganode home",
   "announcement": {
-    "tag": "//SPARTAN",
+    "tag": "//MEGANODE",
     "message": "We are officially expanding our neural compute clusters to three new global regions, providing sub-50ms inference speeds for our enterprise partners across EMEA, APAC, and North America."
   },
   "nav": {
@@ -21,7 +21,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac ultrices massa. Vivamus faucibus egestas nulla",
     "newsletter": {
       "emailLabel": "Email",
-      "placeholder": "jane@framer.com",
+      "placeholder": "harwellz@meganode.org",
       "submit": "Subscribe"
     },
     "followLabel": "Follow Us:",

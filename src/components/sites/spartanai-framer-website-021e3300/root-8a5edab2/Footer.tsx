@@ -8,12 +8,30 @@ import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shar
 import { LogoPill } from "@/components/sites/spartanai-framer-website-021e3300/shared/LogoPill";
 import { PixelArrow } from "@/components/sites/spartanai-framer-website-021e3300/shared/PixelArrow";
 
-const WORDMARK = spImg("8AjRJ3fmfVsGAO1xyzDT2NbfkE8.png"); // 1036×280, white
 const FOREST = spImg("v2cZIMtgjEII7EpDnUDGGgCyuiQ.png");
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 type FooterColumn = FooterContent["columns"][number];
 type Social = FooterContent["socials"][number];
+
+/** "MEGANODE" wordmark, fitted to the original 1036×280 wordmark box. */
+function Wordmark() {
+  return (
+    <svg viewBox="0 0 1036 280" aria-hidden="true" focusable="false" className="block size-full fill-white">
+      <text
+        x="0"
+        y="226"
+        textLength="1036"
+        lengthAdjust="spacingAndGlyphs"
+        className="font-sp-display"
+        fontSize="260"
+        fontWeight="700"
+      >
+        MEGANODE
+      </text>
+    </svg>
+  );
+}
 
 function SocialSvg({ d }: { d: string }) {
   return (
@@ -147,7 +165,7 @@ export function Footer({ content, homeLabel }: { content: FooterContent; homeLab
                 <LogoPill width={50} height={28} border={6} color="#fff" className="tablet:hidden" />
                 <LogoPill width={60} height={34} border={6} color="#fff" className="hidden tablet:block" />
                 <span className="relative block h-[34px] w-[125px] tablet:h-[42px] tablet:w-[155px]">
-                  <Image src={WORDMARK} alt="" fill sizes="155px" className="object-cover" />
+                  <Wordmark />
                 </span>
               </a>
               <div className="flex w-full flex-col items-start justify-center gap-5">
@@ -186,7 +204,7 @@ export function Footer({ content, homeLabel }: { content: FooterContent; homeLab
 
         {/* Giant bottom wordmark, cut off by the viewport */}
         <div className="absolute top-[98%] right-[-20px] left-[-14px] z-[2] aspect-[1036/280] -translate-y-1/2 tablet:top-[96%] desktop:top-[92%]">
-          <Image src={WORDMARK} alt="" fill sizes="(max-width: 809px) 424px, 100vw" className="object-cover" />
+          <Wordmark />
         </div>
       </div>
     </footer>

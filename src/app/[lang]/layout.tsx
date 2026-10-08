@@ -35,9 +35,9 @@ const jaini = Jaini({
 const baseMetadata: Metadata = {
   // Absolute base for canonical/hreflang URLs; set SITE_URL in the deployment environment.
   metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
-  title: "Spartan-AI",
+  title: "Meganode",
   description:
-    "Build a world-class digital presence with the Spartan AI template—a premium Framer ecosystem designed specifically for AI research labs, neural engineering firms, and high-end tech agencies.",
+    "Build a world-class digital presence with the Meganode template—a premium Framer ecosystem designed specifically for AI research labs, neural engineering firms, and high-end tech agencies.",
   icons: {
     icon: "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/d6IuUgB4OOUort0AccMgzEPUGw.png",
     apple: "/sites/spartanai-framer-website-021e3300/root-8a5edab2/images/31fOyKvwCm72RWXbx38uLHt044.png",
