@@ -133,8 +133,10 @@
  * Site tokens live under `.sp-site` so other routes keep the template theme.
  * ------------------------------------------------------------------------- */
 @theme inline {
-  --font-sp-display: var(--font-inter-display), "Inter Display", sans-serif;
+  --font-sp-display: var(--font-inter), "Inter", sans-serif;
+  --font-sp-display--font-variation-settings: "opsz" 32;
   --font-sp-inter: var(--font-inter), "Inter", sans-serif;
+  --font-sp-inter--font-variation-settings: "opsz" 14;
   --font-sp-geist: var(--font-geist-mono), "Geist Mono", monospace;
   --font-sp-plex: var(--font-ibm-plex-mono), "IBM Plex Mono", monospace;
   --font-sp-jaini: var(--font-jaini), "Jaini", sans-serif;
@@ -148,7 +150,8 @@
 }
 
 .sp-site {
-  font-family: var(--font-inter-display), "Inter Display", sans-serif;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-variation-settings: "opsz" 32;
   color: rgb(26 26 26);
   background: #fff;
   -webkit-font-smoothing: antialiased;

@@ -12,53 +12,60 @@ import { Testimonials } from "@/components/sites/spartanai-framer-website-021e33
 import { VideoShowcase } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VideoShowcase";
 import { VisionTech } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/VisionTech";
 import { Works } from "@/components/sites/spartanai-framer-website-021e3300/root-8a5edab2/Works";
+import { getHomeContent, getSiteContent } from "@/content/load";
+import { hasLocale, languageLinks } from "@/i18n/locales";
+import { notFound } from "next/navigation";
 
 // Clone of https://spartanai.framer.website/ (see docs/research/spartanai-framer-website-021e3300/root-8a5edab2/).
-export default function Home() {
+export default async function Home({ params }: PageProps<"/[lang]">) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+  const [site, content] = await Promise.all([getSiteContent(lang), getHomeContent(lang)]);
+
   return (
     <div className="sp-site relative w-full overflow-x-clip">
-      <NavBar />
+      <NavBar content={site.nav} homeLabel={site.homeLabel} languages={languageLinks(lang, "/")} />
 
       {/* Page content sits above the fixed footer (z-1); the trailing spacer reveals it. */}
       <main className="pointer-events-none relative z-[2] [&>*]:pointer-events-auto">
-        <Hero />
-        <AboutStats />
+        <Hero content={content.hero} />
+        <AboutStats content={content.about} announcement={site.announcement} />
 
         {/* Dark section: white Works block with rounded bottom, then Capabilities + Vision/Tech on ink. */}
         <section className="relative z-[4] flex flex-col items-center overflow-clip bg-sp-ink">
-          <Works />
-          <div className="relative z-[1] flex w-full flex-col items-center">
-            <Capabilities />
-            <VisionTech />
+          <Works content={content.works} />
+          <div className="relative z-[1] flex w-full flex-col items-center gap-[30px] desktop:gap-0">
+            <Capabilities content={content.capabilities} />
+            <VisionTech content={content.visionTech} />
           </div>
         </section>
 
-        <Testimonials />
-        <VideoShowcase />
+        <Testimonials content={content.testimonials} announcement={site.announcement} />
+        <VideoShowcase content={content.video} />
 
         {/* Dark Process + Team block with rounded bottom over a white strip. */}
         <section className="relative z-[4] overflow-clip bg-sp-ink">
           <div className="relative z-[3] flex flex-col gap-[120px] rounded-b-[20px] bg-sp-ink px-5 pt-[150px] pb-[130px] tablet:px-10 desktop:gap-[250px] desktop:pt-[250px] desktop:pb-[200px]">
-            <Process />
-            <Team />
+            <Process content={content.process} />
+            <Team content={content.team} />
           </div>
           <div className="absolute inset-x-0 bottom-0 z-0 h-[30px] bg-white" />
         </section>
 
-        <Pricing />
+        <Pricing content={content.pricing} announcement={site.announcement} />
 
         {/* Light card holding FAQ + Insights; the last section has rounded bottom corners. */}
         <section className="relative z-[4] rounded-b-[20px] bg-white px-3 pb-3">
           <div className="flex flex-col items-center gap-[110px] overflow-clip rounded-[20px] bg-sp-mist px-5 py-3 tablet:px-10 desktop:gap-[180px]">
-            <Faq />
-            <Insights />
+            <Faq content={content.faq} />
+            <Insights content={content.insights} />
           </div>
         </section>
 
-        <div aria-hidden="true" className="pointer-events-none! h-[791px] tablet:h-[774px]" />
+        <div aria-hidden="true" className="pointer-events-none! h-screen tablet:h-[86vh]" />
       </main>
 
-      <Footer />
+      <Footer content={site.footer} homeLabel={site.homeLabel} />
     </div>
   );
 }

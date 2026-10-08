@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import type { AnnouncementContent, PricingContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { AnnouncementTicker } from "@/components/sites/spartanai-framer-website-021e3300/shared/AnnouncementTicker";
 import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
@@ -11,56 +12,20 @@ import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/sha
 
 type Billing = "monthly" | "annually";
 
-type Plan = {
-  name: string;
-  monthly: string;
-  annually: string;
-  tagline: string;
-  features: string[];
-  dark?: boolean;
-  /** Corner radii of the card per breakpoint (phone stack / tablet 2×2 / desktop row). */
-  radius: string;
-};
+type Plan = PricingContent["plans"][number];
+type BillingCopy = PricingContent["billing"];
+type Cta = PricingContent["cta"];
 
-const CTA_HREF = "https://contra.com/sirdelani/work?r=sirdelani";
 const WAVES = spImg("lu9xdgbj7zB5GkewV6UCW9Y68.jpg");
 const WAVES_ALT = "a close up of a white wall with wavy lines";
 
-const PLANS: Plan[] = [
-  {
-    name: "Core",
-    monthly: "$618",
-    annually: "$495",
-    tagline: "Automate your repetitive tasks.",
-    features: ["3 Automation Flows", "Standard RAG Support", "1 Admin Seat", "Discord Support"],
-    radius: "rounded-[20px_20px_0_0] tablet:rounded-[20px_0_0_0] desktop:rounded-[20px_0_0_20px]",
-  },
-  {
-    name: "Growth",
-    monthly: "$1,570",
-    annually: "$1,250",
-    tagline: "Advanced agentic workflows.",
-    features: ["10 Automation Flows", "Vector DB Hosting", "5 Admin Seats", "Priority Email"],
-    radius: "rounded-none tablet:rounded-[0_20px_0_0] desktop:rounded-none",
-  },
-  {
-    name: "Pro",
-    monthly: "$3,650",
-    annually: "$2,900",
-    tagline: "Custom neural architecture.",
-    features: ["Unlimited Flows", "Custom Fine-Tuning", "15 Admin Seats", "24/7 Slack Connect"],
-    dark: true,
-    radius: "rounded-none tablet:rounded-[0_0_0_20px] desktop:rounded-none",
-  },
-  {
-    name: "Scale",
-    monthly: "$9,380",
-    annually: "$7,500",
-    tagline: "Enterprise infrastructure.",
-    features: ["Full Neural Stack", "On-Premise LLMs", "Unlimited Seats", "Dedicated Engineer"],
-    radius: "rounded-[0_0_20px_20px] tablet:rounded-[0_0_20px_0] desktop:rounded-[0_20px_20px_0]",
-  },
-];
+/** Corner radii per position (phone stack / tablet 2×2 / desktop row). */
+const RADII = [
+  "rounded-[20px_20px_0_0] tablet:rounded-[20px_0_0_0] desktop:rounded-[20px_0_0_20px]",
+  "rounded-none tablet:rounded-[0_20px_0_0] desktop:rounded-none",
+  "rounded-none tablet:rounded-[0_0_0_20px] desktop:rounded-none",
+  "rounded-[0_0_20px_20px] tablet:rounded-[0_0_20px_0] desktop:rounded-[0_20px_20px_0]",
+] as const;
 
 const BODY_14 = "text-[14px] font-light leading-[21px] tracking-[0.28px]";
 
@@ -72,7 +37,15 @@ function CheckIcon() {
   );
 }
 
-function BillingToggle({ billing, onChange }: { billing: Billing; onChange: (b: Billing) => void }) {
+function BillingToggle({
+  billing,
+  copy,
+  onChange,
+}: {
+  billing: Billing;
+  copy: BillingCopy;
+  onChange: (b: Billing) => void;
+}) {
   const annual = billing === "annually";
   return (
     <div className="absolute top-[-74px] left-0 z-[1] flex h-[22px] items-center justify-center gap-4 desktop:top-[-84px]">
@@ -81,13 +54,13 @@ function BillingToggle({ billing, onChange }: { billing: Billing; onChange: (b: 
         onClick={() => onChange("monthly")}
         className={cn("cursor-pointer whitespace-pre text-sp-ink", BODY_14)}
       >
-        Monthly
+        {copy.monthly}
       </button>
       <button
         type="button"
         role="switch"
         aria-checked={annual}
-        aria-label="Bill annually"
+        aria-label={copy.toggleLabel}
         onClick={() => onChange(annual ? "monthly" : "annually")}
         className="relative h-[22px] w-[50px] cursor-pointer rounded-[100px] shadow-[inset_0_0_0_1px_rgba(26,26,26,0.2)]"
       >
@@ -106,23 +79,35 @@ function BillingToggle({ billing, onChange }: { billing: Billing; onChange: (b: 
         onClick={() => onChange("annually")}
         className="flex cursor-pointer items-center justify-center gap-[10px] overflow-hidden"
       >
-        <span className={cn("whitespace-pre text-sp-ink", BODY_14)}>Annually</span>
+        <span className={cn("whitespace-pre text-sp-ink", BODY_14)}>{copy.annually}</span>
         <span className="whitespace-pre text-[12px] font-light leading-[16.8px] tracking-[0.12px] text-[rgba(26,26,26,0.6)]">
-          (Save 20%)
+          {copy.savings}
         </span>
       </button>
     </div>
   );
 }
 
-function PlanCard({ plan, billing }: { plan: Plan; billing: Billing }) {
-  const dark = !!plan.dark;
+function PlanCard({
+  plan,
+  radius,
+  billing,
+  copy,
+  cta,
+}: {
+  plan: Plan;
+  radius: string;
+  billing: Billing;
+  copy: BillingCopy;
+  cta: Cta;
+}) {
+  const dark = plan.featured;
   const ink = dark ? "text-white" : "text-sp-ink";
   return (
     <div
       className={cn(
         "relative flex h-full w-full flex-col items-start justify-center overflow-clip bg-white",
-        plan.radius,
+        radius,
       )}
     >
       {/* Top block: name + price */}
@@ -155,11 +140,11 @@ function PlanCard({ plan, billing }: { plan: Plan; billing: Billing }) {
                 dark ? "text-white" : "text-[rgba(26,26,26,0.6)]",
               )}
             >
-              /mo
+              {copy.perMonth}
             </p>
           </div>
           <p className={cn("relative z-[1] whitespace-pre", BODY_14, ink)}>
-            {billing === "annually" ? "USD Billed Annually" : "USD Billed Monthly"}
+            {billing === "annually" ? copy.billedAnnually : copy.billedMonthly}
           </p>
         </div>
       </div>
@@ -183,9 +168,9 @@ function PlanCard({ plan, billing }: { plan: Plan; billing: Billing }) {
         </p>
         <div className="relative z-[4]">
           {dark ? (
-            <ExpandButton label="Get started" href={CTA_HREF} external size="sm" tone="white" borderColor="rgba(26, 26, 26, 0.1)" />
+            <ExpandButton label={cta.label} href={cta.href} external size="sm" tone="white" borderColor="rgba(26, 26, 26, 0.1)" />
           ) : (
-            <ExpandButton label="Get started" href={CTA_HREF} external size="sm" tone="coal" borderColor="rgba(255, 255, 255, 0.2)" />
+            <ExpandButton label={cta.label} href={cta.href} external size="sm" tone="coal" borderColor="rgba(255, 255, 255, 0.2)" />
           )}
         </div>
       </div>
@@ -228,7 +213,7 @@ function PlanCard({ plan, billing }: { plan: Plan; billing: Billing }) {
   );
 }
 
-export function Pricing() {
+export function Pricing({ content, announcement }: { content: PricingContent; announcement: AnnouncementContent }) {
   const [billing, setBilling] = useState<Billing>("annually");
 
   return (
@@ -239,13 +224,12 @@ export function Pricing() {
       {/* Header */}
       <div className="relative z-[2] flex w-full flex-col items-start gap-5 pt-[120px] pb-[110px] tablet:pb-[120px] desktop:pt-[150px] desktop:pb-[60px]">
         <div className="relative flex w-full flex-col items-center gap-10">
-          <BigMarquee title="Pricing" />
+          <BigMarquee title={content.title} />
           <div className="relative flex w-full flex-col items-start px-5 tablet:px-10 desktop:h-[72px] desktop:flex-row desktop:items-end">
             <div className="hidden desktop:block desktop:flex-1" />
             <div className="flex w-full flex-col items-start desktop:flex-1">
               <p className="w-full text-[16px] font-light leading-[24px] tracking-[0.32px] text-sp-ink tablet:w-[500px] desktop:w-[380px]">
-                Flexible intelligence tiers designed to scale alongside your business. No hidden costs, just
-                high-performance results.
+                {content.intro}
               </p>
             </div>
           </div>
@@ -256,17 +240,17 @@ export function Pricing() {
       <div className="relative z-10 flex w-full flex-col items-center justify-center gap-[120px] pb-10 desktop:gap-[180px]">
         <div className="relative z-10 w-full px-5 tablet:px-10">
           <div className="relative grid grid-cols-1 gap-px rounded-[21px] bg-[rgba(26,26,26,0.1)] p-px grayscale tablet:grid-cols-2 desktop:grid-cols-4">
-            {PLANS.map((plan, i) => (
+            {content.plans.map((plan, i) => (
               <FadeIn key={plan.name} delay={i * 0.1} className="relative">
-                <PlanCard plan={plan} billing={billing} />
+                <PlanCard plan={plan} radius={RADII[i] ?? RADII[1]} billing={billing} copy={content.billing} cta={content.cta} />
               </FadeIn>
             ))}
-            <BillingToggle billing={billing} onChange={setBilling} />
+            <BillingToggle billing={billing} copy={content.billing} onChange={setBilling} />
           </div>
         </div>
         <div className="relative h-0 w-full">
           <div className="absolute top-0 right-0 left-0">
-            <AnnouncementTicker />
+            <AnnouncementTicker content={announcement} />
           </div>
         </div>
       </div>

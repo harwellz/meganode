@@ -2,11 +2,9 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import type { VideoContent } from "@/content/schema";
 
 import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
-
-const YOUTUBE_SRC =
-  "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=1";
 
 /** Phosphor "Timer" (regular) — svg10 in the spec. */
 function StopwatchIcon() {
@@ -32,7 +30,7 @@ function PlayTriangle() {
   );
 }
 
-export function VideoShowcase() {
+export function VideoShowcase({ content }: { content: VideoContent }) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -52,7 +50,7 @@ export function VideoShowcase() {
           <div className="absolute inset-0 z-[6] overflow-clip rounded-b-[20px]">
             <Image
               src={spImg("Y43VBCJU98vH9ESfLTOmhYvVKjY.jpg")}
-              alt="activity tracker reading 11 36 Mo 21"
+              alt={content.imageAlt}
               fill
               sizes="100vw"
               className="rounded-b-[20px] object-cover"
@@ -73,15 +71,14 @@ export function VideoShowcase() {
             {/* Top row */}
             <div className="relative flex w-full flex-col-reverse items-start justify-start gap-[30px] overflow-clip tablet:flex-row tablet:justify-between tablet:gap-0">
               <p className="w-full whitespace-pre-wrap text-[16px] font-light leading-[24px] tracking-[0.32px] text-white tablet:w-[380px]">
-                Exploring the intersection of human creativity and machine logic to redefine what&apos;s possible in the
-                digital age.
+                {content.intro}
               </p>
               <div className="relative flex h-9 shrink-0 items-center justify-center gap-1.5 overflow-clip rounded-[100px] bg-[rgba(255,255,255,0.06)] py-1.5 pl-1.5 pr-3.5 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)] backdrop-blur-[10px]">
                 <span className="relative block size-6">
                   <StopwatchIcon />
                 </span>
                 <p className="whitespace-pre text-[14px] font-normal leading-[19.6px] tracking-[0.28px] text-white">
-                  2mins watch
+                  {content.duration}
                 </p>
               </div>
             </div>
@@ -89,7 +86,7 @@ export function VideoShowcase() {
             {/* Bottom row */}
             <div className="relative flex w-full flex-col items-start justify-start gap-[30px] overflow-clip tablet:flex-row tablet:items-end tablet:justify-between tablet:gap-0">
               <h2 className="w-[300px] whitespace-pre-wrap text-[35px] font-medium leading-[38.5px] tracking-[-1.4px] text-white tablet:w-[400px] tablet:text-[43px] tablet:leading-[47.3px] tablet:tracking-[-1.72px] desktop:text-[54px] desktop:leading-[59.4px] desktop:tracking-[-2.16px]">
-                Intelligence by Design.
+                {content.heading}
               </h2>
               <span
                 aria-hidden="true"
@@ -101,7 +98,7 @@ export function VideoShowcase() {
           {/* Play button */}
           <button
             type="button"
-            aria-label="Play video"
+            aria-label={content.playLabel}
             onClick={() => setOpen(true)}
             className="group absolute left-1/2 top-[calc(50%-79.5px)] z-10 size-[116px] -translate-x-1/2 cursor-pointer tablet:top-[calc(50%-58px)]"
           >
@@ -127,15 +124,15 @@ export function VideoShowcase() {
           {open ? (
             <div className="absolute inset-0 z-[11] overflow-clip rounded-b-[20px] bg-black">
               <iframe
-                src={YOUTUBE_SRC}
-                title="Spartan AI showreel"
+                src={content.videoSrc}
+                title={content.videoTitle}
                 allow="autoplay; encrypted-media; picture-in-picture"
                 allowFullScreen
                 className="absolute inset-0 size-full border-0"
               />
               <button
                 type="button"
-                aria-label="Close video"
+                aria-label={content.closeLabel}
                 onClick={() => setOpen(false)}
                 className="absolute right-[40px] top-[100px] z-[1] block size-[56px] cursor-pointer"
               >

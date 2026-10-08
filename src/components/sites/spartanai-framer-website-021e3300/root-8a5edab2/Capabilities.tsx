@@ -2,46 +2,13 @@
 
 import Image from "next/image";
 import { useState, type KeyboardEvent } from "react";
+import type { CapabilitiesContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { ExpandButton } from "@/components/sites/spartanai-framer-website-021e3300/shared/ExpandButton";
 import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/shared/FadeIn";
 import { SectionLabel } from "@/components/sites/spartanai-framer-website-021e3300/shared/SectionLabel";
-import { spImg } from "@/components/sites/spartanai-framer-website-021e3300/shared/assets";
 
-type Capability = {
-  num: string;
-  title: string;
-  description: string;
-  pattern: string;
-  illustration: string;
-};
-
-const CAPABILITIES: Capability[] = [
-  {
-    num: "001",
-    title: "Autonomous Agent Architecture Labs",
-    description:
-      "Architecting robust server environments and local LLM integrations to ensure data remains secure and local.",
-    pattern: "qWpzthqQ4FGQWP39IeKgah1OP8.png",
-    illustration: "WTuFQeqWgOcQVCks16yKxgDaefI.png",
-  },
-  {
-    num: "002",
-    title: "Autonomous Agentic Workflows",
-    description:
-      "Building self-optimizing task bots that handle complex multi-step workflows with zero human intervention.",
-    pattern: "pEct5trUmjDYAblzuKYq2MpHaA.png",
-    illustration: "In0V7veBPGhnSUzXqR7lATUDvE.png",
-  },
-  {
-    num: "003",
-    title: "Data Pipelines & RAG Systems",
-    description:
-      "Streamlining data ingestion and processing using advanced RAG systems for real-time business intelligence.",
-    pattern: "qWpzthqQ4FGQWP39IeKgah1OP8.png",
-    illustration: "T1zAekOylQHr0GPPBMBKhmpUeI.png",
-  },
-];
+type Capability = CapabilitiesContent["items"][number];
 
 const EASE = "ease-[cubic-bezier(0.22,1,0.36,1)]";
 const PATTERN_MASK = "linear-gradient(0deg, rgb(0, 0, 0) 70.1471%, rgba(0, 0, 0, 0) 100%)";
@@ -80,7 +47,7 @@ function Pattern({ file, active, sizes }: { file: string; active: boolean; sizes
       className={cn("pointer-events-none absolute top-[130px] right-0 bottom-0 left-0 z-[1] overflow-hidden transition-opacity duration-500", EASE)}
       style={{ opacity: active ? 0.18 : 0, maskImage: PATTERN_MASK, WebkitMaskImage: PATTERN_MASK }}
     >
-      <Image src={spImg(file)} alt="" fill sizes={sizes} className="object-cover" />
+      <Image src={file} alt="" fill sizes={sizes} className="object-cover" />
     </div>
   );
 }
@@ -96,7 +63,7 @@ function Illustration({ file, active, className }: { file: string; active: boole
         className="sp-motion relative size-full"
         style={{ animation: "sp-bob 3s ease-in-out infinite" }}
       >
-        <Image src={spImg(file)} alt="" width={270} height={270} sizes="270px" className="size-full object-cover" />
+        <Image src={file} alt="" width={270} height={270} sizes="270px" className="size-full object-cover" />
       </div>
     </div>
   );
@@ -120,7 +87,7 @@ function DesktopCard({ item, active, onActivate }: { item: Capability; active: b
       onClick={active ? undefined : onActivate}
       onKeyDown={active ? undefined : (e) => activateOnKey(e, onActivate)}
       className={cn(
-        "relative h-[630px] min-w-0 overflow-hidden rounded-[20px] transition-[flex-grow,flex-basis,background-color] duration-500",
+        "relative h-full min-w-0 overflow-hidden rounded-[20px] transition-[flex-grow,flex-basis,background-color] duration-500",
         EASE,
         active ? "grow basis-0 cursor-default" : "shrink-0 grow-0 basis-[90px] cursor-pointer",
       )}
@@ -228,7 +195,7 @@ function StackedCard({ item, active, onActivate }: { item: Capability; active: b
   );
 }
 
-export function Capabilities() {
+export function Capabilities({ content }: { content: CapabilitiesContent }) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
@@ -237,11 +204,11 @@ export function Capabilities() {
       className="relative z-[3] flex w-full flex-col items-start gap-[54px] overflow-clip px-5 pt-[150px] tablet:gap-[60px] tablet:px-10 desktop:flex-row desktop:gap-0 desktop:pt-[250px]"
     >
       {/* Left column */}
-      <div className="flex w-full flex-col items-start gap-[30px] tablet:gap-[50px] desktop:h-[630px] desktop:min-w-0 desktop:flex-1 desktop:justify-between desktop:gap-0 desktop:pr-[70px]">
+      <div className="flex w-full flex-col items-start gap-[30px] tablet:gap-[50px] desktop:h-[70vh] desktop:min-w-0 desktop:flex-1 desktop:justify-between desktop:gap-0 desktop:pr-[70px]">
         <div className="flex w-full flex-col items-start justify-center gap-[50px] desktop:w-[500px] desktop:max-w-full">
           <FadeIn className="w-full">
             <SectionLabel
-              label="CAPABILITIES"
+              label={content.label}
               order="pill-first"
               color="#fff"
               lineColor="rgba(255, 255, 255, 0.1)"
@@ -249,8 +216,7 @@ export function Capabilities() {
           </FadeIn>
           <FadeIn className="w-full tablet:max-w-[600px]" delay={0.1}>
             <p className="text-[16px] leading-[24px] font-light tracking-[0.32px] text-white">
-              We bridge the gap between abstract machine learning and practical business utility through bespoke
-              engineering.
+              {content.intro}
             </p>
           </FadeIn>
         </div>
@@ -258,24 +224,24 @@ export function Capabilities() {
         <div className="flex w-full flex-col items-start justify-center gap-10">
           <FadeIn className="w-full max-w-[600px]">
             <h2 className="text-[35px] leading-[38.5px] font-medium tracking-[-1.4px] text-white tablet:text-[43px] tablet:leading-[47.3px] tablet:tracking-[-1.72px] desktop:text-[54px] desktop:leading-[59.4px] desktop:tracking-[-2.16px]">
-              Tailored Intelligence for Modern Enterprises.
+              {content.heading}
             </h2>
           </FadeIn>
           <FadeIn className="relative z-[4]" delay={0.1}>
-            <ExpandButton label="Start Build" size="md" tone="coal" href="#" />
+            <ExpandButton label={content.cta.label} size="md" tone="coal" href={content.cta.href} />
           </FadeIn>
         </div>
       </div>
 
       {/* Right column: cards */}
       <FadeIn className="relative w-full desktop:min-w-0 desktop:flex-1" delay={0.15}>
-        <div className="hidden h-[630px] w-full gap-[10px] overflow-clip desktop:flex">
-          {CAPABILITIES.map((item, i) => (
+        <div className="hidden h-[70vh] w-full gap-[10px] overflow-clip desktop:flex">
+          {content.items.map((item, i) => (
             <DesktopCard key={item.num} item={item} active={i === activeIndex} onActivate={() => setActiveIndex(i)} />
           ))}
         </div>
         <div className="flex w-full flex-col gap-[10px] desktop:hidden">
-          {CAPABILITIES.map((item, i) => (
+          {content.items.map((item, i) => (
             <StackedCard key={item.num} item={item} active={i === activeIndex} onActivate={() => setActiveIndex(i)} />
           ))}
         </div>

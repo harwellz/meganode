@@ -61,29 +61,25 @@ export function ScrollRevealText({
 
   const total = text.length;
   const revealed = Math.round(progress * total);
-  let index = 0;
-  const words = text.split(/(\s+)/);
+  const words = text.trim().split(/\s+/);
+  // Index of each word's first character in `text` (words are separated by one space).
+  const offsets = words.map((_, wi) => words.slice(0, wi).reduce((n, w) => n + w.length + 1, 0));
 
+  // Mirrors Framer's markup: a flex-wrap row of word items, each ending in a non-breaking
+  // space. The trailing space counts toward the item width, so lines wrap exactly as on the
+  // original (an inline layout would let the space hang and fit one more word per line).
   return (
-    <Tag ref={ref} className={cn(className)} aria-label={text}>
-      {words.map((word, wi) => {
-        if (/^\s+$/.test(word)) {
-          index += word.length;
-          return <span key={wi}>{word}</span>;
-        }
-        return (
-          <span key={wi} aria-hidden="true" className="inline-block whitespace-nowrap">
-            {Array.from(word).map((ch, ci) => {
-              const on = index++ < revealed;
-              return (
-                <span key={ci} style={{ color: on ? color : dimColor }}>
-                  {ch}
-                </span>
-              );
-            })}
-          </span>
-        );
-      })}
+    <Tag ref={ref} className={cn("flex flex-wrap justify-start", className)} aria-label={text}>
+      {words.map((word, wi) => (
+        <span key={wi} aria-hidden="true">
+          {Array.from(word).map((ch, ci) => (
+            <span key={ci} style={{ color: offsets[wi] + ci < revealed ? color : dimColor }}>
+              {ch}
+            </span>
+          ))}
+          {" "}
+        </span>
+      ))}
     </Tag>
   );
 }

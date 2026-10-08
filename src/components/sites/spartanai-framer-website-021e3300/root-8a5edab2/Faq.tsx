@@ -1,41 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import type { FaqContent } from "@/content/schema";
 import { cn } from "@/lib/utils";
 import { ExpandButton } from "@/components/sites/spartanai-framer-website-021e3300/shared/ExpandButton";
 import { FadeIn } from "@/components/sites/spartanai-framer-website-021e3300/shared/FadeIn";
 import { SectionLabel } from "@/components/sites/spartanai-framer-website-021e3300/shared/SectionLabel";
-
-const FAQS: { q: string; a: string }[] = [
-  {
-    q: "How do you ensure our data remains secure?",
-    a: "We utilize SOC2-compliant local vector databases and on-premise LLM hosting to ensure your proprietary data never leaves your infrastructure.",
-  },
-  {
-    q: "What is the typical deployment timeline?",
-    a: "Initial neural audits take 1 week, followed by a 4-week rapid prototyping phase before full-scale production deployment.",
-  },
-  {
-    q: "Can we integrate with our existing CRM?",
-    a: "Yes, our cognitive pipelines are built with native API connectors for Salesforce, HubSpot, and custom enterprise ERP systems.",
-  },
-  {
-    q: "Do you provide model fine-tuning?",
-    a: "Absolutely. We offer bespoke fine-tuning services to align open-source models (like Llama 3) with your specific industry terminology and logic.",
-  },
-  {
-    q: "How do you calculate ROI for automation?",
-    a: "We track \"Inference-to-Impact\" metrics, measuring hours saved and accuracy gains against your previous baseline manual workflows.",
-  },
-  {
-    q: "Do we own the custom code you build?",
-    a: "Yes. All custom neural architectures and integration code developed for your firm are 100% owned by you upon project completion.",
-  },
-  {
-    q: "What models do you specialize in?",
-    a: "We are model-agnostic, specializing in OpenAI, Anthropic, and Mistral, as well as local deployments of high-performance open-source LLMs.",
-  },
-];
 
 /** Phosphor "X" (bold) — shown as × when open, rotated 45° into a + when closed. */
 function CloseIcon({ className }: { className?: string }) {
@@ -104,7 +74,7 @@ function FaqItem({ q, a, open, onToggle }: { q: string; a: string; open: boolean
   );
 }
 
-export function Faq() {
+export function Faq({ content }: { content: FaqContent }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -113,24 +83,24 @@ export function Faq() {
         {/* Left: label + intro, heading + CTA */}
         <div className="flex w-full flex-col items-start justify-center gap-[30px] desktop:w-1/2 desktop:justify-between desktop:gap-0 desktop:pr-[70px]">
           <FadeIn className="flex w-full flex-col items-start gap-[50px] desktop:w-[500px]">
-            <SectionLabel label="COMMON QUERIES" order="pill-first" lineColor="rgba(26, 26, 26, 0.2)" />
+            <SectionLabel label={content.label} order="pill-first" lineColor="rgba(26, 26, 26, 0.2)" />
             <p className="w-full text-left text-[16px] leading-[24px] font-light tracking-[0.32px] text-sp-ink tablet:max-w-[600px]">
-              Find answers to technical specifications, deployment timelines, and our data security protocols.
+              {content.intro}
             </p>
           </FadeIn>
           <FadeIn delay={0.1} className="flex w-full flex-col items-start gap-10">
             <h2 className="w-full text-left text-[35px] leading-[38.5px] font-medium tracking-[-1.4px] text-sp-ink tablet:max-w-[600px] tablet:text-[43px] tablet:leading-[47.3px] tablet:tracking-[-1.72px] desktop:text-[54px] desktop:leading-[59.4px] desktop:tracking-[-2.16px]">
-              Everything you need to know about our AI.
+              {content.heading}
             </h2>
             <div className="relative z-[4]">
-              <ExpandButton label="Contact Support" href="#" size="md" tone="ink" />
+              <ExpandButton label={content.cta.label} href={content.cta.href} size="md" tone="ink" />
             </div>
           </FadeIn>
         </div>
 
         {/* Right: accordion */}
         <FadeIn delay={0.15} className="flex w-full flex-col gap-[6px] desktop:w-1/2">
-          {FAQS.map((item, i) => (
+          {content.items.map((item, i) => (
             <FaqItem
               key={item.q}
               q={item.q}
